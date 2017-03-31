@@ -4,11 +4,11 @@ Conferences attended by Xiao-Nan LU in the academic year of 2017
 
 */
 
-var confName=["未定"]
+var confName=["第３４回代数的組合せ論シンポジウム"]
 			
-var confPlace=[""]
+var confPlace=["小山市立中央公民館・小山高専"]
 			
-var confData=[""]
+var confData=["6月29日〜7月1日"]
 			
 var confURL=[""]
 			
