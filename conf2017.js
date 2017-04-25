@@ -14,7 +14,7 @@ var confPlace=["小山市立中央公民館・小山高専",
 				"Tokyo University of Science (Kagurazaka)",
 				"山形大学"]
 			
-var confData=["2017年6月29日〜7月1日",
+var confData=["2017年6月15日〜17日",
 				"2017年8月20日〜22日",
 				"Aug 29 - Sept 1, 2017", 
 				"2017年9月11日～14日"]
