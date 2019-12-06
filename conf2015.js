@@ -4,7 +4,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2015
 
 */
 
-var confName=["日本数学会2016年度年会", 
+var confName15=["日本数学会2016年度年会", 
 			"ミニ集会「代数的組合せ論とその周辺」", 
 			"The 4th Japan-Taiwan Conference on Combinatorics and its Applications (4th JTCCA)", 
 			"RIMS研究集会「有限群とその表現, 頂点作用素代数, 代数的組合せ論の研究」", 
@@ -20,7 +20,7 @@ var confName=["日本数学会2016年度年会",
 		
 		
 
-var confPlace=["筑波大学", 
+var confPlace15=["筑波大学", 
 			"東北大学", 
 			"Kitakyushu International Conference Center, Japan", 
 			"京都大学", 
@@ -34,7 +34,7 @@ var confPlace=["筑波大学",
 			"京都大学",
 			"東北大学"]
 
-var confData=["2016年3月16日～19日", 
+var confData15=["2016年3月16日～19日", 
 			"2016年3月8日～3月9日", 
 			"Mar 5-7, 2016",
 			"2016年1月5日～8日", 
@@ -48,7 +48,7 @@ var confData=["2016年3月16日～19日",
 			"2015年6月9日～12日",
 			"2015年5月8日～9日"]
 			
-var confURL=["http://mathsoc.jp/meeting/tsukuba16mar/",
+var confURL15=["http://mathsoc.jp/meeting/tsukuba16mar/",
 			"http://www.math.is.tohoku.ac.jp/~mharada/Sendai2016/",
 			"https://sites.google.com/site/jtcca2016/",
 			"http://www.math.is.tohoku.ac.jp/~shima/program2015.pdf",
@@ -62,7 +62,7 @@ var confURL=["http://mathsoc.jp/meeting/tsukuba16mar/",
 			"http://www.math.sci.osaka-u.ac.jp/~s-murai/meetings/AlgebraicStructures.html",
 			"http://www.math.is.tohoku.ac.jp/~mharada/School2015/"]
 			
-var confRmks=["口頭発表(3/18)", 
+var confRmks15=["口頭発表(3/18)", 
 			"", 
 			"スタッフ", 
 			"", 
@@ -77,7 +77,13 @@ var confRmks=["口頭発表(3/18)",
 			""]
 			
 			function generateConfList2015(){
-				document.write("<ol>")
+				var confName = confName15
+				var confPlace = confPlace15
+				var confData = confData15
+				var confURL = confURL15
+				var confRmks = confRmks15
+				
+				document.write("<ol reversed>")
 				for (var i=0; i<confName.length; i++){
 					document.write("<li>")
 					if (confURL[i].length > 0)

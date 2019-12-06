@@ -4,7 +4,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2014
 
 */
 
-var confName=["日本数学会2015年度年会", 
+var confName14=["日本数学会2015年度年会", 
 			"研究集会「有限幾何と組合せデザイン」", 
 			"The 13th Japan-Korea Workshop on Algebra and Combinatorics", 
 			"熊本組合せ論研究集会「代数的デザイン論とその周辺」", 
@@ -20,7 +20,7 @@ var confName=["日本数学会2015年度年会",
 			"Wilsonを囲む研究会",
 			"Japan Conference on Graph Theory and Combinatorics"]
 			
-var confPlace=["明治大学", 
+var confPlace14=["明治大学", 
 			"東京理科大学（神楽坂キャンパス）", 
 			"Kyushu Institute of Technology", 
 			"熊本大学", 
@@ -36,7 +36,7 @@ var confPlace=["明治大学",
 			"四季倶楽部フォレスト箱根（神奈川県）",
 			"Nihon University, Japan"]
 	
-var confData=["2015年3月21日～24日", 
+var confData14=["2015年3月21日～24日", 
 			"2015年3月6日～7日", 
 			"Jan 29-31, 2015", 
 			"2015年1月9日～11日", 
@@ -52,7 +52,7 @@ var confData=["2015年3月21日～24日",
 			"2014年6月12日～15日",
 			"May 17-21, 2014"]
 			
-var confURL=["http://infoshako.sk.tsukuba.ac.jp/~cam/2016/index.html", 
+var confURL14=["http://infoshako.sk.tsukuba.ac.jp/~cam/2016/index.html", 
 			"https://sites.google.com/site/fujihararetirement/",
 			"http://w3-sogo.kct.ac.jp/~kurihara/jk2015/jk2015.html",
 			"",
@@ -68,7 +68,7 @@ var confURL=["http://infoshako.sk.tsukuba.ac.jp/~cam/2016/index.html",
 			"",
 			"http://web.keio.jp/~jcgtc2014/"]
 			
-var confRmks=["口頭発表", 
+var confRmks14=["口頭発表", 
 			"", 
 			"", 
 			"", 
@@ -85,7 +85,13 @@ var confRmks=["口頭発表",
 			"口頭発表"]
 			
 			function generateConfList2014(){
-				document.write("<ol>")
+				var confName = confName14
+				var confPlace = confPlace14
+				var confData = confData14
+				var confURL = confURL14
+				var confRmks = confRmks14
+				
+				document.write("<ol reversed>")
 				for (var i=0; i<confName.length; i++){
 					document.write("<li>")
 					if (confURL[i].length > 0)

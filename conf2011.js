@@ -33,12 +33,12 @@ var confURL=["http://mathsoc.jp/meeting/gakushuin14mar/",
 			"https://sites.google.com/a/lab.twcu.ac.jp/rims_dcg2012/",
 			""]
 			
-var confRmks=["口頭発表", "口頭発表", "口頭発表", "口頭発表", 
+var confRmks=["口頭発表", "口頭発表", "口頭発表（Special Recognition Award 受賞）", "口頭発表", 
 				"", "ポスター発表", "",
 				""]
 			
 			function generateConfList2011(){
-				document.write("<ol>")
+				document.write("<ol reversed>")
 				for (var i=confName.length-1; i<confName.length; i++){
 					document.write("<li>")
 					if (confURL[i].length > 0)
@@ -55,7 +55,7 @@ var confRmks=["口頭発表", "口頭発表", "口頭発表", "口頭発表",
 			}
 			
 			function generateConfList2012(){
-				document.write("<ol>")
+				document.write("<ol reversed>")
 				for (var i=confName.length-4; i<confName.length-1; i++){
 					document.write("<li>")
 					if (confURL[i].length > 0)
@@ -73,7 +73,7 @@ var confRmks=["口頭発表", "口頭発表", "口頭発表", "口頭発表",
 			
 			
 			function generateConfList2013(){
-				document.write("<ol>")
+				document.write("<ol reversed>")
 				for (var i=0; i<4; i++){
 					document.write("<li>")
 					if (confURL[i].length > 0)

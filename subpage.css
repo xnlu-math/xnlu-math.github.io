@@ -5,18 +5,62 @@
 			max-height: 100%; 
 			font-family:Sans-serif;
 			line-height: 1.5em;
-			background: #e0ebeb;
+			background: #F3EFE5;
+			color: #68394C;
 		} 
 		
 		
 		p {
 			color: #555;
+			font-size:14px;
+		}
+		
+		p.introduction{
+			margin: 0px;
+			width:100%;
+			height:60%;
+			padding: 5px;
 		}
 		 
 		a {
-			color: darkblue;
+			color: #845080;
 			text-decoration: none;
 		}
+
+		h2 {
+			font-size:20px;
+			padding: 2px 0;
+			margin: 0;
+		}
+		
+		h3 {
+			font-size:18px;
+			padding: 4px 0;
+			margin: 0;
+		}
+				
+		h4 {
+			font-size:16px;
+			padding: 1px 0;
+			margin: 0;
+		}
+		
+		ul li{
+  			margin: 2px 0;
+  			font-size:14px;
+		}
+		
+				
+		ol li{
+  			margin: 2px 0;
+  			font-size:14px;
+		}
+		
+		table.lectures { 
+			font-size:14px;
+		} 
+
+
 				
 		/*IE6 fix*/
 		* html body{
