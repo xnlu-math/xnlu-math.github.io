@@ -5,16 +5,18 @@ Conferences attended by Xiao-Nan LU in the academic year of 2019
 */
 
 var confName19=[
-"RIMS共同研究「代数的組合せ論と関連する群と代数の研究」",
-"2019年度応用数学合同研究集会",
-"研究集会「実験計画法と符号および関連する組合せ構造」2019",
-"日本数学会2019年度秋季総合分科会",
-"JCCA-2019・離散数学とその応用研究集会2019・スペクトラルグラフ理論および周辺領域 第8回研究集会",
-"The 11th Hungarian-Japanese Symposium on Discrete Mathematics and Its Applications"
-/*"電子情報通信学会・情報理論研究会（IT）・マルチメディア情報ハイディング・エンリッチメント研究会（EMM）"*/
+	"第11回 暗号及び情報セキュリティと数学の相関ワークショップ (CRISMATH 2019)",
+	"RIMS共同研究「代数的組合せ論と関連する群と代数の研究」",
+	"2019年度応用数学合同研究集会",
+	"研究集会「実験計画法と符号および関連する組合せ構造」2019",
+	"日本数学会2019年度秋季総合分科会",
+	"JCCA-2019・離散数学とその応用研究集会2019・スペクトラルグラフ理論および周辺領域 第8回研究集会",
+	"The 11th Hungarian-Japanese Symposium on Discrete Mathematics and Its Applications"
+	/*"電子情報通信学会・情報理論研究会（IT）・マルチメディア情報ハイディング・エンリッチメント研究会（EMM）"*/
 ]
 			
 var confPlace19=[
+"東京大学本郷キャンパス",
 "京都大学",
 "龍谷大学瀬田キャンパス",
 "湯田温泉（山口県）",
@@ -25,6 +27,7 @@ var confPlace19=[
 ]
 			
 var confData19=[
+"2019年12月27日",
 "2019年12月16日〜19日",
 "2019年12月12日〜14日",
 "2019年11月14日〜16日",
@@ -35,6 +38,7 @@ var confData19=[
 ]
 			
 var confURL19=[
+"http://crypto.mist.i.u-tokyo.ac.jp/events/crismath2019.html",
 "https://hnozaki.jimdo.com/conference/rims2019/",
 "http://infoshako.sk.tsukuba.ac.jp/~cam/2019/index.html",
 "http://manau.jp/onsn2019/",
@@ -43,7 +47,7 @@ var confURL19=[
 "https://www.opt.mist.i.u-tokyo.ac.jp/hj2019/"
 ]
 			
-var confRmks19=["","","グループテスト入門（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
+var confRmks19=["","","","グループテスト入門（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
 /*"“Locating arrays with error-correcting ability” (Contributed Talk) 7/16",*/]
 
 			
