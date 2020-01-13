@@ -5,6 +5,8 @@ Conferences attended by Xiao-Nan LU in the academic year of 2019
 */
 
 var confName19=[
+	"2020 Taipei International Workshop on Combinatorics and Graph Theory",
+	"電子情報通信学会・情報理論研究会（IT）・信号処理研究会（SIP）・無線通信システム研究会（RCS）",
 	"第11回 暗号及び情報セキュリティと数学の相関ワークショップ (CRISMATH 2019)",
 	"RIMS共同研究「代数的組合せ論と関連する群と代数の研究」",
 	"2019年度応用数学合同研究集会",
@@ -12,10 +14,11 @@ var confName19=[
 	"日本数学会2019年度秋季総合分科会",
 	"JCCA-2019・離散数学とその応用研究集会2019・スペクトラルグラフ理論および周辺領域 第8回研究集会",
 	"The 11th Hungarian-Japanese Symposium on Discrete Mathematics and Its Applications"
-	/*"電子情報通信学会・情報理論研究会（IT）・マルチメディア情報ハイディング・エンリッチメント研究会（EMM）"*/
 ]
 			
 var confPlace19=[
+	"Institute of Mathematics, Academia Sinica, Taipei, Taiwan",
+	"広島市青少年センター",
 "東京大学本郷キャンパス",
 "京都大学",
 "龍谷大学瀬田キャンパス",
@@ -23,10 +26,11 @@ var confPlace19=[
 "金沢大学",
 "都城工業高等専門学校（宮崎県）", 
 "University of Tokyo (Hongo Campus), Tokyo, Japan"
-/*"東京工業大学",*/
 ]
 			
 var confData19=[
+	"Feb 6-8, 2020",
+	"2020年1月23日〜24日",
 "2019年12月27日",
 "2019年12月16日〜19日",
 "2019年12月12日〜14日",
@@ -38,6 +42,8 @@ var confData19=[
 ]
 			
 var confURL19=[
+	"https://www.math.sinica.edu.tw/www/file_upload/conference/202002Comb/Comb.html",
+	"https://www.ieice.org/ken/program/index.php?tgs_regid=0a96b5760f81cf3ba0c590264a4bf9bfd296a9e900905aee73bee06d69dbab54&tgid=IEICE-IT",
 "http://crypto.mist.i.u-tokyo.ac.jp/events/crismath2019.html",
 "https://hnozaki.jimdo.com/conference/rims2019/",
 "http://infoshako.sk.tsukuba.ac.jp/~cam/2019/index.html",
@@ -47,7 +53,7 @@ var confURL19=[
 "https://www.opt.mist.i.u-tokyo.ac.jp/hj2019/"
 ]
 			
-var confRmks19=["","","","グループテスト入門（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
+var confRmks19=["","","","","","グループテスト入門（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
 /*"“Locating arrays with error-correcting ability” (Contributed Talk) 7/16",*/]
 
 			
