@@ -5,6 +5,8 @@ Conferences attended by Xiao-Nan LU in the academic year of 2019
 */
 
 var confName19=[
+	"日本数学会2020年度年会", 
+	"第16回組合せ論若手研究集会",
 	"2020 Taipei International Workshop on Combinatorics and Graph Theory",
 	"電子情報通信学会・情報理論研究会（IT）・信号処理研究会（SIP）・無線通信システム研究会（RCS）",
 	"第11回 暗号及び情報セキュリティと数学の相関ワークショップ (CRISMATH 2019)",
@@ -17,6 +19,8 @@ var confName19=[
 ]
 			
 var confPlace19=[
+	"日本大学駿河台キャンパス", 
+	"慶應義塾大学矢上キャンパス", 
 	"Institute of Mathematics, Academia Sinica, Taipei, Taiwan",
 	"広島市青少年センター",
 "東京大学本郷キャンパス",
@@ -29,6 +33,8 @@ var confPlace19=[
 ]
 			
 var confData19=[
+	"2020年3月16日〜19日",
+	"2020年2月27日〜28日", 
 	"Feb 6-8, 2020",
 	"2020年1月23日〜24日",
 "2019年12月27日",
@@ -42,6 +48,8 @@ var confData19=[
 ]
 			
 var confURL19=[
+	"https://mathsoc.jp/meeting/nichidai20mar/",
+	"http://www.comb.math.keio.ac.jp/wakate20/",
 	"https://www.math.sinica.edu.tw/www/file_upload/conference/202002Comb/Comb.html",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=0a96b5760f81cf3ba0c590264a4bf9bfd296a9e900905aee73bee06d69dbab54&tgid=IEICE-IT",
 "http://crypto.mist.i.u-tokyo.ac.jp/events/crismath2019.html",
@@ -53,7 +61,7 @@ var confURL19=[
 "https://www.opt.mist.i.u-tokyo.ac.jp/hj2019/"
 ]
 			
-var confRmks19=["","","","","","グループテスト入門（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
+var confRmks19=["","","","","","","","“グループテスト入門”（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
 /*"“Locating arrays with error-correcting ability” (Contributed Talk) 7/16",*/]
 
 			
