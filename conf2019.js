@@ -21,7 +21,7 @@ var confName19=[
 ]
 			
 var confPlace19=[
-	"熊本城ホール（熊本県）",
+	"Kumamoto-Jo Hall, Kumamoto, Japan",
 	"日本大学駿河台キャンパス", 
 	"柳川市藤吉コミュニティセンター（福岡県）",
 	"慶應義塾大学矢上キャンパス", 
@@ -67,7 +67,7 @@ var confURL19=["",
 "https://www.opt.mist.i.u-tokyo.ac.jp/hj2019/"
 ]
 			
-var confRmks19=["Organizing Committee Member","","","","","","","","“グループテスト入門”（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
+var confRmks19=["Organizing Committee Member \\\\“Circulant almost orthogonal arrays and perfect binary sequences”","","","","","","","","“グループテスト入門”（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
 /*"“Locating arrays with error-correcting ability” (Contributed Talk) 7/16",*/]
 
 			
