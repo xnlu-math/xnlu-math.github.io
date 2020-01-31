@@ -4,7 +4,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2017
 
 */
 
-var confName17=["5th Taiwan-Japan Conference on Combinatorics and its Applications (5th TJCCA)", 
+var confName17=["The 5th Taiwan-Japan Conference on Combinatorics and its Applications (TJCCA)", 
 "日本数学会2018年度年会",
 "Finite Groups, VOAs, and Related Topics 2018",
 "第３回代数的組合せ論「仙台勉強会」～離散構造解析を中心として～",

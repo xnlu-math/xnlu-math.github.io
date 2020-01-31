@@ -6,7 +6,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2015
 
 var confName15=["日本数学会2016年度年会", 
 			"ミニ集会「代数的組合せ論とその周辺」", 
-			"The 4th Japan-Taiwan Conference on Combinatorics and its Applications (4th JTCCA)", 
+			"The 4th Japan-Taiwan Conference on Combinatorics and its Applications (JTCCA)", 
 			"RIMS研究集会「有限群とその表現, 頂点作用素代数, 代数的組合せ論の研究」", 
 			"2015年度応用数学合同研究集会", 
 			"The 39th Australasian Conference on Combinatorial Mathematics and Combinatorial Computing (39ACCMCC)", 
