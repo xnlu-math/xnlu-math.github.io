@@ -52,7 +52,7 @@ var confData19=[
 "May 27-30, 2019"
 ]
 			
-var confURL19=["",
+var confURL19=["https://sites.google.com/site/jtcca2020/",
 	"https://mathsoc.jp/meeting/nichidai20mar/",
 	"https://sig-fpai.org/past/fpai112_cfp.html",
 	"http://www.comb.math.keio.ac.jp/wakate20/",
@@ -67,7 +67,8 @@ var confURL19=["",
 "https://www.opt.mist.i.u-tokyo.ac.jp/hj2019/"
 ]
 			
-var confRmks19=["Organizing Committee Member \\\\“Circulant almost orthogonal arrays and perfect binary sequences”","","","","","","","","“グループテスト入門”（招待講演）", "", "ミニシンポジウム「符号と暗号」世話人", ""
+var confRmks19=["Organizing Committee Member \\\\“Circulant almost orthogonal arrays and perfect binary sequences” (Contributed Talk) 3/25",
+	"","","","","","","","“グループテスト入門”（招待講演）11/16", "", "ミニシンポジウム「符号と暗号」世話人", ""
 /*"“Locating arrays with error-correcting ability” (Contributed Talk) 7/16",*/]
 
 			
