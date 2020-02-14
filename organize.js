@@ -22,7 +22,7 @@ var confSuf=["",
 			"世話人"]
 
 var confName=[
-			"The 6th Japan-Taiwan Conference on Combinatorics and its Applications (JTCCA)",
+			"the 6th Japan-Taiwan Conference on Combinatorics and its Applications (JTCCA)",
 			"「JCCA-2019・離散数学とその応用研究集会2019・スペクトラルグラフ理論および周辺領域 第8回研究集会」",
 			"the 4th Japan-Sino Symposium on Graph Theory, Combinatorics and Their Applications",
 			"研究集会「実験計画法ならびに情報数理と関連する組合せ構造2018」",
