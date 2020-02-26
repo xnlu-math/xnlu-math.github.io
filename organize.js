@@ -5,7 +5,7 @@ Organized Workshops by Xiao-Nan LU
 */
 
 
-var confPref=["Organizing Committee Member of",
+var confPref=["<del>Organizing Committee Member of</del>",
 			"ミニシンポジウム「符号と暗号」 in ",
 			"Organizing Committee Member of",
 			"",
@@ -22,7 +22,7 @@ var confSuf=["",
 			"世話人"]
 
 var confName=[
-			"the 6th Japan-Taiwan Conference on Combinatorics and its Applications (JTCCA)",
+			"<del>the 6th Japan-Taiwan Conference on Combinatorics and its Applications (JTCCA)</del>",
 			"「JCCA-2019・離散数学とその応用研究集会2019・スペクトラルグラフ理論および周辺領域 第8回研究集会」",
 			"the 4th Japan-Sino Symposium on Graph Theory, Combinatorics and Their Applications",
 			"研究集会「実験計画法ならびに情報数理と関連する組合せ構造2018」",
@@ -31,7 +31,7 @@ var confName=[
 			"研究集会「実験計画法およびその周辺の組合せ構造2014」"]
 			
 var confPlace=[
-			"Kumamoto-Jo Hall, Kumamoto, Japan",
+			"<del>Kumamoto-Jo Hall, Kumamoto, Japan</del>",
 			"都城工業高等専門学校（宮崎県）",
 			"Tokyo University of Science（東京理科大学）, Japan",
 			"神戸大学",
@@ -40,7 +40,7 @@ var confPlace=[
 			"城崎国際アートセンター（兵庫県）"]
 	
 var confData=[
-			"March 25-27, 2020",
+			"<del>March 25-27, 2020</del>. Cancelled",
 			"2019年8月27日～29日",
 			"Nov 2-4, 2018",
 			"2018年10月31日～11月3日", 
