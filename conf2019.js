@@ -68,9 +68,9 @@ var confURL19=["https://sites.google.com/site/jtcca2020/",
 ]
 			
 var confRmks19=["<del>Organizing Committee Member</del> \\\\ <del>“Circulant almost orthogonal arrays and perfect binary sequences” (Contributed Talk) </del>  Cancelled",
-	"Cancelled",
+	"開催中止",
 	"",
-	"Cancelled",
+	"開催中止",
 	"Cancelled",
 	"","","","","“グループテスト入門”（招待講演）11/16", "", "ミニシンポジウム「符号と暗号」世話人", ""
 /*"“Locating arrays with error-correcting ability” (Contributed Talk) 7/16",*/]
