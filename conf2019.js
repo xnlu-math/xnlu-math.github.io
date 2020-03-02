@@ -7,7 +7,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2019
 var confName19=[
 	"<del>The 6th Japan-Taiwan Conference on Combinatorics and its Applications (JTCCA)</del>",
 	"<del>日本数学会2020年度年会</del>", 
-	"人工知能学会 第112回人工知能基本問題研究会(SIG-FPAI)",
+	"<del>人工知能学会 第112回人工知能基本問題研究会(SIG-FPAI)</del>",
 	"<del>第16回組合せ論若手研究集会</del>",
 	"<del>2020 Taipei International Workshop on Combinatorics and Graph Theory</del>",
 	"電子情報通信学会 情報理論研究会(IT)・信号処理研究会(SIP)・無線通信システム研究会(RCS)",
@@ -23,7 +23,7 @@ var confName19=[
 var confPlace19=[
 	"<del>Kumamoto-Jo Hall, Kumamoto, Japan</del>",
 	"<del>日本大学駿河台キャンパス</del>", 
-	"柳川市藤吉コミュニティセンター（福岡県）",
+	"<del>柳川市藤吉コミュニティセンター（福岡県）</del>",
 	"<del>慶應義塾大学矢上キャンパス</del>", 
 	"<del>Institute of Mathematics, Academia Sinica, Taipei, Taiwan</del>",
 	"広島市青少年センター",
@@ -39,7 +39,7 @@ var confPlace19=[
 var confData19=[
 	"<del>March 25-27, 2020</del>",
 	"<del>2020年3月16日〜19日</del>",
-	"2020年3月8日〜9日",
+	"<del>2020年3月8日〜9日</del>",
 	"<del>2020年2月27日〜28日</del>", 
 	"<del>Feb 6-8, 2020</del>",
 	"2020年1月23日〜24日",
@@ -69,7 +69,7 @@ var confURL19=["https://sites.google.com/site/jtcca2020/",
 			
 var confRmks19=["<del>Organizing Committee Member</del> \\\\ <del>“Circulant almost orthogonal arrays and perfect binary sequences” (Contributed Talk) </del>  Cancelled",
 	"開催中止",
-	"",
+	"開催中止",
 	"開催中止",
 	"Cancelled",
 	"","","","","“グループテスト入門”（招待講演）11/16", "", "ミニシンポジウム「符号と暗号」世話人", ""
