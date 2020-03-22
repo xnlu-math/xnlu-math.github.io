@@ -8,12 +8,11 @@
   
   <link rel="stylesheet" href="subpage.css">	
 		
-	<script type="text/javascript" src="conf2017.js">
-	</script>	
-	<script type="text/javascript" src="conf2018.js">
-	</script>	
-	<script type="text/javascript" src="conf2019.js">
-	</script>	
+	<script type="text/javascript" src="conf2017.js"></script>
+	<script type="text/javascript" src="conf2018.js"></script>
+	<script type="text/javascript" src="conf2019.js"></script>
+	<script type="text/javascript" src="conf2020.js"></script>
+	<script type="text/javascript" src="conf_fun.js"></script>	
 		
 </head>
 
@@ -25,23 +24,8 @@
       <td style="vertical-align: top;">
       <h2>Conferences Attended and Talks</h2> 
       <menu> 
-           
-      <div style="cursor:hand" onclick="isHidden('divconf2019')"><h3>2019年度 (April 2019 - March 2020) </h3></div>
-      <div id="divconf2019">
-      <script> generateConfList2019() </script>
-      </div>
-      
-      <div style="cursor:hand" onclick="isHidden('divconf2018')"><h3>2018年度 (April 2018 - March 2019) </h3></div>
-      <div id="divconf2018" style="display:none">
-      <script> generateConfList2018() </script>
-      </div>
-       
-      <div style="cursor:hand" onclick="isHidden('divconf2017')"><h3>2017年度 (April 2017 - March 2018) </h3></div>
-      <div id="divconf2017" style="display:none">
-      <script> generateConfList2017() </script>
-      </div>
+        <script> generateYearConfList(2017, 2020) </script>
       </menu> 
-     
       
       </td>
     </tr>

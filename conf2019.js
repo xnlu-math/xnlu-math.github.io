@@ -1,7 +1,5 @@
 /*
-
 Conferences attended by Xiao-Nan LU in the academic year of 2019
-
 */
 
 var confName19=[
@@ -27,13 +25,13 @@ var confPlace19=[
 	"<del>慶應義塾大学矢上キャンパス</del>", 
 	"<del>Institute of Mathematics, Academia Sinica, Taipei, Taiwan</del>",
 	"広島市青少年センター",
-"東京大学本郷キャンパス",
-"京都大学",
-"龍谷大学瀬田キャンパス",
-"湯田温泉（山口県）",
-"金沢大学",
-"都城工業高等専門学校", 
-"University of Tokyo (Hongo Campus), Tokyo, Japan"
+	"東京大学本郷キャンパス",
+	"京都大学",
+	"龍谷大学瀬田キャンパス",
+	"湯田温泉（山口県）",
+	"金沢大学",
+	"都城工業高等専門学校", 
+	"University of Tokyo (Hongo Campus), Tokyo, Japan"
 ]
 			
 var confData19=[
@@ -43,13 +41,13 @@ var confData19=[
 	"<del>2020年2月27日〜28日</del>", 
 	"<del>Feb 6-8, 2020</del>",
 	"2020年1月23日〜24日",
-"2019年12月27日",
-"2019年12月16日〜19日",
-"2019年12月12日〜14日",
-"2019年11月14日〜16日",
-"2019年9月17日～9月20日",
-"2019年8月27日～29日",
-"May 27-30, 2019"
+	"2019年12月27日",
+	"2019年12月16日〜19日",
+	"2019年12月12日〜14日",
+	"2019年11月14日〜16日",
+	"2019年9月17日～9月20日",
+	"2019年8月27日～29日",
+	"May 27-30, 2019"
 ]
 			
 var confURL19=["https://sites.google.com/site/jtcca2020/",
@@ -58,54 +56,27 @@ var confURL19=["https://sites.google.com/site/jtcca2020/",
 	"http://www.comb.math.keio.ac.jp/wakate20/",
 	"https://www.math.sinica.edu.tw/www/file_upload/conference/202002Comb/Comb.html",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=0a96b5760f81cf3ba0c590264a4bf9bfd296a9e900905aee73bee06d69dbab54&tgid=IEICE-IT",
-"http://crypto.mist.i.u-tokyo.ac.jp/events/crismath2019.html",
-"https://hnozaki.jimdo.com/conference/rims2019/",
-"http://infoshako.sk.tsukuba.ac.jp/~cam/2019/index.html",
-"http://manau.jp/onsn2019/",
-"https://mathsoc.jp/meeting/kanazawa19sept/",
-"https://sites.google.com/site/jccadmiasg2019/",
-"https://www.opt.mist.i.u-tokyo.ac.jp/hj2019/"
+	"http://crypto.mist.i.u-tokyo.ac.jp/events/crismath2019.html",
+	"https://hnozaki.jimdo.com/conference/rims2019/",
+	"http://infoshako.sk.tsukuba.ac.jp/~cam/2019/index.html",
+	"http://manau.jp/onsn2019/",
+	"https://mathsoc.jp/meeting/kanazawa19sept/",
+	"https://sites.google.com/site/jccadmiasg2019/",
+	"https://www.opt.mist.i.u-tokyo.ac.jp/hj2019/"
 ]
 			
-var confRmks19=["<del>Organizing Committee Member</del> \\\\ <del>“Circulant almost orthogonal arrays and perfect binary sequences” (Contributed Talk) </del>  Cancelled",
+var confRmks19=[
+	"<del>Organizing Committee Member</del> \\\\ <del>“Circulant almost orthogonal arrays and perfect binary sequences” (Contributed Talk) </del>  Cancelled",
 	"開催中止",
 	"開催中止",
 	"開催中止",
 	"Cancelled",
-	"","","","","“グループテスト入門”（招待講演）11/16", "", "ミニシンポジウム「符号と暗号」世話人", ""
-/*"“Locating arrays with error-correcting ability” (Contributed Talk) 7/16",*/]
-
-			
-			function generateConfList2019(){
-				var confName = confName19
-				var confPlace = confPlace19
-				var confData = confData19
-				var confURL = confURL19
-				var confRmks = confRmks19
-				
-				document.write("<ol reversed>")
-				for (var i=0; i<confName.length; i++){
-					document.write("<li>")
-					if (confURL[i].length > 0)
-						document.write('<a target="_blank" href="' + confURL[i] + '">' + confName[i] + "</a>, ")
-					else
-						document.write(confName[i]+", ")
-					document.write(confPlace[i]+", ")
-					document.write(confData[i]+".")
-					if (confRmks[i].length > 0){
-						var tmp_lc = confRmks[i].indexOf("\\\\")
-						if  (tmp_lc > 0) {
-							tmp_str1 = confRmks[i].substring(0, tmp_lc - 1)
-							document.write("<br>・・・" + tmp_str1 + ".")
-							tmp_str2 = confRmks[i].substring(tmp_lc+2)
-							document.write("<br>・・・" + tmp_str2 + ".")
-						}
-						else
-							document.write("<br>・・・" + confRmks[i] + ".")
-					}
-					document.write("</li>")
-				}
-				document.write("</ol>")
-			}
-			
-		
+	"",
+	"",
+	"",
+	"",
+	"“グループテスト入門”（招待講演）11/16", 
+	"", 
+	"ミニシンポジウム「符号と暗号」世話人", 
+	""
+]
