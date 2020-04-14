@@ -7,7 +7,7 @@ var confName20=[
 ]
 			
 var confPlace20=[
-	"東北学院大学 多賀城キャンパス "
+	"<del>東北学院大学 多賀城キャンパス</del>"
 ]
 			
 var confData20=[
@@ -19,7 +19,7 @@ var confURL20=[
 ]
 			
 var confRmks20=[
-	""
+	"オンライン開催"
 ]
 
 
