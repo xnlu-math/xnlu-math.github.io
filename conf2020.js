@@ -4,7 +4,6 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 
 var confName20=[
 	"Japanese Conference on Combinatorics and its Applications (JCCA-2020)・離散数学とその応用研究集会2020 (DMIA2020)・スペクトラルグラフ理論および周辺領域第9回研究集会 (SGT9)",	
-	"東北大学情報科学研究科 組合せ論セミナー", 
 	"IEICE東京支部オンライン地域イベント(茨城)「講演会：ビッグデータ利活用のためのプライバシ保護技術」",
 	"2020年度人工知能学会全国大会",
 	"IWOCA 2020: 31st International Workshop on Combinatorial Algorithms",
@@ -15,7 +14,6 @@ var confName20=[
 			
 var confPlace20=[
 	"<del>高知大学</del> Zoom",
-	"Google Meet",
 	"Webex",
 	"<del>熊本城ホール</del> Zoom",
 	"<del>Bordeaux, France</del> Zoom",
@@ -26,7 +24,6 @@ var confPlace20=[
 			
 var confData20=[
 	"2020年8月18～20日", 
-	"2020年6月19日, 16:00-17:00", 
 	"2020年6月15日, 13:30-15:30", 
 	"2020年6月9日〜12日",
 	"June 8-10, 2020",
@@ -37,7 +34,6 @@ var confData20=[
 			
 var confURL20=[
 	"https://sites.google.com/view/jcca2020-dmia2020-sgt9",
-	"http://www.math.is.tohoku.ac.jp/~combin/",
 	"https://www.ieice.org/tokyo/tiiki.html#menu15",
 	"https://www.ai-gakkai.or.jp/jsai2020/",
 	"https://iwoca2020.labri.fr/",
@@ -46,7 +42,7 @@ var confURL20=[
 	"https://sites.google.com/view/fridayteatime/"
 ]
 			
-var confRmks20=["組織委員, ミニシンポジウム「符号と暗号」世話人","", "", "", "", "", "", ""
+var confRmks20=["組織委員, ミニシンポジウム「符号と暗号」世話人", "", "", "", "", "", ""
 ]
 
 
