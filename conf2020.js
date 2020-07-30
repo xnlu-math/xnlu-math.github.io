@@ -5,6 +5,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 var confName20=[
 	"Japanese Conference on Combinatorics and its Applications (JCCA-2020)・離散数学とその応用研究集会2020 (DMIA2020)・スペクトラルグラフ理論および周辺領域第9回研究集会 (SGT9)",	
 	"RIMS 共同研究「組合せ最適化セミナー」（第17回）",
+	"Shandong University Mathamtics Summer Course 2020 \"Extremal Combinatorics\"",
 	"電子情報通信学会 情報理論研究会（IT）",
 	"CMSA (Combinatorial Mathematics Society of Australasia) seminar",
 	"CMSA (Combinatorial Mathematics Society of Australasia) seminar",
@@ -22,6 +23,7 @@ var confPlace20=[
 	"Zoom",
 	"Zoom",
 	"Zoom",
+	"Zoom",
 	"Webex",
 	"<del>熊本城ホール</del> Zoom",
 	"<del>Bordeaux, France</del> Zoom",
@@ -33,6 +35,7 @@ var confPlace20=[
 var confData20=[
 	"2020年8月18日～20日",
 	"2020年8月5日～7日",
+	"July 26 - August 1, 2020",
 	"2020年7月16日",
 	"July 15, 11:00 AEST",
 	"July 1, 17:00 AEST",
@@ -47,6 +50,7 @@ var confData20=[
 var confURL20=[
 	"https://sites.google.com/view/jcca2020-dmia2020-sgt9",
 	"http://www.kurims.kyoto-u.ac.jp/coss/coss2020/coss2020.html",
+	"https://www.math.sdu.edu.cn/info/1020/13396.htm",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=b0a94091e8a8603701ba9a59b930eced5e05082424beec1c1d461927e35a6e12&tgid=IEICE-IT",
 	"http://combinatorics-australasia.org/seminars.html",
 	"http://combinatorics-australasia.org/seminars.html",
@@ -59,7 +63,7 @@ var confURL20=[
 ]
 			
 var confRmks20=["組織委員, ミニシンポジウム「符号と暗号」世話人", 
-"","","","",
+"","","","","",
 "", "", "", "", "", ""
 ]
 
