@@ -3,9 +3,12 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 */
 
 var confName20=[
+	"日本数学会2020年度秋季総合分科会",
+	"第9回誤り訂正符号のワークショップ", 
 	"Japanese Conference on Combinatorics and its Applications (JCCA-2020)・離散数学とその応用研究集会2020 (DMIA2020)・スペクトラルグラフ理論および周辺領域第9回研究集会 (SGT9)",	
-	"RIMS 共同研究「組合せ最適化セミナー」（第17回）",
-	"Shandong University Mathamtics Summer Course 2020 \"Extremal Combinatorics\"",
+	"组合与信息交叉学术研讨会（首都师范大学）",
+	"第17回 RIMS 共同研究「組合せ最適化セミナー」",
+	"Shandong University Mathamtics Summer Course 2020 <a target=\"_blank\" href=\"https://www.math.sdu.edu.cn/info/1020/13396.htm\">\"Extremal Combinatorics\"</a> and <a target=\"_blank\" href=\"https://www.math.sdu.edu.cn/info/1020/13584.htm\">\"Ergodic Ramsey Theory\"</a>",
 	"電子情報通信学会 情報理論研究会（IT）",
 	"CMSA (Combinatorial Mathematics Society of Australasia) seminar",
 	"CMSA (Combinatorial Mathematics Society of Australasia) seminar",
@@ -18,7 +21,10 @@ var confName20=[
 ]
 			
 var confPlace20=[
+	"<del>熊本大学</del> オンライン",
+	"Zoom",
 	"<del>高知大学</del> Zoom",
+	"Tencent Meeting",
 	"Zoom",
 	"Zoom",
 	"Zoom",
@@ -33,9 +39,12 @@ var confPlace20=[
 ]
 			
 var confData20=[
+	"2020年9月22日～25日",
+	"2020年9月2日～3日",
 	"2020年8月18日～20日",
+	"2020年8月9日",
 	"2020年8月5日～7日",
-	"July 26 - August 1, 2020",
+	"July 26 - August 8, 2020",
 	"2020年7月16日",
 	"July 15, 11:00 AEST",
 	"July 1, 17:00 AEST",
@@ -48,9 +57,12 @@ var confData20=[
 ]
 			
 var confURL20=[
+	"https://www.mathsoc.jp/activity/meeting/kumamoto20sept/",
+	"https://manau.jp/WS/ECCWS/",
 	"https://sites.google.com/view/jcca2020-dmia2020-sgt9",
+	"https://math.cnu.edu.cn/xzhd1/177080.htm",
 	"http://www.kurims.kyoto-u.ac.jp/coss/coss2020/coss2020.html",
-	"https://www.math.sdu.edu.cn/info/1020/13396.htm",
+	"",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=b0a94091e8a8603701ba9a59b930eced5e05082424beec1c1d461927e35a6e12&tgid=IEICE-IT",
 	"http://combinatorics-australasia.org/seminars.html",
 	"http://combinatorics-australasia.org/seminars.html",
@@ -62,9 +74,12 @@ var confURL20=[
 	"https://sites.google.com/view/fridayteatime/"
 ]
 			
-var confRmks20=["組織委員, ミニシンポジウム「符号と暗号」世話人", 
-"","","","","",
-"", "", "", "", "", ""
+var confRmks20=[
+	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
+	"",
+	"組織委員, ミニシンポジウム「符号と暗号」世話人", 
+	"","","","","","",
+	"", "", "", "", "", ""
 ]
 
 
