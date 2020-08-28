@@ -3,10 +3,13 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 */
 
 var confName20=[
+	"CW 2020: International Conference on Cyberworlds",
+	"第6回有限体理論とその擬似乱数系列生成への応用ワークショップ",
 	"日本数学会2020年度秋季総合分科会",
-	"第9回誤り訂正符号のワークショップ", 
+	"第9回誤り訂正符号のワークショップ",
+	"2020成都有限域及其应用线上研讨会",
 	"Japanese Conference on Combinatorics and its Applications (JCCA-2020)・離散数学とその応用研究集会2020 (DMIA2020)・スペクトラルグラフ理論および周辺領域第9回研究集会 (SGT9)",	
-	"组合与信息交叉学术研讨会（首都师范大学）",
+	"组合与信息交叉学术研讨会",
 	"第17回 RIMS 共同研究「組合せ最適化セミナー」",
 	"Shandong University Mathamtics Summer Course 2020 <a target=\"_blank\" href=\"https://www.math.sdu.edu.cn/info/1020/13396.htm\">\"Extremal Combinatorics\"</a> and <a target=\"_blank\" href=\"https://www.math.sdu.edu.cn/info/1020/13584.htm\">\"Ergodic Ramsey Theory\"</a>",
 	"電子情報通信学会 情報理論研究会（IT）",
@@ -21,16 +24,19 @@ var confName20=[
 ]
 			
 var confPlace20=[
+	"<del>Caen, France</del> Zoom",
+	"WebEx",
 	"<del>熊本大学</del> オンライン",
 	"Zoom",
+	"腾讯会议（四川大学）",
 	"<del>高知大学</del> Zoom",
-	"Tencent Meeting",
+	"腾讯会议（首都师范大学）",
 	"Zoom",
 	"Zoom",
 	"Zoom",
 	"Zoom",
 	"Zoom",
-	"Webex",
+	"WebEx",
 	"<del>熊本城ホール</del> Zoom",
 	"<del>Bordeaux, France</del> Zoom",
 	"<del>東北学院大学 多賀城キャンパス</del> Zoom", 
@@ -39,8 +45,11 @@ var confPlace20=[
 ]
 			
 var confData20=[
+	"Sep. 29 - Oct. 1, 2020",
+	"2020年9月28日～29日",
 	"2020年9月22日～25日",
 	"2020年9月2日～3日",
+	"2020年8月29日～30日",
 	"2020年8月18日～20日",
 	"2020年8月9日",
 	"2020年8月5日～7日",
@@ -57,8 +66,11 @@ var confData20=[
 ]
 			
 var confURL20=[
+	"https://cyberworlds2020.sciencesconf.org/",
+	"http://isec.ec.okayama-u.ac.jp/fftprsws2020/",
 	"https://www.mathsoc.jp/activity/meeting/kumamoto20sept/",
 	"https://manau.jp/WS/ECCWS/",
+	"http://math.scu.edu.cn/info/1031/7377.htm",
 	"https://sites.google.com/view/jcca2020-dmia2020-sgt9",
 	"https://math.cnu.edu.cn/xzhd1/177080.htm",
 	"http://www.kurims.kyoto-u.ac.jp/coss/coss2020/coss2020.html",
@@ -75,8 +87,10 @@ var confURL20=[
 ]
 			
 var confRmks20=[
-	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
+	"Evaluation criteria for visual cryptography schemes via neural networks (presenting author: Yunchao Wang)",
 	"",
+	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
+	"","",
 	"組織委員, ミニシンポジウム「符号と暗号」世話人", 
 	"","","","","","",
 	"", "", "", "", "", ""
