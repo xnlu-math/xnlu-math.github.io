@@ -5,6 +5,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 var confName20=[
 	"CW 2020: International Conference on Cyberworlds",
 	"第6回有限体理論とその擬似乱数系列生成への応用ワークショップ",
+	"组合设计青年论坛 (Colloquium on Combinatorial Designs)",
 	"日本数学会2020年度秋季総合分科会",
 	"2020年電子情報通信学会ソサイエティ大会",
 	"第9回誤り訂正符号のワークショップ",
@@ -27,6 +28,7 @@ var confName20=[
 var confPlace20=[
 	"<del>Caen, France</del> Zoom",
 	"WebEx",
+	"腾讯会议",
 	"<del>熊本大学</del> オンライン",
 	"Zoom",
 	"Zoom",
@@ -49,6 +51,7 @@ var confPlace20=[
 var confData20=[
 	"Sep. 29 - Oct. 1, 2020",
 	"2020年9月28日～29日",
+	"2020年9月26日",
 	"2020年9月22日～25日",
 	"2020年9月15日～18日",
 	"2020年9月2日～3日",
@@ -71,6 +74,7 @@ var confData20=[
 var confURL20=[
 	"https://cyberworlds2020.sciencesconf.org/",
 	"http://isec.ec.okayama-u.ac.jp/fftprsws2020/",
+	"",
 	"https://www.mathsoc.jp/activity/meeting/kumamoto20sept/",
 	"https://www.ieice-taikai.jp/2020society/jpn/program.html",
 	"https://manau.jp/WS/ECCWS/",
@@ -92,7 +96,7 @@ var confURL20=[
 			
 var confRmks20=[
 	"Evaluation criteria for visual cryptography schemes via neural networks (presenting author: Yunchao Wang)",
-	"",
+	"","",
 	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
 	"","","",
 	"組織委員, ミニシンポジウム「符号と暗号」世話人", 
