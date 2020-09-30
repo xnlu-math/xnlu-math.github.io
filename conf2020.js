@@ -3,6 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 */
 
 var confName20=[
+	"第32回RAMP数理最適化シンポジウム (RAMP 2020)",
 	"CW 2020: International Conference on Cyberworlds",
 	"第6回有限体理論とその擬似乱数系列生成への応用ワークショップ",
 	"组合设计青年论坛 (Colloquium on Combinatorial Designs)",
@@ -26,6 +27,7 @@ var confName20=[
 ]
 			
 var confPlace20=[
+	"オンライン",
 	"<del>Caen, France</del> Zoom",
 	"WebEx",
 	"腾讯会议",
@@ -49,6 +51,7 @@ var confPlace20=[
 ]
 			
 var confData20=[
+	"2020年10月26日～27日",
 	"Sep. 29 - Oct. 1, 2020",
 	"2020年9月28日～29日",
 	"2020年9月26日",
@@ -72,6 +75,7 @@ var confData20=[
 ]
 			
 var confURL20=[
+	"http://www.orsj.or.jp/ramp/2020/index.html",
 	"https://cyberworlds2020.sciencesconf.org/",
 	"http://isec.ec.okayama-u.ac.jp/fftprsws2020/",
 	"",
@@ -95,6 +99,7 @@ var confURL20=[
 ]
 			
 var confRmks20=[
+	"",
 	"Evaluation criteria for visual cryptography schemes via neural networks (presenting author: Yunchao Wang)",
 	"","",
 	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
