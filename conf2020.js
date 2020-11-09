@@ -3,11 +3,13 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 */
 
 var confName20=[
+	"CMSA (Combinatorial Mathematics Society of Australasia) seminar",
 	"第32回RAMP数理最適化シンポジウム (RAMP 2020)",
 	"CW 2020: International Conference on Cyberworlds",
 	"第6回有限体理論とその擬似乱数系列生成への応用ワークショップ",
 	"组合设计青年论坛 (Colloquium on Combinatorial Designs)",
 	"日本数学会2020年度秋季総合分科会",
+	"CMSA (Combinatorial Mathematics Society of Australasia) seminar",
 	"2020年電子情報通信学会ソサイエティ大会",
 	"第9回誤り訂正符号のワークショップ",
 	"2020成都有限域及其应用线上研讨会",
@@ -27,11 +29,13 @@ var confName20=[
 ]
 			
 var confPlace20=[
+	"Zoom",
 	"オンライン",
 	"<del>Caen, France</del> Zoom",
 	"WebEx",
 	"腾讯会议",
 	"<del>熊本大学</del> オンライン",
+	"Zoom",
 	"Zoom",
 	"Zoom",
 	"腾讯会议（四川大学）",
@@ -51,11 +55,13 @@ var confPlace20=[
 ]
 			
 var confData20=[
+	"Nov. 10, 2020",
 	"2020年10月26日～27日",
 	"Sep. 29 - Oct. 1, 2020",
 	"2020年9月28日～29日",
 	"2020年9月26日",
 	"2020年9月22日～25日",
+	"Sep. 22, 2020",
 	"2020年9月15日～18日",
 	"2020年9月2日～3日",
 	"2020年8月29日～30日",
@@ -75,11 +81,13 @@ var confData20=[
 ]
 			
 var confURL20=[
+	"http://combinatorics-australasia.org/seminars.html#Dujmovic",
 	"http://www.orsj.or.jp/ramp/2020/index.html",
 	"https://cyberworlds2020.sciencesconf.org/",
 	"http://isec.ec.okayama-u.ac.jp/fftprsws2020/",
 	"",
 	"https://www.mathsoc.jp/activity/meeting/kumamoto20sept/",
+	"http://combinatorics-australasia.org/seminars.html#Conlon",
 	"https://www.ieice-taikai.jp/2020society/jpn/program.html",
 	"https://manau.jp/WS/ECCWS/",
 	"http://math.scu.edu.cn/info/1031/7377.htm",
@@ -88,8 +96,8 @@ var confURL20=[
 	"http://www.kurims.kyoto-u.ac.jp/coss/coss2020/coss2020.html",
 	"",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=b0a94091e8a8603701ba9a59b930eced5e05082424beec1c1d461927e35a6e12&tgid=IEICE-IT",
-	"http://combinatorics-australasia.org/seminars.html",
-	"http://combinatorics-australasia.org/seminars.html",
+	"http://combinatorics-australasia.org/seminars.html#Horsley",
+	"http://combinatorics-australasia.org/seminars.html#Szabo",
 	"https://www.ieice.org/tokyo/tiiki.html#menu15",
 	"https://www.ai-gakkai.or.jp/jsai2020/",
 	"https://iwoca2020.labri.fr/",
@@ -99,11 +107,11 @@ var confURL20=[
 ]
 			
 var confRmks20=[
-	"",
+	"","",
 	"Evaluation criteria for visual cryptography schemes via neural networks (presenting author: Yunchao Wang)",
 	"","",
 	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
-	"","","",
+	"","","","",
 	"組織委員, ミニシンポジウム「符号と暗号」世話人", 
 	"","","","","","",
 	"", "", "", "", "", ""
