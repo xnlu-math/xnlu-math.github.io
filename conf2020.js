@@ -3,6 +3,10 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 */
 
 var confName20=[
+	"日本数学会2021年度年会",
+	"2020年度応用数学合同研究集会",
+	"CMSA one-day workshop",
+	"電子情報通信学会 情報理論研究会（IT）",
 	"CMSA (Combinatorial Mathematics Society of Australasia) seminar",
 	"第32回RAMP数理最適化シンポジウム (RAMP 2020)",
 	"CW 2020: International Conference on Cyberworlds",
@@ -29,6 +33,10 @@ var confName20=[
 ]
 			
 var confPlace20=[
+	"<del>慶應義塾大学</del> Zoom",
+	"Zoom",
+	"Zoom",
+	"Zoom",
 	"Zoom",
 	"オンライン",
 	"<del>Caen, France</del> Zoom",
@@ -55,6 +63,10 @@ var confPlace20=[
 ]
 			
 var confData20=[
+	"2021年3月15日～18日",
+	"2020年12月18日～20日",
+	"Dec. 15, 2020",
+	"2020年12月1日～3日",
 	"Nov. 10, 2020",
 	"2020年10月26日～27日",
 	"Sep. 29 - Oct. 1, 2020",
@@ -81,6 +93,10 @@ var confData20=[
 ]
 			
 var confURL20=[
+	"https://www.mathsoc.jp/activity/meeting/keio21mar/",
+	"http://infoshako.sk.tsukuba.ac.jp/~cam/2020/index.html",
+	"http://combinatorics-australasia.org/CMSA-Day.html",
+	"https://www.ieice.org/ken/program/index.php?tgs_regid=64338f28241e91d522abfadd227d9a7ea639a4ba6fe1792d7e6b924d4254a074&tgid=IEICE-IT",
 	"http://combinatorics-australasia.org/seminars.html#Dujmovic",
 	"http://www.orsj.or.jp/ramp/2020/index.html",
 	"https://cyberworlds2020.sciencesconf.org/",
@@ -107,8 +123,9 @@ var confURL20=[
 ]
 			
 var confRmks20=[
-	"","",
-	"Evaluation criteria for visual cryptography schemes via neural networks (presenting author: Yunchao Wang)",
+	"“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会，一般講演) 3/??", 
+	"","","","","",
+	"“Evaluation criteria for visual cryptography schemes via neural networks” (presenting author: Yunchao Wang)",
 	"","",
 	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
 	"","","","",
