@@ -4,6 +4,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 
 var confName20=[
 	"日本数学会2021年度年会",
+	"第12回暗号及び情報セキュリティと数学の相関ワークショップ（CRISMATH 2020）",
 	"2020年度応用数学合同研究集会",
 	"CMSA one-day workshop",
 	"電子情報通信学会 情報理論研究会（IT）",
@@ -38,6 +39,7 @@ var confPlace20=[
 	"Zoom",
 	"Zoom",
 	"Zoom",
+	"Zoom",
 	"腾讯会议（四川大学）",
 	"Zoom",
 	"Zoom",
@@ -66,6 +68,7 @@ var confPlace20=[
 			
 var confData20=[
 	"2021年3月15日～18日",
+	"2020年12月22日",
 	"2020年12月18日～20日",
 	"Dec. 15, 2020",
 	"2020年12月1日～3日",
@@ -97,6 +100,7 @@ var confData20=[
 			
 var confURL20=[
 	"https://www.mathsoc.jp/activity/meeting/keio21mar/",
+	"http://crypto.mist.i.u-tokyo.ac.jp/events/crismath2020.html",
 	"http://infoshako.sk.tsukuba.ac.jp/~cam/2020/index.html",
 	"http://combinatorics-australasia.org/CMSA-Day.html",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=64338f28241e91d522abfadd227d9a7ea639a4ba6fe1792d7e6b924d4254a074&tgid=IEICE-IT",
@@ -128,7 +132,7 @@ var confURL20=[
 			
 var confRmks20=[
 	"“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会，一般講演) 3/??", 
-	"","","","","","",
+	"","","","","","","",
 	"“Evaluation criteria for visual cryptography schemes via neural networks” (presenting author: Yunchao Wang)",
 	"","",
 	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
