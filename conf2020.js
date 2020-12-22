@@ -139,7 +139,7 @@ var confURL20=[
 ]
 			
 var confRmks20=[
-	"“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会，一般講演) 3/??", 
+	"“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会，一般講演) 3/17", 
 	"","","","","","","","","",
 	"“Evaluation criteria for visual cryptography schemes via neural networks” (presenting author: Yunchao Wang)",
 	"","",
