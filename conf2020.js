@@ -4,6 +4,8 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 
 var confName20=[
 	"日本数学会2021年度年会",
+	"研究会「直観幾何学2021」",
+	"電子情報通信学会 情報理論研究会(IT)・情報セキュリティ研究会(ISEC)・ワイドバンドシステム研究会(WBS)",
 	"電子情報通信学会 情報理論研究会(IT)・信号処理研究会(SIP)・無線通信システム研究会(RCS)",
 	"组合设计青年论坛 (Colloquium on Combinatorial Designs)",
 	"第12回暗号及び情報セキュリティと数学の相関ワークショップ（CRISMATH 2020）",
@@ -40,6 +42,8 @@ var confName20=[
 var confPlace20=[
 	"<del>慶應義塾大学</del> Zoom",
 	"Zoom",
+	"Zoom, Webex",
+	"Zoom",
 	"腾讯会议",
 	"Zoom",
 	"Zoom",
@@ -74,6 +78,8 @@ var confPlace20=[
 			
 var confData20=[
 	"2021年3月15日～18日",
+	"2021年3月6日～7日",
+	"2021年3月4日～5日",
 	"2021年1月21日～22日",
 	"2020年12月27日",
 	"2020年12月22日",
@@ -109,6 +115,8 @@ var confData20=[
 			
 var confURL20=[
 	"https://www.mathsoc.jp/activity/meeting/keio21mar/",
+	"",
+	"https://www.ieice.org/ken/program/index.php?mode=program&tgs_regid=cd67a42f2e22a3c37eec55dfb3068dded905b2a4f8be61ab97c92a3f5e9a0c49&tgid=IT",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=a6b0214f16b10cf8818d5f274b3bbb636ba27b8ea2e0dfb4ec02ca18c7a67a2d&tgid=IEICE-IT",
 	"http://cse.sustech.edu.cn/faculty/~wangqi/colloquium.html",
 	"http://crypto.mist.i.u-tokyo.ac.jp/events/crismath2020.html",
@@ -144,7 +152,7 @@ var confURL20=[
 			
 var confRmks20=[
 	"“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会，一般講演) 3/17", 
-	"","","","","","","","","","",
+	"","","","","","","","","","","","",
 	"“Evaluation criteria for visual cryptography schemes via neural networks” (presenting author: Yunchao Wang)",
 	"","",
 	"“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23", 
