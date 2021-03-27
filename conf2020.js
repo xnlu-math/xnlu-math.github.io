@@ -3,6 +3,8 @@ Conferences attended by Xiao-Nan LU in the academic year of 2020
 */
 
 var confName20=[
+	"组合设计青年论坛 (Colloquium on Combinatorial Designs)",
+	"RIKEN iTHEMS Math Seminar",
 	"日本数学会2021年度年会",
 	"研究会「直観幾何学2021」",
 	"電子情報通信学会 情報理論研究会(IT)・情報セキュリティ研究会(ISEC)・ワイドバンドシステム研究会(WBS)",
@@ -40,6 +42,8 @@ var confName20=[
 ]
 			
 var confPlace20=[
+	"腾讯会议",
+	"Zoom",
 	"<del>慶應義塾大学</del> Zoom",
 	"Zoom",
 	"Zoom, Webex",
@@ -77,6 +81,8 @@ var confPlace20=[
 ]
 			
 var confData20=[
+	"2021年3月27日",
+	"2021年3月22日, 16:00-18:00",
 	"2021年3月15日～18日",
 	"2021年3月6日～7日",
 	"2021年3月4日～5日",
@@ -114,6 +120,8 @@ var confData20=[
 ]
 			
 var confURL20=[
+	"",
+	"https://ithems.riken.jp/en/events/green-tao-theorem-number-fields",
 	"https://www.mathsoc.jp/activity/meeting/keio21mar/",
 	"",
 	"https://www.ieice.org/ken/program/index.php?mode=program&tgs_regid=cd67a42f2e22a3c37eec55dfb3068dded905b2a4f8be61ab97c92a3f5e9a0c49&tgid=IT",
@@ -151,6 +159,7 @@ var confURL20=[
 ]
 			
 var confRmks20=[
+	"","",
 	"“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会，一般講演) 3/17", 
 	"","","","","","","","","","","","",
 	"“Evaluation criteria for visual cryptography schemes via neural networks” (presenting author: Yunchao Wang)",
