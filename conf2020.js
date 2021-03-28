@@ -120,7 +120,7 @@ var confData20=[
 ]
 			
 var confURL20=[
-	"",
+	"http://cse.sustech.edu.cn/faculty/~wangqi/colloquium.html",
 	"https://ithems.riken.jp/en/events/green-tao-theorem-number-fields",
 	"https://www.mathsoc.jp/activity/meeting/keio21mar/",
 	"",
@@ -137,7 +137,7 @@ var confURL20=[
 	"http://www.orsj.or.jp/ramp/2020/index.html",
 	"https://cyberworlds2020.sciencesconf.org/",
 	"http://isec.ec.okayama-u.ac.jp/fftprsws2020/",
-	"",
+	"http://cse.sustech.edu.cn/faculty/~wangqi/colloquium.html",
 	"https://www.mathsoc.jp/activity/meeting/kumamoto20sept/",
 	"http://combinatorics-australasia.org/seminars.html#Conlon",
 	"https://www.ieice-taikai.jp/2020society/jpn/program.html",
