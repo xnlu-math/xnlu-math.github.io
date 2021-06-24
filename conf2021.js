@@ -3,6 +3,9 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 */
 
 var confName21=[
+	"名古屋組合せ論セミナー",
+	"電子情報通信学会 情報理論研究会（IT）",
+	"28th British Combinatorial Conference",
 	"第37回代数的組合せ論シンポジウム",
 	"2021年度 人工知能学会全国大会",
 	"電子情報通信学会 情報理論研究会（IT）・マルチメディア情報ハイディング・エンリッチメント研究会（EMM）",
@@ -16,6 +19,9 @@ var confName21=[
 var confPlace21=[
 	"Zoom",
 	"Zoom",
+	"Zoom (Delivered Online from Durham University)",
+	"Zoom",
+	"Zoom",
 	"Zoom",
 	"Zoom",
 	"腾讯会议",
@@ -25,6 +31,9 @@ var confPlace21=[
 ]
 			
 var confData21=[
+	"2021年7月19日, 14:30-16:00",
+	"2021年7月8日～9日",
+	"July 5-9, 2021",
 	"2021年6月14日～16日",
 	"2021年6月8日～11日",
 	"2021年5月20日～21日",
@@ -36,6 +45,9 @@ var confData21=[
 ]
 			
 var confURL21=[
+	"http://www.ist.aichi-pu.ac.jp/~hirao/nagoya_seminar.html",
+	"https://www.ieice.org/ken/program/index.php?tgs_regid=ffc5d04f41fcd91fced6f6b914da72b809b2f575219ea2d7818f28af6f6e54b3&tgid=IEICE-IT",
+	"https://bcc2021.webspace.durham.ac.uk/",
 	"https://sites.google.com/view/2021-algcomb/",
 	"https://www.ai-gakkai.or.jp/jsai2021/",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=b89ac771658a1759bad9b5946c11b043e0c38a10dc1c7dfe10a0121327860683&tgid=IEICE-IT",
@@ -47,6 +59,9 @@ var confURL21=[
 ]
 			
 var confRmks21=[
+	"講演予定",
+	"",
+	"",
 	"",
 	"",
 	"",
