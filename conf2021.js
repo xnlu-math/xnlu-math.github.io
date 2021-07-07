@@ -4,6 +4,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 
 var confName21=[
 	"名古屋組合せ論セミナー",
+	"Colloquium on Combinatorial Designs (组合设计青年论坛)",
 	"電子情報通信学会 情報理論研究会（IT）",
 	"28th British Combinatorial Conference",
 	"第37回代数的組合せ論シンポジウム",
@@ -18,6 +19,7 @@ var confName21=[
 			
 var confPlace21=[
 	"Zoom",
+	"腾讯会议",
 	"Zoom",
 	"Zoom (Delivered Online from Durham University)",
 	"Zoom",
@@ -32,6 +34,7 @@ var confPlace21=[
 			
 var confData21=[
 	"2021年7月19日, 14:30-16:00",
+	"2021年7月10日, 14:30-18:00 (UTC+8)",
 	"2021年7月8日～9日",
 	"July 5-9, 2021",
 	"2021年6月14日～16日",
@@ -46,6 +49,7 @@ var confData21=[
 			
 var confURL21=[
 	"http://www.ist.aichi-pu.ac.jp/~hirao/nagoya_seminar.html",
+	"https://yue-zhou-ovgu.github.io/Colloquium/",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=ffc5d04f41fcd91fced6f6b914da72b809b2f575219ea2d7818f28af6f6e54b3&tgid=IEICE-IT",
 	"https://bcc2021.webspace.durham.ac.uk/",
 	"https://sites.google.com/view/2021-algcomb/",
@@ -60,6 +64,7 @@ var confURL21=[
 			
 var confRmks21=[
 	"講演題目：SATソルバーの組合せデザイン問題への応用事例",
+	"",
 	"",
 	"",
 	"",
