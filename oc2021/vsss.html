@@ -1,0 +1,142 @@
+<html lang="ja">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Cache-Control" content="no-cache">
+      <meta http-equiv="Expires" content="86400">
+      <title>視覚秘密分散法</title>
+      <link rel="stylesheet" href="subpage.css">
+
+      <script language="javascript" type="text/javascript" src="vsss.js"></script>
+      
+    </head>
+  <body>
+  <center>
+    <!--a href="https://www.eng.yamanashi.ac.jp/open/11466/">2021年度工学部 オープンキャンパス</a><br-->
+    <div class="oc2021"> <a href="https://www.eng.yamanashi.ac.jp/open/11466/"><img src="https://www.eng.yamanashi.ac.jp/wp-content/uploads/oc-2021.jpg" width="500" alt=""/></a> 
+    <h1>
+        コンピュータ理工学科 模擬授業
+    </h1>
+    <h2>
+      担当教員：盧 暁南
+    </h2>
+    <hr>
+    <h2>
+      視覚秘密分散法を体験しよう！
+      <input type="button" value="もう一回やる" onClick="window.location.reload();">
+    </h2>
+  </center>
+  
+  <hr>
+
+  <p> 
+    <div>
+      <input type="button" value="1 IMG" onclick="load_image();">
+      <input type="button" value="2 IMG" onclick="copy_resize();">
+    </div>
+   </p>
+
+   <p id="log"></p>
+
+  <ol>
+    <li>
+      <b>秘密鍵を入力してください：</b>
+      <input type="text" id="secret" size="10" maxlength="10" value="secret">
+      <div>
+        <input type="button" value="秘密画像を生成する" onclick="generate_text();">
+      </div>
+
+      <div id="orig_img">
+        <canvas width="150" height="75" id="sample" style="background-color:white;">
+        </canvas>
+      </div>
+      
+      <div id="resized_img">
+        <canvas width="300" height="150" id="sample2" style="background-color:#F3EFE5;">
+        </canvas>
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <input type="button" value="シェアを生成する" onclick="generate_shares();">
+      </div>
+
+      <div id="share_img">
+        <table>
+          <thead>
+            <tr>
+              <th>シェア1</th>
+              <th>シェア2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <select id="share1_mode">
+                  <option value="black">黒色のシェア</option>
+                  <option value="red">赤色のシェア</option>
+                  <option value="green">緑色のシェア</option>
+                  <option value="blue">青色のシェア</option>
+                </select>
+                <input type="button" value="再生成" onclick="generate_shares();">
+              </td>
+              <td>
+                <select id="share2_mode">
+                  <option value="black">黒色のシェア</option>
+                  <option value="red">赤色のシェア</option>
+                  <option value="green">緑色のシェア</option>
+                  <option value="blue">青色のシェア</option>
+                </select>
+                <input type="button" value="再生成" onclick="generate_shares();">
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <canvas width="300" height="150" id="share1" style="background-color:white;">
+                </canvas>
+              </td>
+              <td align="center">
+                <canvas width="300" height="150" id="share2" style="background-color:white;">
+                </canvas>
+              </td>
+            </tr>
+          </tbody>
+        <table>
+      </div>
+
+    </li>
+
+    <li>
+      <div>
+        <input type="button" value="シェアを重ね合わせる" onclick="superimpose_shares();">
+      </div>
+      <div id="decrypted_img">
+        <table>
+          <thead>
+            <tr>
+              <th>シェアを重ね合わせた結果</th>
+              <th>拡大表示</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <canvas width="300" height="150" id="superimposed" style="background-color:white;">
+                </canvas>
+              </td>
+              <td align="center">
+                <canvas id="pixelated-zoom" width="150" height="150"></canvas>
+              </td>
+            </tr>
+          </tbody>
+        <table>
+      </div>
+    </li>
+  </ol>
+
+  
+
+  <hr>
+</body></html>
+  

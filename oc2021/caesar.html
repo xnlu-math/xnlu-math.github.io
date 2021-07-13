@@ -1,0 +1,44 @@
+<html lang="ja">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Cache-Control" content="no-cache">
+      <meta http-equiv="Expires" content="86400">
+      <title>シーザー暗号を解読してみよう！</title>
+      <link rel="stylesheet" href="subpage.css">
+
+      <script language="javascript" type="text/javascript" src="caesar.js"></script>
+
+    </head>
+  <body>
+  <center>
+    <!--a href="https://www.eng.yamanashi.ac.jp/open/11466/">2021年度工学部 オープンキャンパス</a><br-->
+    <div class="oc2021"> <a href="https://www.eng.yamanashi.ac.jp/open/11466/"><img src="https://www.eng.yamanashi.ac.jp/wp-content/uploads/oc-2021.jpg" width="500" alt=""/></a> 
+    <h1>
+        コンピュータ理工学科 模擬授業
+    </h1>
+    <h2>
+      担当教員：盧 暁南
+    </h2>
+    <hr>
+    <h2>
+      シーザー暗号を解読してみよう！
+      <input type="button" value="もう一回やる" onClick="window.location.reload();">
+    </h2>
+  </center>
+  
+  <hr>
+  <p><b>暗号文</b>: 
+    <div id="caesar_text"></div>
+    <div id="current_text", style="display:none"></div>
+    <script>showCaesarCiphertext(); </script>
+  </p>
+
+  <p>
+    <input type="button" value="解読してみる" onclick="OnButtonClickCaesar();">
+    <div id="output_caesar"></div>
+  </p>
+
+  <hr>
+</body></html>
+  
