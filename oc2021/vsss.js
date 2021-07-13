@@ -181,6 +181,10 @@ function superimpose_shares() {
 
     var canvass = document.getElementById('superimposed');
     var ctxs = canvass.getContext('2d');
+
+    canvass.width = canvas1.width;
+    canvass.height = canvas1.height;
+
     ctxs.clearRect(0, 0, canvass.width, canvass.height);
     var imageDatas=ctxs.getImageData(0, 0, canvass.width, canvass.height);
     var datas = imageDatas.data;
