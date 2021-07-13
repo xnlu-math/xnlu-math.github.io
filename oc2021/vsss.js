@@ -18,16 +18,11 @@ function load_image(fname){
         canvas.height = img.naturalHeight;
         ctx.drawImage(img, 0, 0);
 
-        _log(img.width + " " + img.height + " ");
         //draw a box over the top
         //ctx.fillStyle = "rgba(200, 0, 0, 0.5)";
         //ctx.fillRect(0, 0, 500, 500);
 
-        _log("aaaa");
         var imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
-        
-        _log(3);
-        _log("bbbb")
         var data=imgData.data;
 
         
@@ -91,15 +86,8 @@ function generate_text() {
 function generate_shares() {
     var canvas = document.getElementById('sample');
     var ctx = canvas.getContext('2d');
-    try {
-        var imageData=ctx.getImageData(0, 0, canvas.width, canvas.height);
-    
-    } catch(e) {}
-
     var imageData=ctx.getImageData(0, 0, canvas.width, canvas.height);
-    alert("bbb");
     var data = imageData.data;
-    alert("ccc");
 
     //for (var i = 0; i < data.length; i += 4) {
         //data[i]     = 255 - data[i];     // red
@@ -113,6 +101,11 @@ function generate_shares() {
 
     var canvas1 = document.getElementById('share1');
     var ctx1 = canvas1.getContext('2d');
+
+    canvas1.width = 2*canvas.width;
+    canvas1.height = 2*canvas.height;
+
+
     ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
     var imageData1=ctx1.getImageData(0, 0, canvas1.width, canvas1.height);
     var data1 = imageData1.data;
@@ -131,6 +124,10 @@ function generate_shares() {
 
     var canvas2 = document.getElementById('share2');
     var ctx2 = canvas2.getContext('2d');
+
+    canvas2.width = 2*canvas.width;
+    canvas2.height = 2*canvas.height;
+
     ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
     var imageData2=ctx2.getImageData(0, 0, canvas2.width, canvas2.height);
     var data2 = imageData2.data;
