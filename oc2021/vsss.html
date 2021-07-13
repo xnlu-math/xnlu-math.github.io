@@ -28,13 +28,7 @@
   </center>
   
   <hr>
-
-  <p> 
-    <div>
-      <input type="button" value="1 IMG" onclick="load_image();">
-      <input type="button" value="2 IMG" onclick="copy_resize();">
-    </div>
-   </p>
+  
 
    <p id="log"></p>
 
@@ -43,7 +37,11 @@
       <b>秘密鍵を入力してください：</b>
       <input type="text" id="secret" size="10" maxlength="10" value="secret">
       <div>
-        <input type="button" value="秘密画像を生成する" onclick="generate_text();">
+        <input type="button" value="入力文字の秘密画像を生成する" onclick="generate_text();">
+        <div>
+          <input type="button" value="山梨大学ブランドマークを生成する" onclick="load_image('logo.png');">
+          <input type="button" value="山梨大学学章を生成する" onclick="load_image('logo2.jpg');">
+        </div>
       </div>
 
       <div id="orig_img">

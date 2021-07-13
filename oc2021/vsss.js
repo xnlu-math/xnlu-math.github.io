@@ -7,45 +7,32 @@ function _log(string){
     document.getElementById("log").innerHTML += string; 
 }
 
-function load_image(fname){
+function load_image(img_name){
     var canvas = document.getElementById('sample');
-    var ctx = canvas.getContext("2d")
+    var ctx = canvas.getContext("2d");
+
+    var canvas2 = document.getElementById('sample2');
+    var ctx2 = canvas2.getContext('2d');
 
     img = new Image()
     img.onload = function () {
         //draw background image
         canvas.width = img.naturalWidth;
         canvas.height = img.naturalHeight;
-        ctx.drawImage(img, 0, 0);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0);    
 
-        //draw a box over the top
-        //ctx.fillStyle = "rgba(200, 0, 0, 0.5)";
-        //ctx.fillRect(0, 0, 500, 500);
-
-        var imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
-        var data=imgData.data;
-
-        
-        for(var i = 0; i < data.length; i += 4) {
-          var grayscale= 0.33*data[i]+0.5*data[i+1]+0.15*data[i+2];
-          data[i]=grayscale;
-          data[i+1]=grayscale;
-          data[i+2]=grayscale;
-        }
-
-
+        canvas2.width = 2*img.naturalWidth;
+        canvas2.height = 2*img.naturalHeight;
+        ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+        ctx2.drawImage(img, 0, 0, canvas.width, canvas.height, 0, 0, canvas2.width, canvas2.height);
     };
-    //img.src = 'https://www.dropbox.com/s/eg7jqasc8bktt12/logo2.jpg';
-    img.src = "logo.png"
+    img.src = img_name;
     //img.crossOrigin = "Anonymous";
-    //ctx.clearRect(0, 0, canvas.width, canvas.height);
-    //ctx.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, canvas.width, canvas.height);
 }
-
 
 function copy_resize() {
     var canvas = document.getElementById('sample');
-
     var canvas2 = document.getElementById('sample2');
     var ctx2 = canvas2.getContext('2d');
 
@@ -55,7 +42,6 @@ function copy_resize() {
     ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
     ctx2.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, canvas2.width, canvas2.height);
 }
-
 
 function draw(str) {
     var canvas = document.getElementById('sample');
@@ -68,19 +54,7 @@ function draw(str) {
 function generate_text() {
     var secret_str = document.getElementById('secret').value;
     draw(secret_str);
-
-    var canvas = document.getElementById('sample');
-    //var ctx = canvas.getContext('2d');
-    //var imageData=ctx.getImageData(0, 0, canvas.width, canvas.height);
-    //var data = imageData.data;
-
-    var canvas2 = document.getElementById('sample2');
-    var ctx2 = canvas2.getContext('2d');
-    ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
-    ctx2.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, canvas2.width, canvas2.height);
-
-    //var imageData2=ctx2.getImageData(0, 0, canvas2.width, canvas2.height);
-    //ctx2.putImageData(imageData2, 0, 0);
+    copy_resize();
 }
 
 function generate_shares() {
