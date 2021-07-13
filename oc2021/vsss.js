@@ -47,7 +47,7 @@ function draw(str) {
     str_width = ctx.measureText(str).width;
     //str_height = ctx.measureText(str).height;
     canvas.width = str_width + 20;
-    //canvas.height = str_height + 50;
+    canvas.height = 75;
 
     ctx.font = "48px serif";
     ctx.clearRect(0, 0, canvas.width, canvas.height);
