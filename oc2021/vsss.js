@@ -3,10 +3,6 @@ created by 盧 暁南@ 山梨大学
 2021/7
 */
 
-function _log(string){
-    document.getElementById("log").innerHTML += string; 
-}
-
 function load_image(img_name){
     var canvas = document.getElementById('sample');
     var ctx = canvas.getContext("2d");
@@ -22,8 +18,8 @@ function load_image(img_name){
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0);    
 
-        canvas2.width = 2*img.naturalWidth;
-        canvas2.height = 2*img.naturalHeight;
+        canvas2.width = 2*canvas.width;
+        canvas2.height = 2*canvas.height;
         ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
         ctx2.drawImage(img, 0, 0, canvas.width, canvas.height, 0, 0, canvas2.width, canvas2.height);
     };
