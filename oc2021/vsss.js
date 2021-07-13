@@ -42,8 +42,15 @@ function copy_resize() {
 function draw(str) {
     var canvas = document.getElementById('sample');
     var ctx = canvas.getContext('2d');
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.font = "48px serif";
+
+    str_width = ctx.measureText(str).width;
+    //str_height = ctx.measureText(str).height;
+    canvas.width = str_width + 20;
+    //canvas.height = str_height + 50;
+
+    ctx.font = "48px serif";
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillText(str, 10, 50);
 }
 
