@@ -71,7 +71,7 @@ var confURL21=[
 ]
 			
 var confRmks21=[
-	"講演題目：Searching for edges in a multi-partite graph",
+	"講演題目：Searching for edges in a multi-partite graph (応用数学分科会，一般講演) 9/14",
 	"",
 	"講演題目：SATソルバーの組合せデザイン問題への応用事例",
 	"",
