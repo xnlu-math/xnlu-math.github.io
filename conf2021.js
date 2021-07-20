@@ -3,7 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 */
 
 var confName21=[
-	"日本数学会2020年度秋季総合分科会",
+	"日本数学会2021年度秋季総合分科会",
 	"Japanese Conference on Combinatorics and its Applications 2021・離散数学とその応用研究集会2021",
 	"名古屋組合せ論セミナー (実験計画法とその周辺・オンラインセミナーと共同開催)",
 	"Colloquium on Combinatorial Designs (组合设计青年论坛)",
