@@ -4,7 +4,7 @@
       <meta http-equiv="Pragma" content="no-cache">
       <meta http-equiv="Cache-Control" content="no-cache">
       <meta http-equiv="Expires" content="86400">
-      <title>RSA暗号方式を体験しよう！</title>
+      <title>RSA暗号方式体験</title>
       <link rel="stylesheet" href="subpage.css">
 
       <style>
@@ -17,7 +17,7 @@
           float: left;
           width: 50%;
           padding: 10px;
-          border: 2px solid #c1b4f8;
+          border: 1px solid #a7a5a5;
         }
         
         /* Clear floats after the columns */
@@ -32,164 +32,168 @@
 
     </head>
   <body>
-  <center>
-    <!--a href="https://www.eng.yamanashi.ac.jp/open/11466/">2021年度工学部 オープンキャンパス</a><br-->
-    <div class="oc2021"> <a href="https://www.eng.yamanashi.ac.jp/open/11466/"><img src="https://www.eng.yamanashi.ac.jp/wp-content/uploads/oc-2021.jpg" width="500" alt=""/></a> 
-      <h1>
-          コンピュータ理工学科 模擬授業
-      </h1>
-      <h2>
-        担当教員：盧 暁南
-      </h2>
-    <hr>
-    <h2>
-      RSA暗号方式を体験しよう！
-      <input type="button" value="もう一回やる" onClick="window.location.reload();">
-    </h2>
-  </center>
-  
-
-  <hr>
-  <div class="row">
-    <div class="column" id="Alice">
-      <h2>
-        Aliceです．Bobに大切なメッセージを送ってもらいます． 
-    　</h2>
+    <div style="text-align:center;">
+      <!--a href="https://www.eng.yamanashi.ac.jp/open/11466/">2021年度工学部 オープンキャンパス</a><br-->
+      <div class="oc2021"> 
+        <a href="https://www.eng.yamanashi.ac.jp/open/11466/"><img src="https://www.eng.yamanashi.ac.jp/wp-content/uploads/woc-2021.png" width="700" alt=""/></a> 
+        <h2>工学部コンピュータ理工学科 模擬授業</h2>
+        <h1>秘密情報を守ろう ~暗号技術入門~</h1>
+        <h2>担当教員：盧 暁南 (コンピュータ理工学科)</h2>
       <hr>
-      <h3>
-        準備（鍵の生成）
-      </h3>
-      <ol>
-        <li>
-          <p>
-            <b>素数 p を入力してください：</b> p =
-            <input type="text" id="prime_p" size="10" maxlength="10"><br>
-            <b>素数 q を入力してください：</b> q =
-            <input type="text" id="prime_q" size="10" maxlength="10"><br>
-            <input type="button" value="N=p*q を計算する" onclick="OnButtonClickShowN();"><br>
-            <div id="key_N_show"></div>
-            <div id="key_N_alice", style="display:none"></div>
-          </p>
-        </li>
-      
-        <li>
-          <p>
-            <b>(p-1)*(q-1) と互いに素な整数 e を入力してください：</b> <br>
-            <div>
-              <font color="green">公開鍵 e</font> = 
-              <input type="text" id="key_e" size="20" maxlength="20">
-            </div>
-          </p>
-        </li>
-
-        <li>
-          <p>
-            <input type="button" value="p, q と e を用いて秘密鍵 d を計算する" onclick="OnButtonClickCalcD();"><br>
-            <div id="key_d"></div>
-            <!--font color="red">秘密鍵 d</font>=
-            <input type="password" id="key_d" size="20" maxlength="20" readonly><br-->
-          </p>
-        </li>
-
-        <li>
-          <p>
-            公開鍵 N と e を 
-            <input type="button" value="Bob に送信する" onclick="OnButtonClickSendKey();">
-          </p>
-        </li>
-    </ol>
-
-    <hr>
-    <h3>
-      暗号文の復号
-    </h3>
-    <ol start="5">
-      <li>
-        <p>
-          Bobからの暗号文を受け取る．<br>
-          <font color="blue">暗号文</font> = 
-          <input type="text" id="ciper_text_alice" size="50" maxlength="50" readonly><br>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          <input type="button" value="公開鍵 N と秘密鍵 d を用いて復号する" onclick="OnButtonClickDecrypt();">
-          <div id="decrypted_text"></div>
-        </p>
-      </li>
-
-    </ol>
-
-
-    </div>
-    <div class="column" id="Bob">
       <h2>
-        Bobです．Aliceに秘密メッセージを送ります．
-    　</h2>
-     <hr>
-     <h3>
-       準備
-     </h3>
-     <ol>
-      <li>
-        <p>
-          Aliceからの公開鍵を受け取る．<br>
-          <font color="green">公開鍵 N</font> =
-          <input type="text" id="key_N_bob" size="20" maxlength="20" readonly><br>
-          <font color="green">公開鍵 e</font> =
-          <input type="text" id="key_e_bob" size="20" maxlength="20" readonly><br>
-        </p>
-      </li>
-    </ol>
-    <hr>
-
-    <h3>
-      平文（メッセージ）の暗号化
-    </h3>
-    <ol start="2">
-      <li>
-        <p>
-        <b>メッセージを入力してください：</b>
-        <input type="text" id="plain_text" size="20" maxlength="10">
-        <!--input type="button" value="整数に変換する" onclick="OnButtonClickToUni();"-->
-      </p>
-    </li>
-    <li>
-      <p>
-        <input type="button" value="暗号化する" onclick="OnButtonClickEncrypt();">
-        <div id="ciper_text_show"></div>
-        <div id="ciper_text_bob", style="display:none"></div>
-      </p>
-    </li>
-
-    <li>
-      <p>
-        暗号文を 
-        <input type="button" value="Alice に送信する" onclick="OnButtonClickSendCipertext();">
-      </p>
-    </li>
-
-  </ol>
-
-      <!--p>
-        <input type="text" id="plain_text_uni" size="100" readonly>
-      </p>
-      <p>
-        <input type="button" value="文字に変換する" onclick="OnButtonClickToTxt();">
-        <input type="text" id="plain_text_txt" size="20" readonly>
-      </p-->
-
-
+        RSA暗号方式体験
+        <input type="button" value="もう一回やる" onClick="window.location.reload();">
+      </h2>
     </div>
-  </div>
-
-
   
+
+  <br>
+  <table style="margin:auto">
+    <tr>
+      <td>
+
+        <div class="row">
+          <div class="column" id="Alice">
+            <h2>
+              Aliceです．<br>Bobに秘密メッセージを送ってもらいます． 
+          　</h2>
+            <hr>
+            <h3>
+              ① 公開鍵と秘密鍵を作成して公開鍵を公開する
+            </h3>
+            <ol>
+              <li>
+                <p>
+                  <b>素数 p を入力してください：</b> p =
+                  <input type="text" id="prime_p" size="10" maxlength="10"><br>
+                  <b>素数 q を入力してください：</b> q =
+                  <input type="text" id="prime_q" size="10" maxlength="10"><br>
+                  <input type="button" value="N=p*q を計算する" onclick="OnButtonClickShowN();"><br>
+                  <div id="key_N_show"></div>
+                  <div id="key_N_alice", style="display:none"></div>
+                </p>
+              </li>
+            
+              <li>
+                <p>
+                  <b>(p-1)*(q-1) と互いに素な整数 e を入力してください：</b> <br>
+                  <div>
+                    <font color="green">公開指数 e</font> = 
+                    <input type="text" id="key_e" size="20" maxlength="20">
+                  </div>
+                </p>
+              </li>
+      
+              <li>
+                <p>
+                  <input type="button" value="p, q と e を用いて秘密指数 d を計算する" onclick="OnButtonClickCalcD();"><br>
+                  <!--input type="hidden" id="key_d_alice"-->
+                  <div>
+                    <font color="red">秘密指数 d</font> =
+                    <input type="text" id="key_d_alice" size="20" maxlength="20">
+                  </div>
+                  <div id="key_d"></div>
+                </p>
+              </li>
+      
+              <li>
+                <p>
+                  公開鍵 (N, e) を 
+                  <input type="button" value="Bob に送信する (公開する)" onclick="OnButtonClickSendKey();">
+                </p>
+              </li>
+          </ol>
+      
+          <hr>
+          <h3>
+            ③ 暗号文を復号する (暗号解読)
+          </h3>
+          <ol start="5">
+            <li>
+              <p>
+                Bobからの暗号文を受け取る．<br>
+                <font color="blue">暗号文</font> = 
+                <input type="text" id="ciper_text_alice" size="50" maxlength="50" readonly><br>
+              </p>
+            </li>
+      
+            <li>
+              <p>
+                <input type="button" value="秘密鍵 (N, d) を用いて復号する" onclick="OnButtonClickDecrypt();">
+                <div id="decrypted_text"></div>
+              </p>
+            </li>
+      
+          </ol>
+      
+      
+          </div>
+          <div class="column" id="Bob">
+            <h2>
+              Bobです．<br>Aliceに秘密メッセージを送ります．
+          　</h2>
+           <hr>
+           <h3>
+             ② 平文 (メッセージ) を暗号化する
+           </h3>
+           <ol>
+            <li>
+              <p>
+                Aliceからの公開鍵を受け取る．<br>
+                <font color="green">公開鍵の N</font> =
+                <input type="text" id="key_N_bob" size="20" maxlength="20" readonly><br>
+                <font color="green">公開鍵の e</font> =
+                <input type="text" id="key_e_bob" size="20" maxlength="20" readonly><br>
+              </p>
+            </li>
+            
+            <li>
+              <p>
+              <b>メッセージを入力してください：</b>
+              <input type="text" id="plain_text" size="20" maxlength="10">
+              <!--input type="button" value="整数に変換する" onclick="OnButtonClickToUni();"-->
+            </p>
+          </li>
+          <li>
+            <p>
+              <input type="button" value="公開鍵 (N, e) を用いて暗号化する" onclick="OnButtonClickEncrypt();">
+              <div id="ciper_text_show"></div>
+              <div id="ciper_text_bob", style="display:none"></div>
+            </p>
+          </li>
+      
+          <li>
+            <p>
+              暗号文を 
+              <input type="button" value="Alice に送信する" onclick="OnButtonClickSendCipertext();">
+            </p>
+          </li>
+      
+        </ol>
+      
+            <!--p>
+              <input type="text" id="plain_text_uni" size="100" readonly>
+            </p>
+            <p>
+              <input type="button" value="文字に変換する" onclick="OnButtonClickToTxt();">
+              <input type="text" id="plain_text_txt" size="20" readonly>
+            </p-->
+      
+      
+          </div>
+        </div>
+      
+    </td>
+  </tr>
+  </table>
   
 
 
 
   <hr>
+  <p>
+    <a href="index.html">戻る</a>
+  </p>
+    </div>
 </body></html>
   

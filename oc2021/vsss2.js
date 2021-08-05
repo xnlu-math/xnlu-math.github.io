@@ -74,6 +74,27 @@ function copy_resize(id_from, it_to, scale) {
     ctx2.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, canvas2.width, canvas2.height);
 }
 
+
+function copy_resize2(id_from, it_to, scale) {
+    var canvas = document.getElementById(id_from);//'sample'
+    var canvas2 = document.getElementById(it_to);//'sample2'
+    var ctx2 = canvas2.getContext('2d'); 
+
+
+    canvas2.width = scale * canvas.width;
+    canvas2.height = scale * canvas.height;
+
+    ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+
+
+    ctx2.imageSmoothingEnabled = false;
+    ctx2.mozImageSmoothingEnabled = false;
+    ctx2.webkitImageSmoothingEnabled = false;
+    ctx2.msImageSmoothingEnabled = false;
+    ctx2.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, canvas2.width, canvas2.height);
+}
+
+
 function draw(str) {
     var canvas = document.getElementById('sample');
     var ctx = canvas.getContext('2d');
@@ -145,10 +166,11 @@ function generate_shares() {
     
     var mode_colors =[
         [ 0,     0,   0 ],
-        [ 208,  17,  38 ],
-        [ 0,   158, 150 ],
-        [ 0,   123, 193 ],
-        [ 95,   36, 128 ]
+        [ 255,   0,   0 ],
+        [ 0,   255,   0 ],
+        [ 0,     0, 255 ],
+        [ 95,   36, 128 ],
+        [ 0,   123, 193 ]
     ];
     const share_mode1 = document.getElementById('share1_mode').selectedIndex;
     if (share_mode1 > 0 ){ //red or green or blue or budou or aoi mode
@@ -177,6 +199,10 @@ function generate_shares() {
 
     copy_resize('share1', 'share1s', 1);
     copy_resize('share2', 'share2s', 1);
+
+    copy_resize2('share1', 'share1ext', 5);
+    copy_resize2('share2', 'share2ext', 5);
+
 }
 
 
@@ -245,7 +271,6 @@ function superimpose_shares() {
         zoom(pixelatedZoomCtx, x, y);
     });
 
-
 }
 
 function setPixel(imageData, x, y, r, g, b, a) {
@@ -312,6 +337,68 @@ function gen_logo1() {
 
 function gen_logo2() {
     load_image('./img/B-5.jpeg');
-    document.getElementById('share1_mode').selectedIndex = 3;
-    document.getElementById('share2_mode').selectedIndex = 3;
+    document.getElementById('share1_mode').selectedIndex = 5;
+    document.getElementById('share2_mode').selectedIndex = 5;
+}
+
+function preview_image(event) {
+    var canvas = document.getElementById('sample');
+    var ctx = canvas.getContext("2d");
+
+    var canvas2 = document.getElementById('sample2');
+    var ctx2 = canvas2.getContext('2d');
+
+    var reader = new FileReader();
+    reader.onload = function(){
+        var output = document.getElementById('output_image');
+
+        img = new Image()
+        img.onload = function () {
+            //draw background image
+            canvas.width = img.naturalWidth;
+            canvas.height = img.naturalHeight;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, 0, 0);
+
+            if (2*canvas.width > MAX_W){
+                var MAX_H = canvas.height / canvas.width * MAX_W;
+                canvas2.width = MAX_W;
+                canvas2.height = MAX_H;
+            }
+            else{
+                canvas2.width = 2*canvas.width;
+                canvas2.height = 2*canvas.height;
+            }
+
+            ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+            ctx2.drawImage(img, 0, 0, canvas.width, canvas.height, 0, 0, canvas2.width, canvas2.height);
+        };
+        img.src = reader.result; //img_name;
+        //img.crossOrigin = "Anonymous";
+
+        //output.src = reader.result;
+    }
+    reader.readAsDataURL(event.target.files[0]);
+
+
+    
+
+    var imageData=ctx.getImageData(0, 0, canvas.width, canvas.height);
+    var data = imageData.data;
+
+    var newColor = {r:0, g:0, b:0, a:0};
+    for (var i = 0; i < data.length; i += 4) {
+        var r = data[i], g = data[i+1], b = data[i+2];
+        if(r == 255 && g == 255 && b == 255){ 
+            // Change the white 
+            data[i] = newColor.r;
+            data[i+1] = newColor.g;
+            data[i+2] = newColor.b;
+            data[i+3] = newColor.a;
+        }
+    }
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    //ctx.putImageData(imageData, 0, 0);​
+
+
 }
