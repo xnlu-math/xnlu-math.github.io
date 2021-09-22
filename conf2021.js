@@ -3,6 +3,10 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 */
 
 var confName21=[
+	"The 2021 IEEE Information Theory Workshop (ITW2021)",
+	"第62回大阪組合せ論セミナー",
+	"CMSA (Combinatorial Mathematics Society of Australasia) Seminar", 
+	"IEICE ICT PIONEERS WEBINARシリーズ～第15弾～",
 	"日本数学会2021年度秋季総合分科会",
 	"Japanese Conference on Combinatorics and its Applications 2021・離散数学とその応用研究集会2021",
 	"名古屋組合せ論セミナー (実験計画法とその周辺・オンラインセミナーと共同開催)",
@@ -14,12 +18,16 @@ var confName21=[
 	"電子情報通信学会 情報理論研究会（IT）・マルチメディア情報ハイディング・エンリッチメント研究会（EMM）",
 	"第33回「Friday Tea Time Zoom Seminar」",
 	"信阳师范学院数学与统计学院学术报告会",
-	"大阪組合せ論セミナー",
+	"第60回大阪組合せ論セミナー",
 	"2021年度第1回の早稲田大学整数論セミナー",
 	"CMSA (Center of Mathematical Sciences and Applications, Harvard) Math-Science Literature Lecture Series"
 ]
 			
 var confPlace21=[
+	"Zoom",
+	"Zoom",
+	"Zoom",
+	"Zoom",
 	"Zoom (千葉大学主催)",
 	"Zoom (慶應義塾大学三田キャンパスより配信)",
 	"Zoom",
@@ -37,6 +45,10 @@ var confPlace21=[
 ]
 			
 var confData21=[
+	"October 17-21, 2021",
+	"2021年10月16日, 13:30-17:00",
+	"September 29, 2021, 17:00 AEST",
+	"2021年9月22日, 13:30-15:00",
 	"2021年9月14日～17日",
 	"2021年8月17日～19日",
 	"2021年7月19日, 14:30-16:00",
@@ -48,12 +60,16 @@ var confData21=[
 	"2021年5月20日～21日",
 	"2021年5月14日, 15:30-16:30",
 	"2021年4月30日, 15:00-16:30",
-	"2021年4月15日, 13:30-17:00",
+	"2021年4月17日, 13:30-17:00",
 	"2021年4月9日, 16:30-18:00",
 	"April 8, 2021, 9:00-10:30 ET"
 ]
 			
 var confURL21=[
+	"http://itw2021.org/",
+	"http://sv2-mat.ist.osaka-u.ac.jp/~higashitani/seminar.html",
+	"http://combinatorics-australasia.org/seminars.html#Kamcev",
+	"https://www.ieice.org/jpn_r/activities/webinar/pioneers/20210922.html",
 	"http://www.mathsoc.jp/activity/meeting/chiba21sept/",
 	"https://sites.google.com/view/jcca-dmia-2021/",
 	"http://www.ist.aichi-pu.ac.jp/~hirao/nagoya_seminar.html",
@@ -71,6 +87,10 @@ var confURL21=[
 ]
 			
 var confRmks21=[
+	"",
+	"",
+	"",
+	"",
 	"講演題目：Searching for edges in a multi-partite graph (応用数学分科会，一般講演) 9/14",
 	"",
 	"講演題目：SATソルバーの組合せデザイン問題への応用事例",
