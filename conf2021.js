@@ -3,7 +3,11 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 */
 
 var confName21=[
+	"実験計画法とその周辺・オンラインセミナー", 
+	"大阪大学AI・データ利活用研究会 第21回",
+	"Catch-all Mathematical Colloquium of Japan",
 	"The 2021 IEEE Information Theory Workshop (ITW2021)",
+	"Colloquium on Combinatorial Designs (组合设计青年论坛)",
 	"第62回大阪組合せ論セミナー",
 	"CMSA (Combinatorial Mathematics Society of Australasia) Seminar", 
 	"IEICE ICT PIONEERS WEBINARシリーズ～第15弾～",
@@ -24,7 +28,11 @@ var confName21=[
 ]
 			
 var confPlace21=[
+	"Zoom (愛知県立大学より配信)",
 	"Zoom",
+	"Zoom",
+	"Zoom",
+	"腾讯会议",
 	"Zoom",
 	"Zoom",
 	"Zoom",
@@ -45,7 +53,11 @@ var confPlace21=[
 ]
 			
 var confData21=[
+	"2021年11月4日, 13:00-14:30",
+	"2021年10月22日, 18:15-20:15",
+	"2021年10月21日, 9:00-11:00",
 	"October 17-21, 2021",
+	"2021年10月17日, 8:30-12:00 (UTC+8)",
 	"2021年10月16日, 13:30-17:00",
 	"September 29, 2021, 17:00 AEST",
 	"2021年9月22日, 13:30-15:00",
@@ -66,7 +78,11 @@ var confData21=[
 ]
 			
 var confURL21=[
+	"http://www.ist.aichi-pu.ac.jp/~hirao/design_seminar.html",
+	"http://www-mmds.sigmath.es.osaka-u.ac.jp/structure/activity/ai_data.php?id=24",
+	"https://sites.google.com/view/catch-allmathematicscolloquium/past-event/2021-october?authuser=0",
 	"http://itw2021.org/",
+	"https://yue-zhou-ovgu.github.io/Colloquium/",
 	"http://sv2-mat.ist.osaka-u.ac.jp/~higashitani/seminar.html",
 	"http://combinatorics-australasia.org/seminars.html#Kamcev",
 	"https://www.ieice.org/jpn_r/activities/webinar/pioneers/20210922.html",
@@ -87,6 +103,10 @@ var confURL21=[
 ]
 			
 var confRmks21=[
+	"",
+	"",
+	"",
+	"",
 	"",
 	"",
 	"",
