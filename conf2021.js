@@ -3,6 +3,11 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 */
 
 var confName21=[
+	"日本数学会2022年度年会",
+	"2021年度応用数学合同研究集会",
+	"43rd Australasian Combinatorics Conference",
+	"実験計画法とその周辺・オンラインセミナー", 
+	"Catch-all Mathematical Colloquium of Japan",
 	"実験計画法とその周辺・オンラインセミナー", 
 	"大阪大学AI・データ利活用研究会 第21回",
 	"Catch-all Mathematical Colloquium of Japan",
@@ -28,6 +33,11 @@ var confName21=[
 ]
 			
 var confPlace21=[
+	"埼玉大学",
+	"Zoom",
+	"Zoom (Delivered Online from the University of Melbourne)",
+	"Zoom",
+	"Zoom",
 	"Zoom (愛知県立大学より配信)",
 	"Zoom",
 	"Zoom",
@@ -53,6 +63,11 @@ var confPlace21=[
 ]
 			
 var confData21=[
+	"2022年3月28日～31日",
+	"2021年12月17日～19日",
+	"December 13-17, 2021",
+	"2021年11月25日, 10:30-12:00",
+	"2021年11月24日, 15:00-17:00",
 	"2021年11月4日, 13:00-14:30",
 	"2021年10月22日, 18:15-20:15",
 	"2021年10月21日, 9:00-11:00",
@@ -78,6 +93,11 @@ var confData21=[
 ]
 			
 var confURL21=[
+	"https://www.mathsoc.jp/activity/meeting/saitama22mar/index.html",
+	"https://infoshako.sk.tsukuba.ac.jp/~cam/2021/",
+	"https://43acc.ms.unimelb.edu.au/",
+	"http://www.ist.aichi-pu.ac.jp/~hirao/design_seminar.html",
+	"https://sites.google.com/view/catch-allmathematicscolloquium/schedule?authuser=0",
 	"http://www.ist.aichi-pu.ac.jp/~hirao/design_seminar.html",
 	"http://www-mmds.sigmath.es.osaka-u.ac.jp/structure/activity/ai_data.php?id=24",
 	"https://sites.google.com/view/catch-allmathematicscolloquium/past-event/2021-october?authuser=0",
@@ -103,6 +123,11 @@ var confURL21=[
 ]
 			
 var confRmks21=[
+	"“講演題目：Almost external difference families via cyclotomy” (応用数学分科会，一般講演)", 
+	"",
+	"Contributed talk: “Almost external difference families via cyclotomy”", 
+	"",
+	"",
 	"",
 	"",
 	"",
