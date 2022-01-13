@@ -151,7 +151,7 @@ var confURL21=[
 ]
 			
 var confRmks21=[
-	"“講演題目：Almost external difference families via cyclotomy” (応用数学分科会，一般講演)", 
+	"“講演題目：Almost external difference families via cyclotomy” (応用数学分科会，一般講演) 3/28", 
 	"",
 	"",
 	"",
