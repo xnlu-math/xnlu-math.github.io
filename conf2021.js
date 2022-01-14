@@ -43,7 +43,7 @@ var confPlace21=[
 	"埼玉大学",
 	"Zoom",
 	"WebEx (Delivered Online from Academia Sinica, Taiwan)", 
-	"サンポートホール高松・Zoom",
+	"<del>サンポートホール高松</del>・Zoom",
 	"Zoom",
 	"Zoom (Delivered Online from the University of Melbourne)",
 	"Zoom (愛知県立大学より配信)",
