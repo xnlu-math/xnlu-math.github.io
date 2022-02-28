@@ -4,6 +4,10 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 
 var confName21=[
 	"日本数学会2022年度年会",
+	"電子情報通信学会 情報理論研究会（IT）・情報セキュリティ研究会（ISEC）・ワイドバンドシステム研究会（WBS）・高信頼制御通信研究会（RCC）",
+	"WCC 2022: The Twelfth International Workshop on Coding and Cryptography",
+	"第16回組合せゲーム・パズル研究集会",
+	"第18回組合せ論若手研究集会",
 	"人工知能学会 第119回人工知能基本問題研究会・情報処理学会 第186回アルゴリズム研究会",
 	"Workshop on Algebraic Combinatorics",
 	"電子情報通信学会 情報理論研究会（IT）・信号処理研究会（SIP）・無線通信システム研究会（RCS）",
@@ -40,7 +44,11 @@ var confName21=[
 ]
 			
 var confPlace21=[
-	"埼玉大学",
+	"<del>埼玉大学</del> オンライン",
+	"Zoom",
+	"Zoom (Delivered Online from University of Rostock, Germany)",
+	"Zoom",
+	"ハイブリット形式 (慶應義塾大学+Zoom)",
 	"Zoom",
 	"WebEx (Delivered Online from Academia Sinica, Taiwan)", 
 	"<del>サンポートホール高松</del>・Zoom",
@@ -78,6 +86,10 @@ var confPlace21=[
 			
 var confData21=[
 	"2022年3月28日～31日",
+	"2022年3月10日～11日",
+	"March 7-11, 2022",
+	"2022年3月7日～8日",
+	"2022年2月17日～18日",
 	"2022年1月27日～28日",
 	"January 24-26, 2022", 
 	"2022年1月20日～21日",
@@ -115,6 +127,10 @@ var confData21=[
 			
 var confURL21=[
 	"https://www.mathsoc.jp/activity/meeting/saitama22mar/index.html",
+	"https://www.ieice.org/ken/program/index.php?tgs_regid=5f15027e3cce7282dc4d4617ed75d5ad7b45a303e384dd98b4c1987044db70c6&tgid=IEICE-IT",
+	"https://www.wcc2022.uni-rostock.de/en/",
+	"http://www.alg.cei.uec.ac.jp/itohiro/Games/Game220307.html",
+	"http://www.comb.math.keio.ac.jp/wakate22/",
 	"https://sig-fpai.org/past/fpai119.html",
 	"https://www.math.sinica.edu.tw/www/file_upload/conference/202201Alg/index.html",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=2fe1e4949931112c9b600c2aa141a14f63b9a5ff3b337c63008591099b15ddae&tgid=IEICE-IT",
@@ -152,6 +168,10 @@ var confURL21=[
 			
 var confRmks21=[
 	"“講演題目：Almost external difference families via cyclotomy” (応用数学分科会，一般講演) 3/28", 
+	"",
+	"",
+	"",
+	"",
 	"",
 	"",
 	"",
