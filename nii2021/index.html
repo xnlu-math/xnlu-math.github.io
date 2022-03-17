@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-03-17 Thu 12:11 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NII 共同研究「組合せデザイン問題を解くための SAT 型制約充足ソルバーの研究開発」</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="盧 暁南" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">NII 共同研究「組合せデザイン問題を解くための SAT 型制約充足ソルバーの研究開発」</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org6d80985">研究内容</a></li>
+<li><a href="#orga85b088">概要</a></li>
+<li><a href="#1stSymp">第１回研究会合</a>
+<ul>
+<li><a href="#org91453de">会議情報</a></li>
+<li><a href="#org9152a2b">プログラム</a></li>
+<li><a href="#org0727ff3">参加者（敬称略・順不同）</a></li>
+</ul>
+</li>
+<li><a href="#2ndSymp">第２回研究会合</a>
+<ul>
+<li><a href="#org063d834">会議情報</a></li>
+<li><a href="#org139f8d3">プログラム</a></li>
+<li><a href="#org77f0c7a">参加者（敬称略・順不同，予定）</a></li>
+</ul>
+</li>
+<li><a href="#orgdafb17e">関連リンク</a></li>
+</ul>
+</div>
+</div>
+<hr />
+<div id="outline-container-org6d80985" class="outline-2">
+<h2 id="org6d80985">研究内容</h2>
+<div class="outline-text-2" id="text-org6d80985">
+<p>
+組合せデザイン理論とは，組合せデザインと呼ばれる「均整性」を持つ組合せ構造の存在性，構成法，代数的特徴付け，などの問題を扱う組合せ数学の一分野である．近年，情報通信・大規模ストレージシステムにおける符号を含めて組合せデザイン理論に関連する研究が幅広い分野において進められている．
+</p>
+
+<p>
+組合せデザイン問題を含めて多くの組合せ問題は制約充足問題 (Constraint Satisfaction Problem; CSP) として定式化できる．CSP を命題論理式の充足可能性判定 (Satisfiability Testing; SAT) 問題へ変換し，高速な SAT ソルバーにより解く SAT 型 CSP ソルバーは，その性能向上に伴って，CSP に対する強力な解法として幅広く利用されている．
+</p>
+
+<p>
+本研究では，複雑な制約を持つ大規模な組合せデザイン問題を効率良く解くための SAT 型制約充足ソルバーの研究開発を目的とし，以下の研究開発に取り組む．
+</p>
+
+<ol class="org-ol">
+<li>組合せデザイン問題を解くための CSP 定式化と対称性除去手法の研究開発</li>
+<li>組合せデザイン問題を解くための SAT 符号化手法の研究開発</li>
+<li>組合せデザイン問題を解く制約充足ソルバーの性能評価および実応用</li>
+</ol>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-orga85b088" class="outline-2">
+<h2 id="orga85b088">概要</h2>
+<div class="outline-text-2" id="text-orga85b088">
+<ul class="org-ul">
+<li>研究課題：組合せデザイン問題を解くための SAT 型制約充足ソルバーの研究開発</li>
+<li>研究資金：2021年度 国立情報学研究所 公募型共同研究・自由提案公募型</li>
+<li>研究期間：2021年4月から2022年3月</li>
+<li>メンバー（敬称略・順不同）</li>
+</ul>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">氏名</th>
+<th scope="col" class="org-left">担当</th>
+<th scope="col" class="org-left">所属</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">盧 暁南</td>
+<td class="org-left">研究代表者</td>
+<td class="org-left">山梨大学・総合研究部・助教</td>
+</tr>
+
+<tr>
+<td class="org-left">井上 克巳</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">国立情報学研究所・情報学プリンシプル研究系・教授</td>
+</tr>
+
+<tr>
+<td class="org-left">田村 直之</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">神戸大学・情報基盤センター・教授</td>
+</tr>
+
+<tr>
+<td class="org-left">番原 睦則</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">名古屋大学・情報学研究科・教授</td>
+</tr>
+
+<tr>
+<td class="org-left">鍋島 英知</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">山梨大学・総合研究部・准教授</td>
+</tr>
+
+<tr>
+<td class="org-left">宋 剛秀</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">神戸大学・情報基盤センター・准教授</td>
+</tr>
+
+<tr>
+<td class="org-left">早瀬 悠真</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">山梨大学・大学院医工農学総合教育部・修士課程学生</td>
+</tr>
+
+<tr>
+<td class="org-left">久保 悠</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">山梨大学・大学院医工農学総合教育部・修士課程学生</td>
+</tr>
+
+<tr>
+<td class="org-left">足立 啓一</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">神戸大学・大学院システム情報学研究科・博士課程前期課程学生</td>
+</tr>
+
+<tr>
+<td class="org-left">堀岡 真未</td>
+<td class="org-left">共同研究者</td>
+<td class="org-left">神戸大学・大学院システム情報学研究科・博士課程前期課程学生</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-1stSymp" class="outline-2">
+<h2 id="1stSymp">第１回研究会合</h2>
+<div class="outline-text-2" id="text-1stSymp">
+</div>
+
+<div id="outline-container-org91453de" class="outline-3">
+<h3 id="org91453de">会議情報</h3>
+<div class="outline-text-3" id="text-org91453de">
+<ul class="org-ul">
+<li>日時：2021年11月8日(月) 9:10-12:00</li>
+<li>場所：Zoom ミーティング</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9152a2b" class="outline-3">
+<h3 id="org9152a2b">プログラム</h3>
+<div class="outline-text-3" id="text-org9152a2b">
+<p>
+プログラムは下記の通りですが，発表の進行状況に合わせて「柔軟」に進めたいと思います．
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">2021/11/8(月)</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">9:10 - 9:15</td>
+<td class="org-left">プログラムの確認</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">9:15 - 9:45</td>
+<td class="org-left">[研究発表] SAT ソルバーを用いた Paley 行列に基づく locating array の生成</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 盧 暁南, 塚 龍二, 鍋島 英知 (山梨大)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">9:45 - 10:15</td>
+<td class="org-left">[研究発表] 決定的並列SATソルバー構築のための汎用的フレームワークの提案</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">帯津 勇斗, ○ 鍋島 英知 (山梨大)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">10:25 - 10:55</td>
+<td class="org-left">[研究発表] Modifying Initial Assignments of SAT Solvers Using Graph Neural Networks</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 渡邉 晃司（総研大）, 佐藤 泰介（NII）, 小島 諒介（京大）, 井上 克巳（NII）</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">10:55 - 11:25</td>
+<td class="org-left">[研究発表] CDCL型SATソルバーの内部動作可視化ツール</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 堀岡 真未, 宋 剛秀, 田村 直之 (神戸大)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">11:25 - 12:00</td>
+<td class="org-left">プロジェクト研究打合せ</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">- 今後の研究計画について</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">- 2022年度 NII 共同研究申請について</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">- 次回日程調整</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-org0727ff3" class="outline-3">
+<h3 id="org0727ff3">参加者（敬称略・順不同）</h3>
+<div class="outline-text-3" id="text-org0727ff3">
+<ul class="org-ul">
+<li>国立情報学研究所
+<ul class="org-ul">
+<li>井上 克巳</li>
+</ul></li>
+
+<li>神戸大学
+<ul class="org-ul">
+<li>田村 直之, 宋 剛秀, 堀岡 真未, 樋口 黎</li>
+</ul></li>
+
+<li>名古屋大学
+<ul class="org-ul">
+<li>番原 睦則</li>
+</ul></li>
+
+<li>総合研究大学院大学
+<ul class="org-ul">
+<li>渡邉 晃司</li>
+</ul></li>
+
+<li>山梨大学
+<ul class="org-ul">
+<li>鍋島 英知, 盧 暁南, 久保 悠, 吹上 翼</li>
+</ul></li>
+</ul>
+
+<hr />
+</div>
+</div>
+</div>
+<div id="outline-container-2ndSymp" class="outline-2">
+<h2 id="2ndSymp">第２回研究会合</h2>
+<div class="outline-text-2" id="text-2ndSymp">
+</div>
+
+<div id="outline-container-org063d834" class="outline-3">
+<h3 id="org063d834">会議情報</h3>
+<div class="outline-text-3" id="text-org063d834">
+<ul class="org-ul">
+<li>日時：2022年3月23日(水) 14:00-17:00</li>
+<li>場所：Zoom ミーティング</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org139f8d3" class="outline-3">
+<h3 id="org139f8d3">プログラム</h3>
+<div class="outline-text-3" id="text-org139f8d3">
+<p>
+プログラムは下記の通りですが，発表の進行状況に合わせて「柔軟」に進めたいと思います．
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">2022/3/23(水)</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">14:00 - 14:10</td>
+<td class="org-left">プログラムの確認</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">14:10 - 14:40</td>
+<td class="org-left">[研究発表] ナーススケジューリング問題の ASP 符号化の提案と適用事例</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 鍋島 英知, 田中 綜司 (山梨大)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">14:40 - 15:10</td>
+<td class="org-left">[研究発表] SAT ソルバを用いた BIBD の構成手法に関する研究（仮）</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 久保 悠, 鍋島 英知, 盧 暁南 (山梨大)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">14:10 - 15:20</td>
+<td class="org-left">休憩</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">15:20 - 15:50</td>
+<td class="org-left">[研究発表] グラフニューラルネットワークに基づく微分可能な SAT ソルバーによる連続的な SAT の解法</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Continuous SAT Solving with A Differentiable SAT Solver Based on Graph Neural Networks</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 渡邉 晃司（総研大, NII）, 佐藤 泰介（NII）, 小島 諒介（京大）, 小高 充弘（総研大, NII）, 井上 克巳（総研大, NII）</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">15:50 - 16:10</td>
+<td class="org-left">[研究発表] 独立集合問題の SAT 技術を用いた解法に関する研究</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 大森 嶺, 宋 剛秀, 田村 直之 (神戸大)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">16:10 - 16:30</td>
+<td class="org-left">[研究発表] 多値決定グラフの SAT 符号化方法に関する研究</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">○ 樋口 黎, 宋 剛秀, 田村 直之 (神戸大)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">16:30 - 17:00</td>
+<td class="org-left">プロジェクト研究打合せ</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">- 2022年度 NII 共同研究の研究計画について</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">- その他</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-org77f0c7a" class="outline-3">
+<h3 id="org77f0c7a">参加者（敬称略・順不同，予定）</h3>
+<div class="outline-text-3" id="text-org77f0c7a">
+<ul class="org-ul">
+<li>国立情報学研究所, 総合研究大学院大学
+<ul class="org-ul">
+<li>井上 克巳, 渡邉 晃司</li>
+</ul></li>
+
+<li>神戸大学
+<ul class="org-ul">
+<li>田村 直之, 宋 剛秀, 大森 嶺, 樋口 黎</li>
+</ul></li>
+
+<li>名古屋大学
+<ul class="org-ul">
+<li>番原 睦則</li>
+</ul></li>
+
+<li>山梨大学
+<ul class="org-ul">
+<li>鍋島 英知, 盧 暁南, 久保 悠</li>
+</ul></li>
+</ul>
+
+
+<hr />
+</div>
+</div>
+</div>
+<div id="outline-container-orgdafb17e" class="outline-2">
+<h2 id="orgdafb17e">関連リンク</h2>
+<div class="outline-text-2" id="text-orgdafb17e">
+<ul class="org-ul">
+<li><a href="http://www.kki.yamanashi.ac.jp/~nabesima/nii2020/">2020年度 NII共同研究 巨大な制約充足問題を解くための SAT 型 CSP ソルバーの研究開発</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: 盧 暁南</p>
+<p class="date">Created: 2022-03-17 Thu 12:11</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
