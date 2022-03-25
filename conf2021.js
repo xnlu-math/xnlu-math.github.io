@@ -4,6 +4,8 @@ Conferences attended by Xiao-Nan LU in the academic year of 2021
 
 var confName21=[
 	"日本数学会2022年度年会",
+	"Colloquium on Combinatorial Designs (组合设计青年论坛)",
+	"2022年電子情報通信学会総合大会",
 	"電子情報通信学会 情報理論研究会（IT）・情報セキュリティ研究会（ISEC）・ワイドバンドシステム研究会（WBS）・高信頼制御通信研究会（RCC）",
 	"WCC 2022: The Twelfth International Workshop on Coding and Cryptography",
 	"第16回組合せゲーム・パズル研究集会",
@@ -45,6 +47,8 @@ var confName21=[
 			
 var confPlace21=[
 	"<del>埼玉大学</del> オンライン",
+	"腾讯会议",
+	"Zoom",
 	"Zoom",
 	"Zoom (Delivered Online from University of Rostock, Germany)",
 	"Zoom",
@@ -86,6 +90,8 @@ var confPlace21=[
 			
 var confData21=[
 	"2022年3月28日～31日",
+	"2022年3月26日",
+	"2022年3月15日～18日",
 	"2022年3月10日～11日",
 	"March 7-11, 2022",
 	"2022年3月7日～8日",
@@ -127,6 +133,8 @@ var confData21=[
 			
 var confURL21=[
 	"https://www.mathsoc.jp/activity/meeting/saitama22mar/index.html",
+	"https://yue-zhou-ovgu.github.io/Colloquium/",
+	"https://www.ieice-taikai.jp/2022general/jpn/",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=5f15027e3cce7282dc4d4617ed75d5ad7b45a303e384dd98b4c1987044db70c6&tgid=IEICE-IT",
 	"https://www.wcc2022.uni-rostock.de/en/",
 	"http://www.alg.cei.uec.ac.jp/itohiro/Games/Game220307.html",
@@ -168,6 +176,8 @@ var confURL21=[
 			
 var confRmks21=[
 	"“講演題目：Almost external difference families via cyclotomy” (応用数学分科会，一般講演) 3/28", 
+	"Invited talk: “Circulant almost orthogonal arrays: statistical optimality and related combinatorial structures”",	
+	"",
 	"",
 	"",
 	"",
