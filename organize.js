@@ -7,6 +7,7 @@ Organized Workshops by Xiao-Nan LU
 
 var confPref=[
 			"",
+			"",
 			"<del>Organizing Committee Member of</del>",
 			"",
 			"Organizing Committee Member of",
@@ -16,6 +17,7 @@ var confPref=[
 			""]
 			
 var confSuf=[
+			"",
 			", 組織委員",
 			"",
 			", ミニシンポジウム「符号と暗号」 世話人",
@@ -26,6 +28,7 @@ var confSuf=[
 			"世話人"]
 
 var confName=[
+			"Japanese Conference on Combinatorics and its Applications (JCCA-2022)・離散数学とその応用研究集会2022",
 			"Japanese Conference on Combinatorics and its Applications (JCCA-2020)・離散数学とその応用研究集会2020 (DMIA2020)・スペクトラルグラフ理論および周辺領域第9回研究集会 (SGT9)",
 			"<del>the 6th Japan-Taiwan Conference on Combinatorics and its Applications (JTCCA)</del>",
 			"Japanese Conference on Combinatorics and its Applications (JCCA-2019)・離散数学とその応用研究集会2019 (DMIA2019)・スペクトラルグラフ理論および周辺領域第8回研究集会 (SGT8)",
@@ -36,6 +39,7 @@ var confName=[
 			"研究集会「実験計画法およびその周辺の組合せ構造2014」"]
 			
 var confPlace=[
+			"成蹊大学とオンラインのハイブリッド開催",
 			"<del>高知大学</del> オンライン開催",
 			"<del>Kumamoto-Jo Hall, Kumamoto, Japan</del>",
 			"都城工業高等専門学校",
@@ -46,6 +50,7 @@ var confPlace=[
 			"城崎国際アートセンター（兵庫県）"]
 	
 var confData=[
+			"2022年8月17～19日", 
 			"2020年8月18～20日", 
 			"<del>March 25-27, 2020</del>. Cancelled",
 			"2019年8月27日～29日",
@@ -56,6 +61,7 @@ var confData=[
 			"2014年12月13日～15日"]
 			
 var confURL=[
+			"https://sites.google.com/view/jcca-dmia-2022/",
 			"https://sites.google.com/view/jcca2020-dmia2020-sgt9",
 			"https://sites.google.com/site/jtcca2020/",
 			"https://sites.google.com/site/jccadmiasg2019/",
@@ -66,6 +72,7 @@ var confURL=[
 			"http://www.ist.aichi-pu.ac.jp/~hirao/kinosaki2014/kinosaki2014.html"]
 			
 var confRmks=[
+			"ミニシンポジウム「符号・暗号・人工知能」世話人：顧玉杰, <u>盧暁南</u>",
 			"ミニシンポジウム「符号と暗号」世話人：繆瑩, <u>盧暁南</u>, 佐竹翔平",
 			"日本側組織委員：千葉周也, 籾原幸二, 城本啓介, 神保雅一, <u>盧暁南</u>, 繆瑩, 三嶋美和子, 太田克弘; <br>　台湾側組織委員：陳宏賓, 傅恆霖",
 			"ミニシンポジウム「符号と暗号」世話人：繆瑩, <u>盧暁南</u>",
