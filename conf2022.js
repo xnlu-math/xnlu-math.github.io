@@ -3,6 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2022
 */
 
 var confName22=[
+	"電子情報通信学会 情報理論研究会（IT）",
 	"The 2022 IEEE International Symposium on Information Theory (ISIT)",
 	"第38回代数的組合せ論シンポジウム",
 	"2022年度 人工知能学会全国大会",
@@ -14,6 +15,7 @@ var confName22=[
 ]
 			
 var confPlace22=[
+	"岡山理科大学 (Zoom配信あり)", 
 	"Aalto University, Finland",
 	"Zoom",
 	"国立京都国際会館 (Zoom配信あり)",
@@ -25,6 +27,7 @@ var confPlace22=[
 ]
 			
 var confData22=[
+	"2022年7月21日～22日",
 	"June 26-July 1, 2022",
 	"2022年6月16日～18日",
 	"2022年6月14日～17日",
@@ -36,6 +39,7 @@ var confData22=[
 ]
 			
 var confURL22=[
+	"https://www.ieice.org/ken/program/index.php?tgs_regid=b94df07222a5c4c7c6e5dfed26a4d37f70f33fa1ad565c8a503a2c2b5e8b2b95&tgid=IEICE-IT",
 	"https://www.isit2022.org/",
 	"https://sites.google.com/view/2022-symposium-algcombin",
 	"https://www.ai-gakkai.or.jp/jsai2022/",
@@ -47,6 +51,7 @@ var confURL22=[
 ]
 			
 var confRmks22=[
+	"",
 	"“Error-Correcting Locating Arrays for Interaction Fault Location in Combinatorial Testing”", 
 	"",
 	"",
