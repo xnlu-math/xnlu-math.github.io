@@ -3,6 +3,9 @@ Conferences attended by Xiao-Nan LU in the academic year of 2022
 */
 
 var confName22=[
+	"ワークショップ「エクスパンダーグラフの新しい構成手法の確立とその応用」",
+	"Japanese Conference on Combinatorics and its Applications (JCCA-2022)・離散数学とその応用研究集会2022",
+	"ワークショップ「耐量子計算機暗号と量子情報の数理」",
 	"電子情報通信学会 情報理論研究会（IT）",
 	"The 2022 IEEE International Symposium on Information Theory (ISIT)",
 	"第38回代数的組合せ論シンポジウム",
@@ -15,6 +18,9 @@ var confName22=[
 ]
 			
 var confPlace22=[
+	"九州大学伊都キャンパス (Zoom配信あり)",
+	"成蹊大学 (Zoom配信あり)",
+	"九州大学伊都キャンパス (Zoom配信あり)",
 	"岡山理科大学 (Zoom配信あり)", 
 	"Aalto University, Finland",
 	"Zoom",
@@ -27,6 +33,9 @@ var confPlace22=[
 ]
 			
 var confData22=[
+	"2022年8月22日",
+	"2022年8月17日～19日",
+	"2022年8月1日～4日",
 	"2022年7月21日～22日",
 	"June 26-July 1, 2022",
 	"2022年6月16日～18日",
@@ -39,6 +48,9 @@ var confData22=[
 ]
 			
 var confURL22=[
+	"https://joint.imi.kyushu-u.ac.jp/post-4988/",
+	"https://sites.google.com/view/jcca-dmia-2022/",
+	"https://joint.imi.kyushu-u.ac.jp/post-5123/",
 	"https://www.ieice.org/ken/program/index.php?tgs_regid=b94df07222a5c4c7c6e5dfed26a4d37f70f33fa1ad565c8a503a2c2b5e8b2b95&tgid=IEICE-IT",
 	"https://www.isit2022.org/",
 	"https://sites.google.com/view/2022-symposium-algcombin",
@@ -51,6 +63,10 @@ var confURL22=[
 ]
 			
 var confRmks22=[
+	"",
+	"ミニシンポジウム「符号・暗号・人工知能」世話人", 
+	"",
+	"",
 	"",
 	"“Error-Correcting Locating Arrays for Interaction Fault Location in Combinatorial Testing”", 
 	"",
