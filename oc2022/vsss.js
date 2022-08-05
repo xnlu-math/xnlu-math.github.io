@@ -240,8 +240,9 @@ function superimpose_shares() {
     };
 
     canvasss.addEventListener('mousemove', function(event) {
-        const x = event.layerX;
-        const y = event.layerY;
+        x = event.offsetX;
+        y = event.offsetY;
+        //alert("x=", x, ", y=", y);
         zoom(pixelatedZoomCtx, x, y);
     });
 
