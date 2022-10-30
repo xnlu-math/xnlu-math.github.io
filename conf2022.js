@@ -4,6 +4,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2022
 
 var confName22=[
 	"ワークショップ「高度化する暗号技術と数学的技法の進展」",
+	"IEEE Information Theory Workshop (ITW) 2022",
 	"Colloquium on Combinatorial Designs (组合设计青年论坛)",
 	"「組合せ遷移」 第5回公開シンポジウム",
 	"ワークショップ「機械学習への組合せ論的アプローチ」",
@@ -26,6 +27,7 @@ var confName22=[
 			
 var confPlace22=[
 	"九州大学マス・フォア・インダストリ研究所 (Zoom配信あり)",
+	"Mumbai, India (with virtual delivery)",
 	"腾讯会议",
 	"TKP札幌ビジネスセンター赤れんが前 (Zoom配信あり)",
 	"九州大学伊都キャンパス (Zoom配信あり)",
@@ -48,6 +50,7 @@ var confPlace22=[
 			
 var confData22=[
 	"2022年11月7日～9日",
+	"Nov 1-2 (online) & 6-9 (in-person), 2022", 
 	"2022年9月24日",
 	"2022年9月22日～23日",
 	"2022年9月20日",
@@ -70,6 +73,7 @@ var confData22=[
 			
 var confURL22=[
 	"https://joint.imi.kyushu-u.ac.jp/post-6068/",
+	"https://itw2022.in/",
 	"https://yue-zhou-ovgu.github.io/Colloquium/",
 	"https://core.dais.is.tohoku.ac.jp/report/event/detail/---id-136.html",
 	"https://joint.imi.kyushu-u.ac.jp/post-5765/",
@@ -91,6 +95,7 @@ var confURL22=[
 ]
 			
 var confRmks22=[
+	"",
 	"",
 	"",
 	"",
