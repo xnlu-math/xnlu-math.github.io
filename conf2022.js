@@ -3,6 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2022
 */
 
 var confName22=[
+	"44th Australasian Combinatorics Conference (44ACC)”",
 	"Online workshop “Developments in Combinatorics”",
 	"武蔵野大学数理工学シンポジウム2022",
 	"ワークショップ「高度化する暗号技術と数学的技法の進展」",
@@ -28,6 +29,7 @@ var confName22=[
 ]
 			
 var confPlace22=[
+	"Zoom (Delivered Online from University of Otago, New Zealand",
 	"Zoom (Delivered Online from Institute for Basic Science (IBS), Korea)",
 	"武蔵野大学有明キャンパス (Zoom配信あり)",
 	"九州大学マス・フォア・インダストリ研究所 (Zoom配信あり)",
@@ -53,6 +55,7 @@ var confPlace22=[
 ]
 			
 var confData22=[
+	"Dec 12-15, 2022", 
 	"Nov 28-29, 2022", 
 	"2022年11月16日～17日",
 	"2022年11月7日～9日",
@@ -78,6 +81,7 @@ var confData22=[
 ]
 			
 var confURL22=[
+	"https://acc44.cspages.otago.ac.nz/",
 	"https://www.ibs.re.kr/ecopro/online-workshop-developments-in-combinatorics/",
 	"https://www.musashino-u.ac.jp/research/laboratory/mathematical_engineering/seminar_symposium.html#anchor2",
 	"https://joint.imi.kyushu-u.ac.jp/post-6068/",
@@ -103,6 +107,7 @@ var confURL22=[
 ]
 			
 var confRmks22=[
+	"",
 	"",
 	"",
 	"",
