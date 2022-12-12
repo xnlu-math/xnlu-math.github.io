@@ -29,7 +29,7 @@ var confName22=[
 ]
 			
 var confPlace22=[
-	"Zoom (Delivered Online from University of Otago, New Zealand",
+	"Zoom (Delivered Online from University of Otago, New Zealand)",
 	"Zoom (Delivered Online from Institute for Basic Science (IBS), Korea)",
 	"武蔵野大学有明キャンパス (Zoom配信あり)",
 	"九州大学マス・フォア・インダストリ研究所 (Zoom配信あり)",
