@@ -3,7 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2022
 */
 
 var confName22=[
-	"44th Australasian Combinatorics Conference (44ACC)”",
+	"44th Australasian Combinatorics Conference (44ACC)",
 	"Online workshop “Developments in Combinatorics”",
 	"武蔵野大学数理工学シンポジウム2022",
 	"ワークショップ「高度化する暗号技術と数学的技法の進展」",
