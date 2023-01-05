@@ -3,6 +3,10 @@ Conferences attended by Xiao-Nan LU in the academic year of 2022
 */
 
 var confName22=[
+	"日本数学会2023年度年会",
+	"日本応用数理学会第19回研究部会連合発表会",
+	"電子情報通信学会 情報理論研究会（IT）・信号処理研究会（SIP）・無線通信システム研究会（RCS）",
+	"研究集会「直交デザインと関連する組合せ論」",
 	"44th Australasian Combinatorics Conference (44ACC)",
 	"Online workshop “Developments in Combinatorics”",
 	"武蔵野大学数理工学シンポジウム2022",
@@ -29,6 +33,10 @@ var confName22=[
 ]
 			
 var confPlace22=[
+	"中央大学理工学部",
+	"岡山理科大学（ハイブリッド）",
+	"前橋テルサ（ハイブリッド）",
+	"明治大学中野キャンパス",
 	"Zoom (Delivered Online from University of Otago, New Zealand)",
 	"Zoom (Delivered Online from Institute for Basic Science (IBS), Korea)",
 	"武蔵野大学有明キャンパス (Zoom配信あり)",
@@ -55,6 +63,10 @@ var confPlace22=[
 ]
 			
 var confData22=[
+	"2023年3月15日～18日",
+	"2023年3月8日～10日",
+	"2023年1月24日～25日",
+	"2023年1月21日～22日",
 	"Dec 12-15, 2022", 
 	"Nov 28-29, 2022", 
 	"2022年11月16日～17日",
@@ -81,6 +93,10 @@ var confData22=[
 ]
 			
 var confURL22=[
+	"https://www.mathsoc.jp/activity/meeting/chuo23mar/index.html",
+	"https://jsiam.org/union2023",
+	"https://ken.ieice.org/ken/program/index.php?tgs_regid=0799a272a2a8049c0a69d3bc94a694ca608208a0ac044fe9dbdf86353fd391b1&tgid=IEICE-IT",
+	"https://sites.google.com/view/kojimomihara/Workshop/Orthogonal-Designs-and-Related-Combinatorics",
 	"https://acc44.cspages.otago.ac.nz/",
 	"https://www.ibs.re.kr/ecopro/online-workshop-developments-in-combinatorics/",
 	"https://www.musashino-u.ac.jp/research/laboratory/mathematical_engineering/seminar_symposium.html#anchor2",
@@ -107,6 +123,10 @@ var confURL22=[
 ]
 			
 var confRmks22=[
+	"発表予定",
+	"発表予定",
+	"",
+	"“Circulant almost orthogonal arrays and their statistical optimality” (1/21)",
 	"",
 	"",
 	"",
