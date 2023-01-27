@@ -123,8 +123,8 @@ var confURL22=[
 ]
 			
 var confRmks22=[
-	"発表予定",
-	"発表予定",
+	"“Covering arrays guaranteeing a passing test” (3/16 予定)",
+	"“二種類の変種を検出するためのグループテストにおける組合せ構造” (3/9 予定)",
 	"",
 	"“Circulant almost orthogonal arrays and their statistical optimality” (1/21)",
 	"",
