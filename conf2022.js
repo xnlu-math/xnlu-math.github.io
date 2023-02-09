@@ -5,6 +5,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2022
 var confName22=[
 	"日本数学会2023年度年会",
 	"日本応用数理学会第19回研究部会連合発表会",
+	"第19回組合せ論若手研究集会",
 	"電子情報通信学会 情報理論研究会（IT）・信号処理研究会（SIP）・無線通信システム研究会（RCS）",
 	"研究集会「直交デザインと関連する組合せ論」",
 	"44th Australasian Combinatorics Conference (44ACC)",
@@ -35,6 +36,7 @@ var confName22=[
 var confPlace22=[
 	"中央大学理工学部",
 	"岡山理科大学（ハイブリッド）",
+	"慶應義塾大学矢上キャンパス",
 	"前橋テルサ（ハイブリッド）",
 	"明治大学中野キャンパス",
 	"Zoom (Delivered Online from University of Otago, New Zealand)",
@@ -65,6 +67,7 @@ var confPlace22=[
 var confData22=[
 	"2023年3月15日～18日",
 	"2023年3月8日～10日",
+	"2023年2月17日～18日",
 	"2023年1月24日～25日",
 	"2023年1月21日～22日",
 	"Dec 12-15, 2022", 
@@ -95,6 +98,7 @@ var confData22=[
 var confURL22=[
 	"https://www.mathsoc.jp/activity/meeting/chuo23mar/index.html",
 	"https://jsiam.org/union2023",
+	"http://www.comb.math.keio.ac.jp/wakate23/",
 	"https://ken.ieice.org/ken/program/index.php?tgs_regid=0799a272a2a8049c0a69d3bc94a694ca608208a0ac044fe9dbdf86353fd391b1&tgid=IEICE-IT",
 	"https://sites.google.com/view/kojimomihara/Workshop/Orthogonal-Designs-and-Related-Combinatorics",
 	"https://acc44.cspages.otago.ac.nz/",
@@ -125,6 +129,7 @@ var confURL22=[
 var confRmks22=[
 	"“Covering arrays guaranteeing a passing test” (3/16 予定)",
 	"“二種類の変種を検出するためのグループテストにおける組合せ構造” (3/9 予定)",
+	"",
 	"",
 	"“Circulant almost orthogonal arrays and their statistical optimality” (1/21)",
 	"",
