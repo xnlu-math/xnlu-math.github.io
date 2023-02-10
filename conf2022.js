@@ -38,7 +38,7 @@ var confPlace22=[
 	"岡山理科大学（ハイブリッド）",
 	"慶應義塾大学矢上キャンパス",
 	"前橋テルサ（ハイブリッド）",
-	"明治大学中野キャンパス",
+	"明治大学中野キャンパス (Zoom配信あり)",
 	"Zoom (Delivered Online from University of Otago, New Zealand)",
 	"Zoom (Delivered Online from Institute for Basic Science (IBS), Korea)",
 	"武蔵野大学有明キャンパス (Zoom配信あり)",
