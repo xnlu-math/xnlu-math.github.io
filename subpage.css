@@ -61,6 +61,10 @@
 		} 
 
 
+		.sc {
+			font-variant: small-caps; 
+		}
+
 				
 		/*IE6 fix*/
 		* html body{
