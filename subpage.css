@@ -1,83 +1,118 @@
-		body {
-			margin: 0;
-			padding: 0; 
-			height: 100%; 
-			max-height: 100%; 
-			font-family:Sans-serif;
-			line-height: 1.5em;
-			background: #F3EFE5;
-			color: #68394C;
-		} 
-		
-		
-		p {
-			color: #555;
-			font-size:14px;
-		}
-		
-		p.introduction{
-			margin: 0px;
-			width:100%;
-			height:60%;
-			padding: 5px;
-		}
-		 
-		a {
-			color: #845080;
-			text-decoration: none;
-		}
-
-		h2 {
-			font-size:20px;
-			padding: 2px 0;
-			margin: 0;
-		}
-		
-		h3 {
-			font-size:18px;
-			padding: 4px 0;
-			margin: 0;
-		}
-				
-		h4 {
-			font-size:16px;
-			padding: 1px 0;
-			margin: 0;
-		}
-		
-		ul li{
-  			margin: 2px 0;
-  			font-size:14px;
-		}
-		
-				
-		ol li{
-  			margin: 2px 0;
-  			font-size:14px;
-		}
-		
-		table.lectures { 
-			font-size:14px;
-		} 
+body {
+	margin: 0;
+	padding: 0; 
+	height: 100%; 
+	max-height: 100%; 
+	font-family:Sans-serif;
+	line-height: 1.5em;
+	background: #F3EFE5;
+	color: #68394C;
+} 
 
 
-		.sc {
-			font-variant: small-caps; 
-		}
+p {
+	color: #555;
+	font-size:14px;
+}
 
-		.name_font {
-			font-size:200%; 
-			font-size:2.0em; 
-			font-weight: bold;
-		}
-				
-		/*IE6 fix*/
-		* html body{
-			padding: 100px 0 0 230px; /* Set the first value to the height of the header and last value to the width of the nav */
-		}
+p.introduction{
+	margin: 0px;
+	width:100%;
+	height:60%;
+	padding: 5px;
+}
+	
+a {
+	color: #845080;
+	text-decoration: none;
+}
+
+h2 {
+	font-size:20px;
+	padding: 2px 0;
+	margin: 0;
+}
+
+h3 {
+	font-size:18px;
+	padding: 4px 0;
+	margin: 0;
+}
 		
-		* html main{ 
-			height: 100%; 
-			width: 100%; 
-		}
+h4 {
+	font-size:16px;
+	padding: 1px 0;
+	margin: 0;
+}
+
+ul li{
+	margin: 2px 0;
+	font-size:14px;
+}
+
 		
+ol li{
+	margin: 2px 0;
+	font-size:14px;
+}
+
+.sc {
+	font-variant: small-caps; 
+}
+
+.name_font {
+	font-size:200%; 
+	font-size:2.0em; 
+	font-weight: bold;
+}
+
+.book-cover-box{
+	position:relative;overflow:visible;margin:5px 0;
+}
+.book-cover-box .bookcover{
+	border:1px solid #fff;
+	box-shadow:1px 1px 6px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow:1px 1px 4px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow:1px 1px 3px rgba(0, 0, 0, 0.7);
+	*border:1px solid #ccc;
+	display:block;
+}
+	
+		
+/*IE6 fix*/
+* html body{
+	padding: 100px 0 0 230px; /* Set the first value to the height of the header and last value to the width of the nav */
+}
+
+* html main{ 
+	height: 100%; 
+	width: 100%; 
+}
+
+/* Tables used in aboutme.html */
+.rTable { 
+	display: table;
+	margin: 10px 10px;
+	table-layout:auto; 
+}
+.rTableRow { 
+	display: table-row; 
+}
+.rTableHeading { 
+	display: table-header-group; 
+}
+.rTableBody { 
+	display: table-row-group; 
+}
+.rTableFoot { 
+	display: table-footer-group; 
+}
+.rTableCell, .rTableHead { 
+	display: table-cell; 
+	vertical-align: middle;
+}
+.rTableCellr { 
+	display: table-cell; 
+	padding: 10px;
+	vertical-align: middle;
+}
