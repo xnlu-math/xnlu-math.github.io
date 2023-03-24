@@ -65,6 +65,11 @@
 			font-variant: small-caps; 
 		}
 
+		.name_font {
+			font-size:200%; 
+			font-size:2.0em; 
+			font-weight: bold;
+		}
 				
 		/*IE6 fix*/
 		* html body{
