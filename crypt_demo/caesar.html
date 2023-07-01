@@ -1,0 +1,52 @@
+<html lang="ja">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Cache-Control" content="no-cache">
+      <meta http-equiv="Expires" content="86400">
+      <title>シーザー暗号解読</title>
+      <link rel="stylesheet" href="subpage.css">
+
+      <script language="javascript" type="text/javascript" src="caesar.js"></script>
+
+    </head>
+  <body>
+    <div style="text-align:center;">
+    <div class="oc2021"> 
+      <hr>
+      <h2>岐阜大学 工学部 電気電子・情報工学科 情報コース</h2>
+      <h1>~暗号技術入門~</h1>
+      <h2>担当教員：盧 暁南 准教授</h2>
+    <hr>
+    <h2>
+      シーザー暗号解読
+      <input type="button" value="もう一回やる" onClick="window.location.reload();">
+    </h2>
+    </div>
+  
+  <br>
+
+  <table style="margin:auto">
+    <tr>
+      <td>
+        <p><b>暗号文</b>: 
+          <div id="caesar_text"></div>
+          <div id="current_text", style="display:none"></div>
+          <script>showCaesarCiphertext(); </script>
+        </p>
+      
+        <p>
+          <input type="button" value="解読 (左に1文字ずらす)" onclick="OnButtonClickCaesar();">
+          <div id="output_caesar"></div>
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <p>
+    <a href="index.html">戻る</a>
+  </p>
+  </div>
+</body></html>
+  
