@@ -3,19 +3,29 @@ Conferences attended by Xiao-Nan LU in the academic year of 2023
 */
 
 var confName23=[
+    "2023年度応用数学合同研究集会",
+    "NII共同研究「SAT技術を用いた組合せ遷移問題の解法に関する研究」第3回全体会合",
+    "研究集会「実験計画法と関連する組合せ構造および統計教育」",
+    "早稲田大学組合せ論セミナー",
+	"電子情報通信学会 情報セキュリティ研究会 (ISEC)",
     "日本数学会 2023年度秋季総合分科会",
     "電子情報通信学会 2023年度ソサイエティ大会",
     "ワークショップ「エクスパンダーグラフの新しい構成手法の確立とその応用2」",
     "NII共同研究「SAT技術を用いた組合せ遷移問題の解法に関する研究」第2回全体会合",
     "Japanese Conference on Combinatorics and its Applications 2023 (離散数学とその応用研究集会2023)",
     "第8回豊田理研異分野若手交流会",
-	"電子情報通信学会 情報理論研究会（IT）",
+	"電子情報通信学会 情報理論研究会 (IT)",
     "The 10th Slovenian International Conference on Graph Theory",
 	"NII共同研究「SAT技術を用いた組合せ遷移問題の解法に関する研究」第1回全体会合",
-	"電子情報通信学会 情報理論研究会（IT）・マルチメディア情報ハイディング・エンリッチメント研究会（EMM）"
+	"電子情報通信学会 情報理論研究会 (IT)"
 ]
-			
+
 var confPlace23=[
+    "龍谷大学 (瀬田キャンパス)",
+    "神戸大学",
+    "広島大学教育学部 (東広島キャンパス)",
+    "早稲田大学 (西早稲田キャンパス)",
+    "サテライトキャンパスひろしま・Zoomによるハイブリッド開催",
     "東北大学 (川内北キャンパス)",
     "名古屋大学 (東山キャンパス)",
     "九州大学 (伊都キャンパス) とZoomによるハイブリッド開催",
@@ -29,6 +39,11 @@ var confPlace23=[
 ]
 			
 var confData23=[
+    "12月14日〜16日",
+    "12月6日〜7日",
+    "11月24日〜25日",
+    "11月17日",
+    "11月9日〜10日",
     "9月20日〜23日",
     "9月12日〜15日",
     "9月4日〜5日",
@@ -42,6 +57,11 @@ var confData23=[
 ]
 			
 var confURL23=[
+    "https://www.mathsoc.jp/section/appliedmath/CAM/2023/index.html",
+    "",
+    "https://sites.google.com/view/hiroshima2023/",
+    "https://sites.google.com/site/tmiezakij/algcombseminar",
+    "https://ken.ieice.org/ken/program/index.php?tgs_regid=e98d0a7b406d133e218141718f22750b8875eae182b40fe1652955bb883eb9fe&tgid=IEICE-ISEC",
     "https://www.mathsoc.jp/activity/meeting/tohoku23sept/index.html",
     "https://www.ieice.org/jpn_r/activities/taikai/society/2023/index.html",
     "https://joint.imi.kyushu-u.ac.jp/post-9243/",
@@ -55,6 +75,11 @@ var confURL23=[
 ]
 			
 var confRmks23=[
+    "講演予定",
+    "",
+    "講演予定",
+    "講演予定",
+    "",
     "“An algebraic sufficient condition for a circulant almost orthogonal array to be D-optimal” (統計数学分科会，一般講演) 9/23",
     "企画セッション「組合せ論と情報理論 ー最新動向と展望ー」オーガナイザー \\\\“複数種類の陽性検体のための非適応型グループテスト: 組合せ構造と事後確率推定” (企画セッション) 9/14",
     "",
