@@ -75,10 +75,10 @@ var confURL23=[
 ]
 			
 var confRmks23=[
-    "講演予定",
+    "“Error Tolerance of Paley Matrices as Detecting Arrays” 12/16",
     "",
-    "講演予定",
-    "講演予定",
+    "“巡回準直交配列と関連する組合せデザイン” 11/24",
+    "“非適応型グループテストのための組合せ構造について”",
     "",
     "“An algebraic sufficient condition for a circulant almost orthogonal array to be D-optimal” (統計数学分科会，一般講演) 9/23",
     "企画セッション「組合せ論と情報理論 ー最新動向と展望ー」オーガナイザー \\\\“複数種類の陽性検体のための非適応型グループテスト: 組合せ構造と事後確率推定” (企画セッション) 9/14",
