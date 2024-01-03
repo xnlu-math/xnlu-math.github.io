@@ -3,6 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2023
 */
 
 var confName23=[
+    "暗号及び情報セキュリティと数学の相関ワークショップ (CRISMATH 2023)",
     "2023年度応用数学合同研究集会",
     "NII共同研究「SAT技術を用いた組合せ遷移問題の解法に関する研究」第3回全体会合",
     "研究集会「実験計画法と関連する組合せ構造および統計教育」",
@@ -21,6 +22,7 @@ var confName23=[
 ]
 
 var confPlace23=[
+    "九州大学 (伊都キャンパス) とZoomによるハイブリッド開催",
     "龍谷大学 (瀬田キャンパス)",
     "神戸大学",
     "広島大学教育学部 (東広島キャンパス)",
@@ -39,6 +41,7 @@ var confPlace23=[
 ]
 			
 var confData23=[
+    "12月26日〜27日",
     "12月14日〜16日",
     "12月6日〜7日",
     "11月24日〜25日",
@@ -57,6 +60,7 @@ var confData23=[
 ]
 			
 var confURL23=[
+    "https://imi.kyushu-u.ac.jp/~lmdac/event/crismath2023.html",
     "https://www.mathsoc.jp/section/appliedmath/CAM/2023/index.html",
     "",
     "https://sites.google.com/view/hiroshima2023/",
@@ -75,6 +79,7 @@ var confURL23=[
 ]
 			
 var confRmks23=[
+    "",
     "“Error Tolerance of Paley Matrices as Detecting Arrays” 12/16",
     "",
     "“巡回準直交配列と関連する組合せデザイン” 11/24",
