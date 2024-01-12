@@ -3,6 +3,8 @@ Conferences attended by Xiao-Nan LU in the academic year of 2023
 */
 
 var confName23=[
+    "スペクトラルグラフ理論および周辺領域 第12回研究集会",
+    "電子情報通信学会 情報理論研究会 (IT)",
     "暗号及び情報セキュリティと数学の相関ワークショップ (CRISMATH 2023)",
     "2023年度応用数学合同研究集会",
     "NII共同研究「SAT技術を用いた組合せ遷移問題の解法に関する研究」第3回全体会合",
@@ -22,6 +24,8 @@ var confName23=[
 ]
 
 var confPlace23=[
+    "熊本大学とオンライン (Zoom) によるハイブリッド開催",
+    "東北大学 青葉記念会館とオンライン (Zoom) によるハイブリッド開催",
     "九州大学 (伊都キャンパス) とZoomによるハイブリッド開催",
     "龍谷大学 (瀬田キャンパス)",
     "神戸大学",
@@ -32,15 +36,17 @@ var confPlace23=[
     "名古屋大学 (東山キャンパス)",
     "九州大学 (伊都キャンパス) とZoomによるハイブリッド開催",
     "アクトシティ浜松 研修交流センター (浜松市)",
-    "愛知教育大学とオンライン (Zoom) のハイブリッド開催",
+    "愛知教育大学とオンライン (Zoom) によるハイブリッド開催",
     "ミッドランドホール (名古屋市) ",
     "湘南工科大学",
     "Kranjska Gora, Slovenia", 
     "神戸大学",
-    "京都大学 楽友会館 (Zoom配信あり)"
+    "京都大学 楽友会館とオンライン (Zoom) によるハイブリッド開催"
 ]
 			
 var confData23=[
+    "1月25日〜27日",
+    "1月18日〜19日",
     "12月26日〜27日",
     "12月14日〜16日",
     "12月6日〜7日",
@@ -60,6 +66,8 @@ var confData23=[
 ]
 			
 var confURL23=[
+    "https://hajimetanaka.org/docs/sgt12/",
+    "https://ken.ieice.org/ken/program/index.php?tgs_regid=5192842b30069b548b52fea1c95faf8beb6c2d3e54141d4d0430eedcb54a821f&tgid=IT",
     "https://imi.kyushu-u.ac.jp/~lmdac/event/crismath2023.html",
     "https://www.mathsoc.jp/section/appliedmath/CAM/2023/index.html",
     "",
@@ -79,6 +87,8 @@ var confURL23=[
 ]
 			
 var confRmks23=[
+    "",
+    "",
     "",
     "“Error Tolerance of Paley Matrices as Detecting Arrays” 12/16",
     "",
