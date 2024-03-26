@@ -3,6 +3,8 @@ Conferences attended by Xiao-Nan LU in the academic year of 2023
 */
 
 var confName23=[
+    "NII共同研究「SAT技術を用いた組合せ遷移問題の解法に関する研究」第4回全体会合",
+	"日本数学会2024年度年会",
     "スペクトラルグラフ理論および周辺領域 第12回研究集会",
     "電子情報通信学会 情報理論研究会 (IT)",
     "暗号及び情報セキュリティと数学の相関ワークショップ (CRISMATH 2023)",
@@ -24,6 +26,8 @@ var confName23=[
 ]
 
 var confPlace23=[
+    "長良川国際会議場 (岐阜市)",
+    "大阪公立大学 杉本キャンパス",
     "熊本大学とオンライン (Zoom) によるハイブリッド開催",
     "東北大学 青葉記念会館とオンライン (Zoom) によるハイブリッド開催",
     "九州大学 (伊都キャンパス) とZoomによるハイブリッド開催",
@@ -45,6 +49,8 @@ var confPlace23=[
 ]
 			
 var confData23=[
+    "3月28日〜29日",
+    "3月17日〜20日",
     "1月25日〜27日",
     "1月18日〜19日",
     "12月26日〜27日",
@@ -66,6 +72,8 @@ var confData23=[
 ]
 			
 var confURL23=[
+    "https://www.xnlu.info.gifu-u.ac.jp/nii2023_4/",
+    "https://www.mathsoc.jp/activity/meeting/omu24mar/index.html",
     "https://hajimetanaka.org/docs/sgt12/",
     "https://ken.ieice.org/ken/program/index.php?tgs_regid=5192842b30069b548b52fea1c95faf8beb6c2d3e54141d4d0430eedcb54a821f&tgid=IT",
     "https://imi.kyushu-u.ac.jp/~lmdac/event/crismath2023.html",
@@ -87,6 +95,8 @@ var confURL23=[
 ]
 			
 var confRmks23=[
+	"ローカルオーガナイザー",
+    "“グループテスト・組合せテストにおける組合せ構造について” (応用数学分科会，特別講演) 3/17",
     "",
     "",
     "",
