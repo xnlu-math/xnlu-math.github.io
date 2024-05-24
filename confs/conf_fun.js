@@ -1,102 +1,47 @@
 /*
 by Xiao-Nan LU
-2020/3   
+2024/05   
 */
 
-function generateConfList(n_year){
-	switch (n_year){
-		case 2023:
-			var confName = confName23;
-			var confPlace = confPlace23;
-			var confData = confData23;
-			var confURL = confURL23;
-			var confRmks = confRmks23;
-			break;
-		case 2022:
-			var confName = confName22;
-			var confPlace = confPlace22;
-			var confData = confData22;
-			var confURL = confURL22;
-			var confRmks = confRmks22;
-			break;
-		case 2021:
-			var confName = confName21;
-			var confPlace = confPlace21;
-			var confData = confData21;
-			var confURL = confURL21;
-			var confRmks = confRmks21;
-			break;
-		case 2020:
-			var confName = confName20;
-			var confPlace = confPlace20;
-			var confData = confData20;
-			var confURL = confURL20;
-			var confRmks = confRmks20;
-			break;
-		case 2019:
-			var confName = confName19;
-			var confPlace = confPlace19;
-			var confData = confData19;
-			var confURL = confURL19;
-			var confRmks = confRmks19;
-			break;
-		case 2018:
-			var confName = confName18;
-			var confPlace = confPlace18;
-			var confData = confData18;
-			var confURL = confURL18;
-			var confRmks = confRmks18;
-			break;
-		case 2017:
-			var confName = confName17;
-			var confPlace = confPlace17;
-			var confData = confData17;
-			var confURL = confURL17;
-			var confRmks = confRmks17;
-			break;
-		case 2016:
-			var confName = confName16;
-			var confPlace = confPlace16;
-			var confData = confData16;
-			var confURL = confURL16;
-			var confRmks = confRmks16;
-			break;
-		case 2015:
-			var confName = confName15;
-			var confPlace = confPlace15;
-			var confData = confData15;
-			var confURL = confURL15;
-			var confRmks = confRmks15;
-			break;
-		case 2014:
-			var confName = confName14;
-			var confPlace = confPlace14;
-			var confData = confData14;
-			var confURL = confURL14;
-			var confRmks = confRmks14;
-			break;
-		case 2013:
-			var confName = confName13;
-			var confPlace = confPlace13;
-			var confData = confData13;
-			var confURL = confURL13;
-			var confRmks = confRmks13;
-			break;
-		case 2012:
-			var confName = confName12;
-			var confPlace = confPlace12;
-			var confData = confData12;
-			var confURL = confURL12;
-			var confRmks = confRmks12;
-			break;
-		case 2011:
-			var confName = confName11;
-			var confPlace = confPlace11;
-			var confData = confData11;
-			var confURL = confURL11;
-			var confRmks = confRmks11;
-			break;
-	}
+async function getConfData(n_year) {
+    try {
+        // Construct the variable names based on the year suffix
+        const yearSuffix = n_year.toString().slice(-2);
+        const confNameVar = `confName${yearSuffix}`;
+        const confPlaceVar = `confPlace${yearSuffix}`;
+        const confDataVar = `confData${yearSuffix}`;
+        const confURLVar = `confURL${yearSuffix}`;
+        const confRmksVar = `confRmks${yearSuffix}`;
+
+        // Import the conference data for the specified year
+        const yearData = await import(`./conf${n_year}.js`);
+
+        // Extract the data arrays from the imported module using the constructed variable names
+        const {
+            [confNameVar]: confName,
+            [confPlaceVar]: confPlace,
+            [confDataVar]: confData,
+            [confURLVar]: confURL,
+            [confRmksVar]: confRmks
+        } = yearData;
+
+        // Return the conference data object
+        return {
+            confName,
+            confPlace,
+            confData,
+            confURL,
+            confRmks
+        };
+    } catch (error) {
+        console.error(`Error importing conference data for year ${n_year}:`, error);
+        return {};
+    }
+}
+
+async function generateConfList(n_year){
+    // Wait for the conference data to be fetched
+    const { confName, confPlace, confData, confURL, confRmks } = await getConfData(n_year);
 
 	document.write("<ol reversed>")
 	for (var i=0; i<confName.length; i++){
