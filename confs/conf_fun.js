@@ -92,7 +92,7 @@ async function generateConfList(n_year) {
     document.body.appendChild(list);
 }
 
-
+/*
 async function generateYearConfList(from_year, to_year){
 	for (var i = to_year; i >= from_year; i--){
 		str_div_id = "divconf" + String(i);
@@ -106,8 +106,8 @@ async function generateYearConfList(from_year, to_year){
 	}
 
 }
+*/
 
-/*
 async function generateYearConfList(from_year, to_year) {
     for (let i = to_year; i >= from_year; i--) {
         const div = document.createElement('div');
@@ -116,7 +116,7 @@ async function generateYearConfList(from_year, to_year) {
         heading.textContent = `${i}年度 (April ${i} - March ${i + 1})`;
         heading.onclick = () => {
             const content = document.getElementById(`divconf${i}`);
-            content.style.display = content.style.display === 'none' ? '' : 'none';
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
         };
         div.appendChild(heading);
 
@@ -130,7 +130,7 @@ async function generateYearConfList(from_year, to_year) {
         await generateConfList(i);
     }
 }
-*/
+
 
 // Export the function to be used in the HTML file
 window.generateYearConfList = generateYearConfList;
