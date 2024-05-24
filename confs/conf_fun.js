@@ -100,3 +100,6 @@ async function generateYearConfList(from_year, to_year) {
         document.write(`</div>`);
     }
 }
+
+// Export the function to be used in the HTML file
+export { generateYearConfList };
