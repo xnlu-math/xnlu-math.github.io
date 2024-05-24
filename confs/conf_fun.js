@@ -16,7 +16,7 @@ async function loadScript(src) {
 async function getConfData(n_year) {
     try {
         const yearSuffix = n_year.toString().slice(-2);
-        const modulePath = `./confs/conf${n_year}.js`;
+        const modulePath = `confs/conf${n_year}.js`;
 
         // Dynamically load the script
         await loadScript(modulePath);
