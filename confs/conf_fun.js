@@ -5,7 +5,7 @@ by Xiao-Nan LU
 
 function generateConfList(n_year){
 	switch (n_year){
-		case 2023:
+		case 2024:
 			var confName = confName24;
 			var confPlace = confPlace24;
 			var confData = confData24;
