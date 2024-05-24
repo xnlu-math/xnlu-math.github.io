@@ -53,8 +53,12 @@
 <div id="goBackContainer"></div>
 <hr>
 
+<!-- Call the generateGoBack() function after the "goBackContainer" element is defined -->
 <script>
-  generateGoBack();
+  // Wait for the DOMContentLoaded event before calling generateGoBack()
+  document.addEventListener('DOMContentLoaded', function() {
+    generateGoBack();
+  });
 </script>
 
 </body></html>
