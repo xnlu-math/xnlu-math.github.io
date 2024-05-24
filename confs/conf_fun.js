@@ -43,6 +43,12 @@ async function generateConfList(n_year){
     // Wait for the conference data to be fetched
     const { confName, confPlace, confData, confURL, confRmks } = await getConfData(n_year);
 
+    // Check if the data arrays are valid
+    if (!confName || !confPlace || !confData || !confURL || !confRmks) {
+        console.error(`Data for year ${n_year} is incomplete or missing.`);
+        return;
+    }
+
 	document.write("<ol reversed>")
 	for (var i=0; i<confName.length; i++){
 		document.write("<li>")
