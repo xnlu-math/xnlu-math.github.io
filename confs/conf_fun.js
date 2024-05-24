@@ -16,7 +16,7 @@ async function loadScript(src) {
 async function getConfData(n_year) {
     try {
         const yearSuffix = n_year.toString().slice(-2);
-        const modulePath = `./conf${n_year}.js`;
+        const modulePath = `confs/conf${n_year}.js`;
 
         // Dynamically load the script
         await loadScript(modulePath);
@@ -89,8 +89,9 @@ async function generateConfList(n_year) {
 async function generateYearConfList(from_year, to_year) {
     for (let i = to_year; i >= from_year; i--) {
         const str_div_id = "divconf" + String(i);
-        document.write(`<div style="cursor:hand" onclick="isHidden('${str_div_id}')"><h3>${i}年度 (April ${i} - March ${i + 1})</h3></div>`);
-        if (i == to_year) {
+        //document.write(`<div style="cursor:hand" onclick="isHidden('${str_div_id}')"><h3>${i}年度 (April ${i} - March ${i + 1})</h3></div>`);
+        document.write(`<div style="cursor:hand" onclick="isHidden('` + str_div_id + `')"><h3>` + String(i) + `年度 (April ` + String(i) + ` - March ` + String(i+1) + `) </h3></div>`);
+		if (i == to_year) {
             document.write(`<div id="${str_div_id}">`);
         } else {
             document.write(`<div id="${str_div_id}" style="display:none">`);
