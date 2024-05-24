@@ -2,7 +2,7 @@
 Conferences attended by Xiao-Nan LU in the academic year of 2023
 */
 
-var confName23=[
+export var confName23=[
     "NII共同研究「SAT技術を用いた組合せ遷移問題の解法に関する研究」第4回全体会合",
 	"日本数学会2024年度年会",
     "スペクトラルグラフ理論および周辺領域 第12回研究集会",
@@ -25,7 +25,7 @@ var confName23=[
 	"電子情報通信学会 情報理論研究会 (IT)"
 ]
 
-var confPlace23=[
+export var confPlace23=[
     "長良川国際会議場 (岐阜市)",
     "大阪公立大学 杉本キャンパス",
     "熊本大学とオンライン (Zoom) によるハイブリッド開催",
@@ -48,7 +48,7 @@ var confPlace23=[
     "京都大学 楽友会館とオンライン (Zoom) によるハイブリッド開催"
 ]
 			
-var confData23=[
+export var confData23=[
     "3月28日〜29日",
     "3月17日〜20日",
     "1月25日〜27日",
@@ -71,7 +71,7 @@ var confData23=[
     "5月11日〜12日"
 ]
 			
-var confURL23=[
+export var confURL23=[
     "https://www.xnlu.info.gifu-u.ac.jp/nii2023_4/",
     "https://www.mathsoc.jp/activity/meeting/omu24mar/index.html",
     "https://hajimetanaka.org/docs/sgt12/",
@@ -94,7 +94,7 @@ var confURL23=[
     "https://ken.ieice.org/ken/program/index.php?tgs_regid=48be74bf3b9b592380289aa37d74ab8abf968167bbde5359cb324bc0fdd88bc7&tgid=IEICE-IT"
 ]
 			
-var confRmks23=[
+export var confRmks23=[
 	"ローカルオーガナイザー",
     "“グループテスト・組合せテストにおける組合せ構造について” (応用数学分科会，特別講演) 3/17",
     "",
