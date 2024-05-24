@@ -107,7 +107,7 @@ async function generateYearConfList(from_year, to_year){
 
 }
 */
-
+/*
 async function generateYearConfList(from_year, to_year) {
     for (let i = to_year; i >= from_year; i--) {
         const div = document.createElement('div');
@@ -130,6 +130,38 @@ async function generateYearConfList(from_year, to_year) {
         await generateConfList(i);
     }
 }
+*/
+
+async function generateYearConfList(from_year, to_year) {
+    for (let i = to_year; i >= from_year; i--) {
+        const div = document.createElement('div');
+        const heading = document.createElement('h3');
+        heading.style.cursor = 'pointer';
+        heading.textContent = `${i}年度 (April ${i} - March ${i + 1})`;
+        heading.onclick = () => {
+            const content = document.getElementById(`divconf${i}`);
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+        };
+        div.appendChild(heading);
+
+        const contentDiv = document.createElement('div');
+        contentDiv.id = `divconf${i}`;
+        contentDiv.style.display = i === to_year ? '' : 'none';
+        div.appendChild(contentDiv);
+
+        document.body.appendChild(div);
+
+        // Generate and append conference data to the contentDiv for each year
+        const confData = await generateConfList(i);
+        for (let j = 0; j < confData.length; j++) {
+            const listItem = document.createElement('li');
+            // Append conference data to the listItem as needed
+            // Example: listItem.textContent = confData[j];
+            contentDiv.appendChild(listItem);
+        }
+    }
+}
+
 
 
 // Export the function to be used in the HTML file
