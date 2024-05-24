@@ -5,24 +5,19 @@ by Xiao-Nan LU
 
 async function getConfData(n_year) {
     try {
-        // Construct the variable names based on the year suffix
         const yearSuffix = n_year.toString().slice(-2);
-        const confNameVar = `confName${yearSuffix}`;
-        const confPlaceVar = `confPlace${yearSuffix}`;
-        const confDataVar = `confData${yearSuffix}`;
-        const confURLVar = `confURL${yearSuffix}`;
-        const confRmksVar = `confRmks${yearSuffix}`;
+        const modulePath = `./conf${n_year}.js`;
 
-        // Import the conference data for the specified year
-        const yearData = await import(`./conf${n_year}.js`);
+        // Dynamically import the conference data module
+        const yearData = await import(modulePath);
 
-        // Extract the data arrays from the imported module using the constructed variable names
+        // Extract the data arrays from the imported module
         const {
-            [confNameVar]: confName,
-            [confPlaceVar]: confPlace,
-            [confDataVar]: confData,
-            [confURLVar]: confURL,
-            [confRmksVar]: confRmks
+            [`confName${yearSuffix}`]: confName,
+            [`confPlace${yearSuffix}`]: confPlace,
+            [`confData${yearSuffix}`]: confData,
+            [`confURL${yearSuffix}`]: confURL,
+            [`confRmks${yearSuffix}`]: confRmks
         } = yearData;
 
         // Return the conference data object
@@ -39,9 +34,16 @@ async function getConfData(n_year) {
     }
 }
 
+
 async function generateConfList(n_year){
     // Wait for the conference data to be fetched
-    const { confName, confPlace, confData, confURL, confRmks } = await getConfData(n_year);
+	const {
+        confName,
+        confPlace,
+        confData,
+        confURL,
+        confRmks
+    } = await getConfData(n_year);
 
     // Check if the data arrays are valid
     if (!confName || !confPlace || !confData || !confURL || !confRmks) {
