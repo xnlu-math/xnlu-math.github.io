@@ -3,6 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2024
 */
 
 var confName24=[
+    "日本応用数理学会 2024年度年会",
     "電子情報通信学会 2024年度ソサイエティ大会",
     "The 26th Japan Conference on Discrete and Computational Geometry, Graphs, and Games (JCDCG^3)",
     "日本数学会 2024年度秋季総合分科会",
@@ -15,6 +16,7 @@ var confName24=[
 ];
 
 var confPlace24=[
+    "京都大学",
     "日本工業大学",
     "Tokyo University of Science (Kagurazaka Campus)",
     "大阪大学 豊中キャンパス",
@@ -27,6 +29,7 @@ var confPlace24=[
 ];
 			
 var confData24=[
+    "9月14日～16日",
     "9月10日～13日",
     "Sept 10 - 12, 2024", 
     "9月3日～6日",
@@ -39,6 +42,7 @@ var confData24=[
 ];
 			
 var confURL24=[
+    "https://jsiam.org/annual2024/",
     "https://www.ieice.org/jpn_r/activities/taikai/society/2024/",
     "https://sites.google.com/view/jcdcg2024",
     "https://www.mathsoc.jp/activity/meeting/osaka24sept/index.html",
@@ -51,6 +55,7 @@ var confURL24=[
 ];
 			
 var confRmks24=[
+    "",
     "",
     "“Cop number and capture time on incidence graphs of Steiner 2-designs” (Contributed Talk) 9/11",
     "",
