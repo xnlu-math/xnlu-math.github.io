@@ -3,6 +3,10 @@ Conferences attended by Xiao-Nan LU in the academic year of 2024
 */
 
 var confName24=[
+    "2024年度応用数学合同研究集会",
+    "The International Symposium on Information Theory and Its Applications (ISITA) 2024",
+    "NII共同研究「解集合プログラミングの実用化に向けた並列解法に関する研究開発」第2回全体会合",
+    "研究集会「情報・計算・暗号の融合による新しい数理基盤の創出」",
     "日本応用数理学会 2024年度年会",
     "電子情報通信学会 2024年度ソサイエティ大会",
     "The 26th Japan Conference on Discrete and Computational Geometry, Graphs, and Games (JCDCG^3)",
@@ -16,10 +20,14 @@ var confName24=[
 ];
 
 var confPlace24=[
+    "龍谷大学 (瀬田キャンパス)",
+    "National Taiwan University of Science and Technology, Taipei",
+    "名古屋大学",
+    "JR博多シティとZoomによるハイブリッド開催",
     "京都大学",
     "日本工業大学",
     "Tokyo University of Science (Kagurazaka Campus)",
-    "大阪大学 豊中キャンパス",
+    "大阪大学 (豊中キャンパス)",
     "名古屋大学・オンライン",
     "京都大学",
     "石川県政しいのき迎賓館・オンライン",
@@ -29,6 +37,10 @@ var confPlace24=[
 ];
 			
 var confData24=[
+    "12月5日～7日",
+    "Nov 10 - 13, 2024",
+    "10月28日～29日",
+    "9月25日～27日",
     "9月14日～16日",
     "9月10日～13日",
     "Sept 10 - 12, 2024", 
@@ -42,6 +54,10 @@ var confData24=[
 ];
 			
 var confURL24=[
+    "https://www.mathsoc.jp/section/appliedmath/CAM/2024/index.html",
+    "https://isita.ieice.org/2024/",
+    "https://nabesima.github.io/nii2024/#2ND",
+    "https://joint.imi.kyushu-u.ac.jp/post-14912/",
     "https://jsiam.org/annual2024/",
     "https://www.ieice.org/jpn_r/activities/taikai/society/2024/",
     "https://sites.google.com/view/jcdcg2024",
@@ -55,6 +71,10 @@ var confURL24=[
 ];
 			
 var confRmks24=[
+    "講演予定",
+    "“Improved Quasi-Random Designs with Constant Pool Sizes for Group Testing” (Contributed Talk) 11/12",
+    "",
+    "",
     "",
     "",
     "“Cop number and capture time on incidence graphs of Steiner 2-designs” (Contributed Talk) 9/11",
