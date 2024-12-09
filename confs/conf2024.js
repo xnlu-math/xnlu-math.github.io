@@ -71,13 +71,13 @@ var confURL24=[
 ];
 			
 var confRmks24=[
-    "講演予定",
-    "“Improved Quasi-Random Designs with Constant Pool Sizes for Group Testing” (Contributed Talk) 11/12",
+    "“Cop number and capture time of incidence graphs of combinatorial designs” 12/7",
+    "“Improved Quasi-Random Designs with Constant Pool Sizes for Group Testing” 11/12",
     "",
     "",
     "",
     "",
-    "“Cop number and capture time on incidence graphs of Steiner 2-designs” (Contributed Talk) 9/11",
+    "“Cop number and capture time on incidence graphs of Steiner 2-designs” 9/11",
     "",
     "",
     "",
