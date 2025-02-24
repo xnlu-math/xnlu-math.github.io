@@ -3,6 +3,13 @@ Conferences attended by Xiao-Nan LU in the academic year of 2024
 */
 
 var confName24=[
+    "日本数学会2025年度年会",
+    "2025早稲田離散数理研究集会",
+    "日本OR学会研究部会「最適化の理論とアルゴリズム」第9回研究会",
+    "電子情報通信学会 情報理論研究会 (IT)",
+    "電子情報通信学会 情報理論研究会 (IT)",
+    "スペクトラルグラフ理論および周辺領域 第13回研究集会",
+    "NII共同研究「解集合プログラミングの実用化に向けた並列解法に関する研究開発」第3回全体会合",
     "2024年度応用数学合同研究集会",
     "The International Symposium on Information Theory and Its Applications (ISITA) 2024",
     "NII共同研究「解集合プログラミングの実用化に向けた並列解法に関する研究開発」第2回全体会合",
@@ -20,23 +27,36 @@ var confName24=[
 ];
 
 var confPlace24=[
+    "早稲田大学",
+    "早稲田大学",
+    "国立情報学研究所・Zoom (オンライン参加)",
+    "大阪大学中之島センター",
+    "海峡メッセ下関・Zoom (オンライン参加)",
+    "早稲田大学・Zoom (オンライン参加)",
+    "高松センタービル",
     "龍谷大学 (瀬田キャンパス)",
     "National Taiwan University of Science and Technology, Taipei",
     "名古屋大学",
-    "JR博多シティとZoomによるハイブリッド開催",
+    "JR博多シティとZoomによるハイブリッド開催 (オンライン参加)",
     "京都大学",
     "日本工業大学",
     "Tokyo University of Science (Kagurazaka Campus)",
     "大阪大学 (豊中キャンパス)",
     "名古屋大学・オンライン",
     "京都大学",
-    "石川県政しいのき迎賓館・オンライン",
+    "石川県政しいのき迎賓館・オンライン (オンライン参加)",
     "松本商工会議所(長野県松本市)",
     "アクトシティ浜松(静岡県浜松市)・オンライン",
-    "統計数理研究所・オンライン"
+    "統計数理研究所・オンライン (オンライン参加)"
 ];
 			
 var confData24=[
+    "3月18日～21日",
+    "3月16日～17日",
+    "3月10日",
+    "3月5日～6日",
+    "1月26日～28日",
+    "12月23日～24日",
     "12月5日～7日",
     "Nov 10 - 13, 2024",
     "10月28日～29日",
@@ -54,6 +74,13 @@ var confData24=[
 ];
 			
 var confURL24=[
+    "https://www.mathsoc.jp/activity/meeting/waseda25mar/index.html",
+    "https://sites.google.com/view/waseda-dm",
+    "https://orsj.org/raota/",
+    "https://ken.ieice.org/ken/program/index.php?tgs_regid=8451807f7254aa941b2649ca5a232e06e19e40d93e835088d0426b3970092cba",
+    "https://ken.ieice.org/ken/program/index.php?tgs_regid=888ee1cbec09a76efd8dc131b42018cdd5440254183a559e0b306ef581f93632",
+    "https://hajimetanaka.org/docs/sgt13/",
+    "https://nabesima.github.io/nii2024/#3RD",
     "https://www.mathsoc.jp/section/appliedmath/CAM/2024/index.html",
     "https://isita.ieice.org/2024/",
     "https://nabesima.github.io/nii2024/#2ND",
@@ -71,6 +98,13 @@ var confURL24=[
 ];
 			
 var confRmks24=[
+    "“Existentially closed critical Cayley graphs” 3/18",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "“Cop number and capture time of incidence graphs of combinatorial designs” 12/7",
     "“Improved Quasi-Random Designs with Constant Pool Sizes for Group Testing” 11/12",
     "",
