@@ -5,7 +5,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2024
 var confName24=[
     "日本数学会2025年度年会",
     "2025早稲田離散数理研究集会",
-    "日本OR学会研究部会「最適化の理論とアルゴリズム」第9回研究会",
+    //"日本OR学会研究部会「最適化の理論とアルゴリズム」第9回研究会",
     "電子情報通信学会 情報理論研究会 (IT)",
     "電子情報通信学会 情報理論研究会 (IT)",
     "スペクトラルグラフ理論および周辺領域 第13回研究集会",
@@ -29,7 +29,7 @@ var confName24=[
 var confPlace24=[
     "早稲田大学",
     "早稲田大学",
-    "国立情報学研究所・Zoom (オンライン参加)",
+    //"国立情報学研究所・Zoom (オンライン参加)",
     "大阪大学中之島センター",
     "海峡メッセ下関・Zoom (オンライン参加)",
     "早稲田大学・Zoom (オンライン参加)",
@@ -53,7 +53,7 @@ var confPlace24=[
 var confData24=[
     "3月18日～21日",
     "3月16日～17日",
-    "3月10日",
+    //"3月10日",
     "3月5日～6日",
     "1月29日～30日",
     "1月26日～28日",
@@ -77,7 +77,7 @@ var confData24=[
 var confURL24=[
     "https://www.mathsoc.jp/activity/meeting/waseda25mar/index.html",
     "https://sites.google.com/view/waseda-dm",
-    "https://orsj.org/raota/",
+    //"https://orsj.org/raota/",
     "https://ken.ieice.org/ken/program/index.php?tgs_regid=8451807f7254aa941b2649ca5a232e06e19e40d93e835088d0426b3970092cba",
     "https://ken.ieice.org/ken/program/index.php?tgs_regid=888ee1cbec09a76efd8dc131b42018cdd5440254183a559e0b306ef581f93632",
     "https://hajimetanaka.org/docs/sgt13/",
@@ -101,7 +101,7 @@ var confURL24=[
 var confRmks24=[
     "“Existentially closed critical Cayley graphs” 3/18",
     "",
-    "",
+    //"",
     "",
     "",
     "",
