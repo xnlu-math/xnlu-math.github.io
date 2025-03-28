@@ -1,70 +1,160 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>About me</title>
-  <link rel="stylesheet" href="subpage.css">
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me - Xiao-Nan LU</title>
+    <link rel="stylesheet" href="subpage.css">
+    <style>
+        .profile-header {
+            text-align: center;
+            margin-top: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .page-footer {
+            text-align: center;
+            color: #888;
+            margin-top: 1rem;
+            font-size: 0.875rem;
+        }
+
+        .profile-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .contact-info, .research-intro {
+            background-color: rgba(132, 80, 128, 0.05);
+            padding: 1.5rem;
+            border-radius: 8px;
+            position: relative;
+            padding-bottom: 2.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .profile-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .research-links {
+            position: absolute;
+            bottom: 0.5rem;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin-top: 1rem;
+            padding: 0.5rem;
+        }
+
+        .name-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .name-with-furigana {
+            position: relative;
+            display: inline-block;
+        }
+
+        .name-with-furigana ruby {
+            ruby-position: over;
+        }
+
+        .name-with-furigana rt {
+            font-size: 0.4em;
+            color: #666;
+            text-align: center;
+            position: absolute;
+            top: -0.8em;
+            left: 0;
+            right: 0;
+        }
+
+        .simplified-chinese {
+            font-family: 'Microsoft YaHei', 'Heiti SC', 'SimHei', sans-serif; 
+        }
+
+        .introduction {
+            margin-bottom: 1rem;
+        }
+
+        .research-intro .introduction:last-of-type {
+            margin-bottom: 2rem;
+        }
+    </style>
 </head>
-
 <body>
-<div class="rTable">
-<div class="rTableRow">
-      <!--td style="vertical-align: top;"-->
-      ロ&nbsp;ギョウナン<br>
-      <p><span class="name_font">盧&nbsp;暁南 / 卢晓南 / Xiao-Nan LU </span></p>
-      <p><span style="font-weight: bold;">博士（情報科学） / Doctor of Information Science 
-      </span></p>
-</div>
-</div>
+    <header class="profile-header">
+        <div class="name-container">
+            <div class="name-with-furigana">
+                <ruby>
+                    <rt>ロ&nbsp;ギョウナン</rt>
+                    <rb>盧&nbsp;暁南</rb>
+                </ruby>
+            </div>
+            / <span class="simplified-chinese">卢晓南</span> / Xiao-Nan LU
+        </div>
+        <p><strong>博士（情報科学） / Doctor of Information Science</strong></p>
+    </header>
 
-<div class="rTable">
-<div class="rTableRow">
-<div class="rTableCell">
-      <address>
-      <p><a target="_blank" href="https://www.gifu-u.ac.jp/">岐阜大学</a> 
-            <a target="_blank" href="https://www.eng.gifu-u.ac.jp">工学部</a> 
-            <a target="_blank" href="https://www.eng.gifu-u.ac.jp/jyouhou/">電気電子・情報工学科 情報コース</a> 准教授 [ <a target="_blank" href="https://www.xnlu.info.gifu-u.ac.jp/">盧研究室</a> ]
-            <br>（大学院担当：<a target="_blank" href="https://gnst.gifu-u.ac.jp/">自然科学技術研究科</a> 知能理工学専攻 知能情報学領域）
-            <br>（兼任：<a target="_blank" href="https://guias.gifu-u.ac.jp/">高等研究院</a> <a target="_blank" href="https://www1.gifu-u.ac.jp/~g_ai/">人工知能研究推進センター</a>）
-            <!--a target="_blank" href="">盧研究室</a-->
-            <br>
-      	〒501-1193 岐阜市柳戸1番1
-      	</p>
-      
-      	<p> <a target="_blank" href="https://www.eng.gifu-u.ac.jp/jyouhou/e/">Department of Electrical, Electronics and Computer Engineering</a>,<br>
-		<a target="_blank" href="https://www.eng.gifu-u.ac.jp/index_e.html">Faculty of Engineering</a>,
-		<a target="_blank" href="https://www.gifu-u.ac.jp/en/">Gifu University</a>. <br>
-		1-1 Yanagido, Gifu, 501-1193 Japan. </p>
-		<p> E-mail: lu.xiaonan.b3 (at) f.gifu-u.ac.jp</p>
-	  </address>  
-    <!--td style="vertical-align: top;">&nbsp;<br-->      
-      <!--h3>About me: </h3--> 
-      <!--menu--> 
-      <p class="introduction">
-      I am currently an Associate Professor at Department of Electrical, Electronics and Computer Engineering, Gifu University. 
-      </p> 
-      <p class="introduction">
-      My research interests mainly focus on discrete mathematics (combinatorics and combinatorial algorithms), coding theory, cryptography, 
-      and related interdisciplinary studies emphasis on statistics and theoretical computer science.  
-      </p>
-       
-       <p>[  <!--a target="_blank" href="http://nerdb-re.yamanashi.ac.jp/Profiles/352/0035139/profile.html">梨大プロファイル</a--> 
-       <a target="_blank" href="http://researchmap.jp/xnlu">researchmap</a>  | 
-       <a target="_blank" href="https://orcid.org/0000-0001-7881-8505">ORCID iD</a>  | 
-       <a target="_blank" href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1133000">MathSciNet</a> ]
-       </p>  
-      <!--/menu--> 
-      <!--h3>What's new</h3> 
-      <menu> 
-      <ul>
-        <li><a target="_blank" href="./tjcca.html">The 5th Taiwan-Japan Conference on Combinatorics and its Applications (5th TJCCA) 参加申込開始！</a></li> 
-      </ul>
-      </menu--> 
-</div>
-<div class="rTableCellr">
-      <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23B39DDB&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&src=eG5sdTA1YkBnbWFpbC5jb20&src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23AD1457&color=%230B8043" style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe>
-</div>
-</div>
-      <p><small>Last updated on February 24, 2025. </small></p>
-</div>
+    <main class="profile-container">
+        <section class="contact-info">
+            <p>
+                <a target="_blank" href="https://www.gifu-u.ac.jp/">岐阜大学</a> 
+                <a target="_blank" href="https://www.eng.gifu-u.ac.jp">工学部</a> 
+                <a target="_blank" href="https://www.info.gifu-u.ac.jp/">電気電子・情報工学科 情報コース</a> 准教授
+            </p>
+            
+            <p>
+                大学院担当：<a target="_blank" href="https://gnst.gifu-u.ac.jp/">自然科学技術研究科</a> 知能理工学専攻 知能情報学領域
+            </p>
+            
+            <p>
+                〒501-1193 岐阜市柳戸1番1
+            </p>
+            
+            <p>
+                <a target="_blank" href="https://www.eng.gifu-u.ac.jp/jyouhou/e/">Department of Electrical, Electronics and Computer Engineering</a>,
+                <a target="_blank" href="https://www.eng.gifu-u.ac.jp/index_e.html">Faculty of Engineering</a>,
+                <a target="_blank" href="https://www.gifu-u.ac.jp/en/">Gifu University</a>
+            </p>
+            <p>1-1 Yanagido, Gifu, 501-1193 Japan</p>
+            <p>E-mail: lu.xiaonan.b3 (at) f.gifu-u.ac.jp</p>
+
+            <div class="research-links">
+                <p>
+                    [ <a target="_blank" href="https://www.xnlu.info.gifu-u.ac.jp/">盧研究室</a> ]
+                </p>
+            </div>
+        </section>
+
+        <section class="research-intro">
+            <p class="introduction">
+                I am currently an Associate Professor at the Department of Electrical, Electronics and Computer Engineering, Gifu University, Japan. 
+            </p> 
+            <p class="introduction">
+                  My research interests include discrete mathematics (combinatorics and combinatorial algorithms), coding theory, cryptography, and related interdisciplinary studies, with an emphasis on statistics and theoretical computer science. I also explore SAT and CSP techniques for solving combinatorial problems computationally. Recently, my research has focused on group testing and combinatorial interaction testing.
+            </p>
+            
+            <div class="research-links">
+                <p>
+                    [ <a target="_blank" href="http://researchmap.jp/xnlu">researchmap</a> | 
+                    <a target="_blank" href="https://orcid.org/0000-0001-7881-8505">ORCID iD</a> | 
+                    <a target="_blank" href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1133000">MathSciNet</a> ] 
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <small>Last updated on March 28, 2025</small>
+    </footer>
 </body>
 </html>
