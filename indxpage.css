@@ -180,3 +180,9 @@ html {
 	}
   }
   
+
+  #clustrmaps-container {
+	text-align: center;
+	margin-top: 10px; /* Adjust spacing if necessary */
+  }
+  
