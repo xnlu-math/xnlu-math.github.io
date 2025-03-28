@@ -31,7 +31,7 @@ html {
   #logo {
 	padding: 10px;
 	flex-shrink: 0; /* Prevent shrinking */
-	max-width: calc(100% - 40px); /* Limit the width to prevent title from getting too wide */
+	max-width: calc(100% - 60px); /* Limit the width to prevent title from getting too wide */
   }
   
   #logo h1 {
