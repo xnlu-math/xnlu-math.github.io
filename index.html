@@ -1,48 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>盧 暁南 / 卢晓南 / Xiao-Nan Lu</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="indxpage.css">
-	<script type="text/javascript">
-		function load_an_html(fname) {
-   			document.getElementById("content").innerHTML='<object type="text/html" data="'+fname+'" width="100%" height="100%"></object>';
-		}
-	</script>
-</head>
-<body>
-	<header id="header">
-		<div id="logo">
-			<h1>盧 暁南 / 卢晓南 / Xiao-Nan Lu</h1>
-		</div>
-	</header>
-	<main>
-		<div class="innertube" id="content">
-			<object type="text/html" data="aboutme.html" width="100%" height="100%"></object>
-		</div>
-	</main>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>盧 暁南 / 卢晓南 / Xiao-Nan Lu</title>
+		<link rel="stylesheet" href="indxpage.css">
+		<script type="text/javascript">
+			function load_an_html(fname) {
+     			document.getElementById("content").innerHTML='<object type="text/html" data="'+fname+'" width="100%" height="100%"></object>';
+			}
 
-	<nav id="nav">
-		<div class="innertube">
-			<h1> </h1>
-			<ul>
-				<li><a id="aboutme" href="#" onclick="load_an_html('aboutme.html')"> About me </a></li>
-				<li><a id="cv" href="#" onclick="load_an_html('cv.html')">Profile</a></li>
-				<li><a id="cv" href="#" onclick="load_an_html('cv_j.html')">略歴</a></li>
-				<li><a id="research" href="#" onclick="load_an_html('research.html')">Research Interests</a></li>
-				<li><a id="publication" href="#" onclick="load_an_html('publication.html')">Publications</a></li>
-				<li><a id="organize" href="#" onclick="load_an_html('organize.html')">Organized Workshops</a></li>
-				<li><a id="conference" href="#" onclick="load_an_html('confs.html')">Conferences</a></li>
-				<li><a id="grants" href="#" onclick="load_an_html('grants.html')">研究助成金</a></li>
-				<li><a id="teaching" href="#" onclick="load_an_html('teaching.html')">担当授業</a></li>
-				<li><a id="clinks" href="#" onclick="load_an_html('links_c.html')">翻訳本 (译著)</a></li>
-				<li><a id="jlinks" href="#" onclick="load_an_html('links_j.html')">Links</a></li>
-			</ul>
-			<p>
-			<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&d=zaNl5dtAbX2e2OH9-nk8a--r1h2zWy543O_9-9ooY0s&co=A675A5&t=tt'></script>
-			</p>
-		</div>
-	</nav>
-</body>
+			function toggleMenu() {
+				var nav = document.getElementById('nav');
+				if (nav.style.left === "-230px") {
+					nav.style.left = "0";
+				} else {
+					nav.style.left = "-230px";
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+		<header id="header">
+			<div id="logo">
+				<h1>盧 暁南 / 卢晓南 / Xiao-Nan Lu</h1>
+			</div>
+			<span id="menu-toggle" onclick="toggleMenu()">☰</span>
+		</header>
+		
+		<main>
+			<div class="innertube" id="content">
+				<object type="text/html" data="aboutme.html" width="100%" height="100%"></object>
+			</div>
+		</main>
+
+		<nav id="nav">
+			<div class="innertube">
+				<h1> </h1>
+				<ul>
+					<li><a id="aboutme" href="#" onclick="load_an_html('aboutme.html')"> About me </a></li>
+					<li><a id="cv" href="#" onclick="load_an_html('cv.html')">Profile</a></li>
+					<li><a id="cv" href="#" onclick="load_an_html('cv_j.html')">略歴</a></li>
+					<li><a id="research" href="#" onclick="load_an_html('research.html')">Research Interests</a></li>
+					<li><a id="publication" href="#" onclick="load_an_html('publication.html')">Publications</a></li>
+					<li><a id="organize" href="#" onclick="load_an_html('organize.html')">Organized Workshops</a></li>
+					<li><a id="conference" href="#" onclick="load_an_html('confs.html')">Conferences</a></li>
+					<li><a id="grants" href="#" onclick="load_an_html('grants.html')">研究助成金</a></li>
+					<li><a id="teaching" href="#" onclick="load_an_html('teaching.html')">担当授業</a></li>
+					<li><a id="clinks" href="#" onclick="load_an_html('links_c.html')">翻訳本 (译著)</a></li>
+					<li><a id="jlinks" href="#" onclick="load_an_html('links_j.html')">Links</a></li>
+				</ul>
+			</div>
+		</nav>
+	</body>
 </html>

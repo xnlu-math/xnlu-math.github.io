@@ -1,9 +1,9 @@
 html {
 	height: 100%;
 	min-height: 100%;
-}
-
-body {
+  }
+  
+  body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -13,143 +13,171 @@ body {
 	font-family: Sans-serif;
 	line-height: 1.5em;
 	font-size: 16px; /* Base font size */
-}
-
-#header {
+  }
+  
+  #header {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 80px;
-	overflow: hidden; /* Disables scrollbars on the header frame */
 	background: #845080;
 	color: #F3E3DB;
-}
-
-#nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  #logo {
+	padding: 10px;
+	flex-shrink: 0; /* Prevent shrinking */
+	max-width: calc(100% - 40px); /* Limit the width to prevent title from getting too wide */
+  }
+  
+  #logo h1 {
+	margin: 20px; /* Remove margin from title */
+	font-size: 1.8em; /* Scale the title font size */
+	white-space: nowrap; /* Prevent wrapping of the title */
+  }
+  
+  #menu-toggle {
+	display: none; /* Hide the hamburger menu on larger screens */
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+  }
+  
+  #nav {
 	position: absolute;
 	top: 80px;
 	left: 0;
 	bottom: 0;
 	width: 230px;
-	overflow: auto;
+	overflow-y: auto;
 	background: #A675A5;
-}
-
-#logo {
-	padding: 10px;
-}
-
-main {
+	display: block; /* Default, visible */
+  }
+  
+  main {
 	position: absolute;
-	top: 80px; /* Set this to the height of the header */
+	top: 80px;
 	left: 230px;
 	right: 0;
 	bottom: 0;
-	overflow: auto;
+	overflow-y: auto;
 	background: #fff;
-}
-
-.innertube {
-	margin: 2px; /* Provides padding for the content */
-}
-
-p {
-	color: #555;
-}
-
-nav ul {
+  }
+  
+  .innertube {
+	margin: 2px;
+  }
+  
+  nav ul {
 	list-style-type: circle;
 	margin: 0;
 	padding: 1;
-}
-
-nav ul a {
+  }
+  
+  nav ul a {
 	color: #FEF8EE;
 	text-decoration: none;
-}
-
-div {
+  }
+  
+  div {
 	height: 100%;
-}
-
-li:not(:last-child) {
+  }
+  
+  li:not(:last-child) {
 	margin-bottom: 4px;
-}
-
-/* IE6 fix */
-* html body {
-	padding: 100px 0 0 230px; /* Set the first value to the height of the header and last value to the width of the nav */
-}
-
-* html main {
+  }
+  
+  /* IE6 fix */
+  * html body {
+	padding: 100px 0 0 230px;
+  }
+  
+  * html main {
 	height: 100%;
 	width: 100%;
-}
-
-/* Responsive Layout for Mobile (iPhones and smaller devices) */
-@media (max-width: 600px) {
+  }
+  
+  /* Responsive Layout for Mobile (iPhones and smaller devices) */
+  @media (max-width: 600px) {
 	body {
-		font-size: 14px; /* Smaller font size for mobile */
+	  font-size: 14px; /* Smaller font size for mobile */
 	}
-
+  
 	#header {
-		height: 60px; /* Reduce header height on mobile */
+	  height: 60px; /* Reduce header height on mobile */
+	  padding: 0 10px; /* Reduce padding */
 	}
-
+  
 	#logo h1 {
-		font-size: 1.5em; /* Scale down the title font size */
+	  font-size: 1.5em; /* Scale down the title font size */
 	}
-
+  
 	#nav {
-		width: 100%; /* Make navigation full width on mobile */
-		height: auto;
-		position: relative; /* Reset fixed position */
+	  width: 230px; /* Keep the width the same */
+	  position: absolute;
+	  top: 80px;
+	  bottom: 0;
+	  left: -230px; /* Hide the menu initially */
+	  transition: left 0.3s ease;
+	  background: #A675A5;
 	}
-
+  
 	main {
-		top: 60px; /* Adjust content position below the header */
-		left: 0; /* Take full width for content */
-		right: 0;
+	  top: 60px; /* Adjust content position below the header */
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  overflow-y: auto; /* Ensure the content is scrollable */
+	  padding-top: 10px;
 	}
-
+  
 	nav ul a {
-		font-size: 1.2em; /* Adjust the font size of nav links */
+	  font-size: 1.2em; /* Adjust the font size of nav links */
 	}
-
+  
 	li:not(:last-child) {
-		margin-bottom: 6px;
+	  margin-bottom: 6px;
 	}
-
-	/* Ensure right part content is not hidden */
-	main {
-		left: 0 !important; /* Remove fixed positioning */
+  
+	#menu-toggle {
+	  display: block; /* Show the hamburger menu */
+	  position: absolute;
+	  right: 20px; /* Position the hamburger icon to the right */
+	  top: 20px; /* Adjust the position */
+	  font-size: 30px;
+	  color: white;
+	  cursor: pointer;
 	}
-}
-
-/* For medium screens (tablets) */
-@media (min-width: 601px) and (max-width: 1024px) {
+  }
+  
+  /* For medium screens (tablets) */
+  @media (min-width: 601px) and (max-width: 1024px) {
 	body {
-		font-size: 15px; /* Adjust for tablets */
+	  font-size: 15px; /* Adjust for tablets */
 	}
-
+  
 	#header {
-		height: 70px; /* Slightly reduce header size for tablets */
+	  height: 70px;
 	}
-
+  
 	#logo h1 {
-		font-size: 1.8em; /* Medium size header */
+	  font-size: 1.8em;
 	}
-
+  
 	#nav {
-		width: 200px; /* Slightly reduce nav width for tablets */
+	  width: 200px; /* Slightly reduce nav width for tablets */
 	}
-
+  
 	main {
-		left: 200px; /* Adjust content area */
+	  left: 200px; /* Adjust content area */
 	}
-
+  
 	nav ul a {
-		font-size: 1.1em; /* Increase font size slightly for better readability */
+	  font-size: 1.1em;
 	}
-}
+  }
+  
