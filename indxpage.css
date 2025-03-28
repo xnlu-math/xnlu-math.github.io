@@ -182,7 +182,9 @@ html {
   
 
   #clustrmaps-container {
-	text-align: center;
-	margin-top: 10px; /* Adjust spacing if necessary */
-  }
-  
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background: #A675A5; /* Match the nav background */
+}
