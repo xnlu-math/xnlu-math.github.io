@@ -20,7 +20,7 @@ html {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 80px;
+	min-height: 80px; /* Ensures enough space while avoiding extra gaps */
 	background: #845080;
 	color: #F3E3DB;
 	display: flex;
@@ -35,7 +35,7 @@ html {
   }
   
   #logo h1 {
-	margin: 20px; /* Remove margin from title */
+	margin: 20px;
 	font-size: 1.8em; /* Scale the title font size */
 	white-space: nowrap; /* Prevent wrapping of the title */
   }
@@ -104,22 +104,21 @@ html {
   /* Responsive Layout for Mobile (iPhones and smaller devices) */
   @media (max-width: 600px) {
 	body {
-	  font-size: 14px; /* Smaller font size for mobile */
+	  font-size: 15px; /* Smaller font size for mobile */
 	}
-  
+
 	#header {
-	  height: 60px; /* Reduce header height on mobile */
-	  padding: 0 10px; /* Reduce padding */
+		min-height: 60px; /* Reduce height dynamically for small screens */
 	}
-  
+
 	#logo h1 {
-	  font-size: 1.5em; /* Scale down the title font size */
+	  font-size: 1.4em; /* Scale down the title font size */
 	}
   
 	#nav {
 	  width: 230px; /* Keep the width the same */
 	  position: absolute;
-	  top: 80px;
+	  top: 60px;
 	  bottom: 0;
 	  left: -230px; /* Hide the menu initially */
 	  transition: left 0.3s ease;
