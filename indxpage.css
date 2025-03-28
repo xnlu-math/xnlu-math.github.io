@@ -12,7 +12,7 @@ body {
 	min-height: 100%;
 	font-family: Sans-serif;
 	line-height: 1.5em;
-	font-size: 16px; /* Set a base font size */
+	font-size: 16px; /* Base font size */
 }
 
 #header {
@@ -41,7 +41,7 @@ body {
 }
 
 main {
-	position: fixed;
+	position: absolute;
 	top: 80px; /* Set this to the height of the header */
 	left: 230px;
 	right: 0;
@@ -87,7 +87,7 @@ li:not(:last-child) {
 	width: 100%;
 }
 
-/* Responsive font size adjustments */
+/* Responsive Layout for Mobile (iPhones and smaller devices) */
 @media (max-width: 600px) {
 	body {
 		font-size: 14px; /* Smaller font size for mobile */
@@ -104,14 +104,52 @@ li:not(:last-child) {
 	#nav {
 		width: 100%; /* Make navigation full width on mobile */
 		height: auto;
-		position: relative; /* Reset the fixed position */
+		position: relative; /* Reset fixed position */
 	}
 
 	main {
-		top: 60px; /* Adjust the content position below the header */
+		top: 60px; /* Adjust content position below the header */
 		left: 0; /* Take full width for content */
 		right: 0;
 	}
 
 	nav ul a {
-		font-size:
+		font-size: 1.2em; /* Adjust the font size of nav links */
+	}
+
+	li:not(:last-child) {
+		margin-bottom: 6px;
+	}
+
+	/* Ensure right part content is not hidden */
+	main {
+		left: 0 !important; /* Remove fixed positioning */
+	}
+}
+
+/* For medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+	body {
+		font-size: 15px; /* Adjust for tablets */
+	}
+
+	#header {
+		height: 70px; /* Slightly reduce header size for tablets */
+	}
+
+	#logo h1 {
+		font-size: 1.8em; /* Medium size header */
+	}
+
+	#nav {
+		width: 200px; /* Slightly reduce nav width for tablets */
+	}
+
+	main {
+		left: 200px; /* Adjust content area */
+	}
+
+	nav ul a {
+		font-size: 1.1em; /* Increase font size slightly for better readability */
+	}
+}
