@@ -129,6 +129,54 @@ ul li, ol li {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+
+
+.profile-header {
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .page-footer {
+    text-align: center;
+    color: #888;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+  }
+
+  .content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .section-title {
+    color: #845080;
+    border-bottom: 1px solid #845080;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  menu {
+    padding-left: 0;
+  }
+
+  menu h3 {
+    color: #845080;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+
+
 /* Remove outdated IE6 fix */
 /* Modern browsers no longer need this specific hack */
 

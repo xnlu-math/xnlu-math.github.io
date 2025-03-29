@@ -1,44 +1,37 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="goback.js"></script>
+  <title>Attended Events (2011~2019) - Xiao-Nan LU</title>
+  <link rel="stylesheet" href="subpage.css">
 
-  	<script type="text/javascript" src="goback.js"></script>	
-  
-  <title>Conferences Attended (2011-2019)</title>
-  
-    <link rel="stylesheet" href="subpage.css">
-    
-		<script type="text/javascript" src="confs/conf2011.js"></script>
-		<script type="text/javascript" src="confs/conf2014.js"></script>
-    <script type="text/javascript" src="confs/conf2015.js"></script>
-    <script type="text/javascript" src="confs/conf2016.js"></script>	
-    <script type="text/javascript" src="confs/conf2017.js"></script>
-    <script type="text/javascript" src="confs/conf2018.js"></script>
-    <script type="text/javascript" src="confs/conf2019.js"></script>
-    <script type="text/javascript" src="confs/conf_fun.js"></script>
-
+  <script type="text/javascript" src="confs/conf2011.js"></script>
+  <script type="text/javascript" src="confs/conf2014.js"></script>
+  <script type="text/javascript" src="confs/conf2015.js"></script>
+  <script type="text/javascript" src="confs/conf2016.js"></script>	
+  <script type="text/javascript" src="confs/conf2017.js"></script>
+  <script type="text/javascript" src="confs/conf2018.js"></script>
+  <script type="text/javascript" src="confs/conf2019.js"></script>
+  <script type="text/javascript" src="confs/conf_fun.js"></script>
 </head>
 
 <body>
+  <header class="profile-header">
+    <h2>Attended Events & Talks</h2>  
+  </header>
 
-<table>
-  <tbody>
-    <tr>
-      <td style="vertical-align: top;">
-      <h2>Conferences Attended and Talks</h2> 
-      <menu> 
-        <script> generateYearConfList(2011, 2019) </script>
-      </menu> 
-      
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <main class="content-container">
+    <menu> 
+      <script> generateYearConfList(2011, 2019) </script>
+    </menu> 
+  </main>
 
-<div id="goBackContainer"></div>
-<hr>
+  <footer class="page-footer">
+    <div id="goBackContainer"></div>
+    <hr>
+  </footer>
 
-<script defer>
-  generateGoBack();
-</script>
-</body></html>
+</body>
+</html>

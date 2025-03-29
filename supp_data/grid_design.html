@@ -1,269 +1,267 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
-	<script type="text/javascript" src="../goback.js"></script>
-  <title>Designs</title>
- 
-   	<link rel="stylesheet" href="../subpage.css">		
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="../goback.js"></script>
+  <title>Designs - Xiao-Nan LU</title>
+  <link rel="stylesheet" href="../subpage.css">
 
 	<script type="text/x-mathjax-config">
-	MathJax.Hub.Config({
-  	CommonHTML: { matchFontHeight: false }
-	});
+		MathJax.Hub.Config({
+		  CommonHTML: { matchFontHeight: false }
+		});
 	</script>
 	<script type="text/x-mathjax-config">
-	MathJax.Hub.Config({
-  	tex2jax: {
-    	inlineMath: [['$','$'], ['\\(','\\)']],
-    	processEscapes: true
-  	},
-  	CommonHTML: { matchFontHeight: false }
-	});
+		MathJax.Hub.Config({
+		  tex2jax: {
+			inlineMath: [['$','$'], ['\\(','\\)']],
+			processEscapes: true
+		  },
+		  CommonHTML: { matchFontHeight: false }
+		});
 	</script>
 	<script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 	</script>
-		
+
 </head>
 
+
 <body>
+  <header class="profile-header">
+    <h2>Supplementary Material for Grid-block Difference Families (DFs)</h2> 
+	<p>Supplementary data for my paper &quot;Grid-block difference families and related combinatorial structures&quot; 
+		(co-author with J. Satoh and M. Jimbo). </p>
+  </header>
 
-<table>
-  <tbody>
-    <tr>
-      <td style="vertical-align: top;">
-      <h2>Supplementary Material for Grid-block Difference Families (DFs)</h2> 
-      <p>Supplementary data for my paper &quot;Grid-block difference families and related combinatorial structures&quot; 
-      	(co-author with J. Satoh and M. Jimbo). </p>
-      <menu> 
-      <h3>Row-radical Grid-block DFs with $(r,k)=(3,3)$ (Click &quot;$q= \ldots$&quot; for the folded details)</h3>
-      <div style="cursor:hand" onclick="isHidden('gddf_3x3_p')">
-      <h4>$q=p<105,841$ prime </h4>
-      </div>
-      <div id="gddf_3x3_p" style="display:none">
-      <ul>
-        <li>There are $837$ primes satisfying the necessary divisibility condition $p \equiv 1 \pmod{36}$ and above condition.
-        	<ul>
-			<li><a target="_blank" href="grid_design/grid_block_df_3_3.txt">Here is the data file (.txt, 20KB). </a> 
-				Each row gives a row-radical $(p, L_{3,3},1)$-DF. </li>
-			<li>The parameters in each row (separated by commas) are respectively 
-				$p$, &nbsp;
-				$n=\frac{p-1}{36}$, &nbsp;
-				$g$, &nbsp;
-				$\zeta_3$, &nbsp;
-				$\alpha_2$, &nbsp;
-				$\alpha_3$.</li>
-			<li>$p$: order the group, &ensp; 
-				$g$: a primitive element of $\mathbb{F}_p$, &ensp;
-				$\zeta_3$: a cubic root of unity of $\mathbb{F}_p^{\ast}$.</li>
-			<li>$\alpha_2$, $\alpha_3$:  coefficients in the 2nd and 3rd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      </div>
-      
-      <div style="cursor:hand" onclick="isHidden('gddf_3x3_p2')">
-      <h4>$q = p^2<105,841$ ($p \le 307$ prime) </h4>
-      </div>
-      <div id="gddf_3x3_p2" style="display:none">
-      <ul>
-        <li>There are $16$ primes with $p \equiv -1, \pm 17 \pmod{36}$ satisfying above condition.
-        	<ul>
-			<li><a target="_blank" href="grid_design/grid_block_df_3_3_ppwr2.txt">Here is the data file (.txt, <1KB). </a> 
-				Each row gives a row-radical $(p^2, L_{3,3},1)$-DF. </li>
-			<li>The parameters in each row (separated by commas) are respectively 
-				$q = p^2$, &nbsp;
-				$p$, &nbsp;
-				$s=2$, &nbsp;
-				$g(x)$ (presented as three integers), &nbsp;
-				$\zeta_3$ (presented as two integers), &nbsp;
-				$\alpha_2$  (presented as two integers), &nbsp;
-				$\alpha_3$  (presented as two integers).</li>
-			<li>$q = p^2$: order the group, &ensp; 
-				$g(x)$: a generator polynomial of $\mathbb{F}_{p^2} := \mathbb{F}_p[x] / g(x)$, &ensp;
-				$\zeta_3$: a cubic root of unity of $\mathbb{F}_{p^2}^{\ast}$.</li>
-			<li>$\alpha_2$, $\alpha_3$:  coefficients in the 2nd and 3rd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      </div>
-      
-      <div style="cursor:hand" onclick="isHidden('gddf_3x3_p3')">
-      <h4>$q = p^3$, $q = p^4$ or $q = p^6$ with $p$ prime</h4>
-      </div>
-      <div id="gddf_3x3_p3" style="display:none">
-      <ul>
-        <li>$p = 13$, &nbsp; $q = p^3 = 2197$. &nbsp; $\mathbb{F}_{p^3} := \mathbb{F}_{p}[\beta] / (\beta^3 + \beta  + 6)$.
-        	<ul>
-			<li>
-				$\zeta_3 = 9$, &nbsp;
-				$\alpha_2 = \beta^2$, &nbsp;
-				$\alpha_3 = \beta^2 + 5 \beta + 1$.&nbsp;
-				(We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      
-      <ul>
-        <li>$p = 17$, &nbsp; $q = p^4 = 83521$. &nbsp; $\mathbb{F}_{p^4} := \mathbb{F}_{p}[\beta] / (\beta^4 + 7\beta^2 + 10\beta + 3)$.
-        	<ul>
-			<li>
-				$\zeta_3 = 6\beta^3 + 12\beta^2 + 5\beta + 10$, &nbsp;
-				$\alpha_2 = \beta+1$, &nbsp;
-				$\alpha_3 = 2 \beta + 7$.&nbsp;
-				(We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      
-      
-      <ul>
-        <li>$p = 5$, &nbsp; $q = p^6 = 15625$. &nbsp; $\mathbb{F}_{p^6} := \mathbb{F}_{p}[\beta] / (\beta^6 + \beta  + 2)$.
-        	<ul>
-			<li>
-				$\zeta_3 = 3 \beta^5 + \beta^4 + 2 \beta^2 + 2\beta + 2$, &nbsp;
-				$\alpha_2 = \beta^2$, &nbsp;
-				$\alpha_3 = \beta^3 + 4 \beta^2 + 4 \beta $.&nbsp;
-				(We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      
-      </div>
-      </menu>
-      
-      <menu> 
-      <h3>Row-radical Grid-block DFs with $(r,k)=(3,5)$  (Click &quot;$p \le \ldots$&quot; for the folded details)  </h3>
-      <div style="cursor:hand" onclick="isHidden('gddf_3x5_p')">
-      <h4>$p \le 1,479,142$ prime </h4>
-      </div>
-      <div id="gddf_3x5_p" style="display:none">
-      <ul>
-        <li>There are $3122$ primes satisfying  $p \equiv 1 \pmod{90}$ and above condition such that $\zeta_5+1 \notin C^{(9)}$.
-        	<ul>
-			<li><a target="_blank" href="grid_design/grid_block_df_3_5.txt">Here is the data file (.txt, 84KB). </a> 
-				Each row gives a row-radical $(p, L_{3,5},1)$-DF. </li>
-			<li>The parameters in each row (separated by commas) are respectively 
-				$p$, &nbsp;
-				$n=\frac{p-1}{90}$, &nbsp;
-				$g$, &nbsp;
-				$\zeta_5$, &nbsp;
-				$\alpha_2$, &nbsp;
-				$\alpha_3$.</li>
-			<li>$p$: order the group, &ensp; 
-				$g$: a primitive element of $\mathbb{F}_p$, &ensp;
-				$\zeta_5$: a $5$-th root of unity of $\mathbb{F}_p^{\ast}$.</li>
-			<li>$\alpha_2$, $\alpha_3$:  coefficients in the 2nd and 3rd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      </div>
-      
-      </menu>
-      
-      <menu> 
-      <h3>Row-radical Grid-block DFs with $r=2$, $k \ge 7$, and $p< 2 \times 10^4$ prime (Click &quot;$k= \ldots$&quot; for the folded details)</h3>
-      <div style="cursor:hand" onclick="isHidden('gddf_2x7_p')">
-      <h4> $k=7$ </h4>
-      </div>
-      <div id="gddf_2x7_p" style="display:none">
-      <ul>
-        <li>There are $13$ primes satisfying $p \equiv 1 \pmod{98}$, &quot;the $X_A$ condition&quot;, and the above condition.
-        	<ul>
-			<li><a target="_blank" href="grid_design/grid_block_df_2_7.txt">Here is the data file (.txt, <1KB). </a> 
-				Each row gives a row-radical $(p, L_{2,7},1)$-DF. </li>
-			<li>The parameters in each row (separated by commas) are respectively 
-				$p$, &nbsp;
-				$n=\frac{p-1}{98}$, &nbsp;
-				$g$, &nbsp;
-				$\zeta_7$, &nbsp;
-				$\alpha_2$.</li>
-			<li>$p$: order the group, &ensp; 
-				$g$: a primitive element of $\mathbb{F}_p$, &ensp;
-				$\zeta_7$: a $7$-th root of unity of $\mathbb{F}_p^{\ast}$.</li>
-			<li>$\alpha_2$:  coefficients in the 2nd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      </div>
-      
-      <div style="cursor:hand" onclick="isHidden('gddf_2x9_p')">
-      <h4> $k=9$ </h4>
-      </div>
-      <div id="gddf_2x9_p" style="display:none">
-      <ul>
-        <li>There are $4$ primes satisfying $p \equiv 1 \pmod{162}$, &quot;the $X_A$ condition&quot;, and the above condition.
-        	<ul>
-			<li><a target="_blank" href="grid_design/grid_block_df_2_9.txt">Here is the data file (.txt, <1KB). </a> 
-				Each row gives a row-radical $(p, L_{2,9},1)$-DF. </li>
-			<li>The parameters in each row (separated by commas) are respectively 
-				$p$, &nbsp;
-				$n=\frac{p-1}{162}$, &nbsp;
-				$g$, &nbsp;
-				$\zeta_9$, &nbsp;
-				$\alpha_2$.</li>
-			<li>$p$: order the group, &ensp; 
-				$g$: a primitive element of $\mathbb{F}_p$, &ensp;
-				$\zeta_9$: a $9$-th root of unity of $\mathbb{F}_p^{\ast}$.</li>
-			<li>$\alpha_2$:  coefficients in the 2nd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      </div>
-      
-      
-      <div style="cursor:hand" onclick="isHidden('gddf_2xk_more')">
-      <h4>$k\in \{11, 13\}$</h4>
-      </div>
-      <div id="gddf_2xk_more" style="display:none">
-      <ul>
-        <li>$k = 11$, &nbsp; $p = 727$, &nbsp; $n=\frac{p-1}{2 k^2}=3$.
-        	<ul>
-			<li>
-				$g = 5$, &nbsp;
-				$\zeta_{11} = 662$, &nbsp;
-				$\alpha_2 = 173$.&nbsp;
-				(We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
- 
-      <ul>
-        <li>$k = 11$, &nbsp; $p = 17183$, &nbsp; $n=\frac{p-1}{2k^2}=71$.
-        	<ul>
-			<li>
-				$g = 5$, &nbsp;
-				$\zeta_{11} = 14225$, &nbsp;
-				$\alpha_2 = 44$.&nbsp;
-				(We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-  
-      <ul>
-        <li>$k = 13$, &nbsp; $p = 9803$, &nbsp; $n=\frac{p-1}{2 k^2}=29$.
-        	<ul>
-			<li>
-				$g = 2$, &nbsp;
-				$\zeta_{11} = 2774$, &nbsp;
-				$\alpha_2 = 36$.&nbsp;
-				(We always set $\alpha_1=1$.)</li>
-			</ul>
-        </li>     
-      </ul>
-      
-      </div>
-      
-      </menu>
-      
-      
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <main class="content-container">
+    <menu> 
+		<h3>Row-radical Grid-block DFs with $(r,k)=(3,3)$ (Click &quot;$q= \ldots$&quot; for the folded details)</h3>
+		<div style="cursor:hand" onclick="isHidden('gddf_3x3_p')">
+		<h4>$q=p<105,841$ prime </h4>
+		</div>
+		<div id="gddf_3x3_p" style="display:none">
+		<ul>
+		  <li>There are $837$ primes satisfying the necessary divisibility condition $p \equiv 1 \pmod{36}$ and above condition.
+			  <ul>
+			  <li><a target="_blank" href="grid_design/grid_block_df_3_3.txt">Here is the data file (.txt, 20KB). </a> 
+				  Each row gives a row-radical $(p, L_{3,3},1)$-DF. </li>
+			  <li>The parameters in each row (separated by commas) are respectively 
+				  $p$, &nbsp;
+				  $n=\frac{p-1}{36}$, &nbsp;
+				  $g$, &nbsp;
+				  $\zeta_3$, &nbsp;
+				  $\alpha_2$, &nbsp;
+				  $\alpha_3$.</li>
+			  <li>$p$: order the group, &ensp; 
+				  $g$: a primitive element of $\mathbb{F}_p$, &ensp;
+				  $\zeta_3$: a cubic root of unity of $\mathbb{F}_p^{\ast}$.</li>
+			  <li>$\alpha_2$, $\alpha_3$:  coefficients in the 2nd and 3rd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		</div>
+		
+		<div style="cursor:hand" onclick="isHidden('gddf_3x3_p2')">
+		<h4>$q = p^2<105,841$ ($p \le 307$ prime) </h4>
+		</div>
+		<div id="gddf_3x3_p2" style="display:none">
+		<ul>
+		  <li>There are $16$ primes with $p \equiv -1, \pm 17 \pmod{36}$ satisfying above condition.
+			  <ul>
+			  <li><a target="_blank" href="grid_design/grid_block_df_3_3_ppwr2.txt">Here is the data file (.txt, <1KB). </a> 
+				  Each row gives a row-radical $(p^2, L_{3,3},1)$-DF. </li>
+			  <li>The parameters in each row (separated by commas) are respectively 
+				  $q = p^2$, &nbsp;
+				  $p$, &nbsp;
+				  $s=2$, &nbsp;
+				  $g(x)$ (presented as three integers), &nbsp;
+				  $\zeta_3$ (presented as two integers), &nbsp;
+				  $\alpha_2$  (presented as two integers), &nbsp;
+				  $\alpha_3$  (presented as two integers).</li>
+			  <li>$q = p^2$: order the group, &ensp; 
+				  $g(x)$: a generator polynomial of $\mathbb{F}_{p^2} := \mathbb{F}_p[x] / g(x)$, &ensp;
+				  $\zeta_3$: a cubic root of unity of $\mathbb{F}_{p^2}^{\ast}$.</li>
+			  <li>$\alpha_2$, $\alpha_3$:  coefficients in the 2nd and 3rd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		</div>
+		
+		<div style="cursor:hand" onclick="isHidden('gddf_3x3_p3')">
+		<h4>$q = p^3$, $q = p^4$ or $q = p^6$ with $p$ prime</h4>
+		</div>
+		<div id="gddf_3x3_p3" style="display:none">
+		<ul>
+		  <li>$p = 13$, &nbsp; $q = p^3 = 2197$. &nbsp; $\mathbb{F}_{p^3} := \mathbb{F}_{p}[\beta] / (\beta^3 + \beta  + 6)$.
+			  <ul>
+			  <li>
+				  $\zeta_3 = 9$, &nbsp;
+				  $\alpha_2 = \beta^2$, &nbsp;
+				  $\alpha_3 = \beta^2 + 5 \beta + 1$.&nbsp;
+				  (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		
+		<ul>
+		  <li>$p = 17$, &nbsp; $q = p^4 = 83521$. &nbsp; $\mathbb{F}_{p^4} := \mathbb{F}_{p}[\beta] / (\beta^4 + 7\beta^2 + 10\beta + 3)$.
+			  <ul>
+			  <li>
+				  $\zeta_3 = 6\beta^3 + 12\beta^2 + 5\beta + 10$, &nbsp;
+				  $\alpha_2 = \beta+1$, &nbsp;
+				  $\alpha_3 = 2 \beta + 7$.&nbsp;
+				  (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		
+		
+		<ul>
+		  <li>$p = 5$, &nbsp; $q = p^6 = 15625$. &nbsp; $\mathbb{F}_{p^6} := \mathbb{F}_{p}[\beta] / (\beta^6 + \beta  + 2)$.
+			  <ul>
+			  <li>
+				  $\zeta_3 = 3 \beta^5 + \beta^4 + 2 \beta^2 + 2\beta + 2$, &nbsp;
+				  $\alpha_2 = \beta^2$, &nbsp;
+				  $\alpha_3 = \beta^3 + 4 \beta^2 + 4 \beta $.&nbsp;
+				  (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		
+		</div>
+		</menu>
+		
+		<menu> 
+		<h3>Row-radical Grid-block DFs with $(r,k)=(3,5)$  (Click &quot;$p \le \ldots$&quot; for the folded details)  </h3>
+		<div style="cursor:hand" onclick="isHidden('gddf_3x5_p')">
+		<h4>$p \le 1,479,142$ prime </h4>
+		</div>
+		<div id="gddf_3x5_p" style="display:none">
+		<ul>
+		  <li>There are $3122$ primes satisfying  $p \equiv 1 \pmod{90}$ and above condition such that $\zeta_5+1 \notin C^{(9)}$.
+			  <ul>
+			  <li><a target="_blank" href="grid_design/grid_block_df_3_5.txt">Here is the data file (.txt, 84KB). </a> 
+				  Each row gives a row-radical $(p, L_{3,5},1)$-DF. </li>
+			  <li>The parameters in each row (separated by commas) are respectively 
+				  $p$, &nbsp;
+				  $n=\frac{p-1}{90}$, &nbsp;
+				  $g$, &nbsp;
+				  $\zeta_5$, &nbsp;
+				  $\alpha_2$, &nbsp;
+				  $\alpha_3$.</li>
+			  <li>$p$: order the group, &ensp; 
+				  $g$: a primitive element of $\mathbb{F}_p$, &ensp;
+				  $\zeta_5$: a $5$-th root of unity of $\mathbb{F}_p^{\ast}$.</li>
+			  <li>$\alpha_2$, $\alpha_3$:  coefficients in the 2nd and 3rd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		</div>
+		
+		</menu>
+		
+		<menu> 
+		<h3>Row-radical Grid-block DFs with $r=2$, $k \ge 7$, and $p< 2 \times 10^4$ prime (Click &quot;$k= \ldots$&quot; for the folded details)</h3>
+		<div style="cursor:hand" onclick="isHidden('gddf_2x7_p')">
+		<h4> $k=7$ </h4>
+		</div>
+		<div id="gddf_2x7_p" style="display:none">
+		<ul>
+		  <li>There are $13$ primes satisfying $p \equiv 1 \pmod{98}$, &quot;the $X_A$ condition&quot;, and the above condition.
+			  <ul>
+			  <li><a target="_blank" href="grid_design/grid_block_df_2_7.txt">Here is the data file (.txt, <1KB). </a> 
+				  Each row gives a row-radical $(p, L_{2,7},1)$-DF. </li>
+			  <li>The parameters in each row (separated by commas) are respectively 
+				  $p$, &nbsp;
+				  $n=\frac{p-1}{98}$, &nbsp;
+				  $g$, &nbsp;
+				  $\zeta_7$, &nbsp;
+				  $\alpha_2$.</li>
+			  <li>$p$: order the group, &ensp; 
+				  $g$: a primitive element of $\mathbb{F}_p$, &ensp;
+				  $\zeta_7$: a $7$-th root of unity of $\mathbb{F}_p^{\ast}$.</li>
+			  <li>$\alpha_2$:  coefficients in the 2nd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		</div>
+		
+		<div style="cursor:hand" onclick="isHidden('gddf_2x9_p')">
+		<h4> $k=9$ </h4>
+		</div>
+		<div id="gddf_2x9_p" style="display:none">
+		<ul>
+		  <li>There are $4$ primes satisfying $p \equiv 1 \pmod{162}$, &quot;the $X_A$ condition&quot;, and the above condition.
+			  <ul>
+			  <li><a target="_blank" href="grid_design/grid_block_df_2_9.txt">Here is the data file (.txt, <1KB). </a> 
+				  Each row gives a row-radical $(p, L_{2,9},1)$-DF. </li>
+			  <li>The parameters in each row (separated by commas) are respectively 
+				  $p$, &nbsp;
+				  $n=\frac{p-1}{162}$, &nbsp;
+				  $g$, &nbsp;
+				  $\zeta_9$, &nbsp;
+				  $\alpha_2$.</li>
+			  <li>$p$: order the group, &ensp; 
+				  $g$: a primitive element of $\mathbb{F}_p$, &ensp;
+				  $\zeta_9$: a $9$-th root of unity of $\mathbb{F}_p^{\ast}$.</li>
+			  <li>$\alpha_2$:  coefficients in the 2nd row of a base grid-block. (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		</div>
+		
+		
+		<div style="cursor:hand" onclick="isHidden('gddf_2xk_more')">
+		<h4>$k\in \{11, 13\}$</h4>
+		</div>
+		<div id="gddf_2xk_more" style="display:none">
+		<ul>
+		  <li>$k = 11$, &nbsp; $p = 727$, &nbsp; $n=\frac{p-1}{2 k^2}=3$.
+			  <ul>
+			  <li>
+				  $g = 5$, &nbsp;
+				  $\zeta_{11} = 662$, &nbsp;
+				  $\alpha_2 = 173$.&nbsp;
+				  (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+   
+		<ul>
+		  <li>$k = 11$, &nbsp; $p = 17183$, &nbsp; $n=\frac{p-1}{2k^2}=71$.
+			  <ul>
+			  <li>
+				  $g = 5$, &nbsp;
+				  $\zeta_{11} = 14225$, &nbsp;
+				  $\alpha_2 = 44$.&nbsp;
+				  (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+	
+		<ul>
+		  <li>$k = 13$, &nbsp; $p = 9803$, &nbsp; $n=\frac{p-1}{2 k^2}=29$.
+			  <ul>
+			  <li>
+				  $g = 2$, &nbsp;
+				  $\zeta_{11} = 2774$, &nbsp;
+				  $\alpha_2 = 36$.&nbsp;
+				  (We always set $\alpha_1=1$.)</li>
+			  </ul>
+		  </li>     
+		</ul>
+		
+		</div>
+		
+	</menu>
+  </main>
 
-<script> generateGoBack() </script><hr>
+  <footer class="page-footer">
+    <div id="goBackContainer"></div>
+    <hr>
+	<small>Last updated on Sept. 28, 2018. </small>
+  </footer>
 
-<p><small>Last updated on Sept. 28, 2018. </small></p>
-
-</body></html>
+</body>
+</html>
