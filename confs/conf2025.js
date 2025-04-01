@@ -7,7 +7,7 @@ var confName25=[
 ];
 
 var confPlace25=[
-    "National Sun Yat-sen University (國立中山大學), Kaohsiung"
+    "National Sun Yat-sen University (國立中山大學), Kaohsiung, Taiwan"
 ];
 			
 var confData25=[
