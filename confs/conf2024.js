@@ -35,7 +35,7 @@ var confPlace24=[
     "早稲田大学・Zoom (オンライン参加)",
     "高松センタービル",
     "龍谷大学 (瀬田キャンパス)",
-    "National Taiwan University of Science and Technology (國立臺灣科技大學), Taipei",
+    "National Taiwan University of Science and Technology (國立臺灣科技大學), Taipei, Taiwan",
     "名古屋大学",
     "JR博多シティとZoomによるハイブリッド開催 (オンライン参加)",
     "京都大学",
