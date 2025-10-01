@@ -51,8 +51,8 @@ var confURL25=[
 ];
 			
 var confRmks25=[
-    "入門講義（招待講演）“組合せテスト入門 〜極値組合せ論・組合せデザイン・符号の交差点〜” 予定",
-    "一般講演 “Completely uniform nested pairings in Boolean Steiner quadruple systems” 9/16 予定",
+    "入門講義（招待講演）“組合せテスト入門 〜極値組合せ論・組合せデザイン・符号の交差点〜” 9/29",
+    "一般講演 “Completely uniform nested pairings in Boolean Steiner quadruple systems” 9/16",
     "",
     "",
     "",
