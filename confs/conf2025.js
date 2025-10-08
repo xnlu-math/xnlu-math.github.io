@@ -3,6 +3,7 @@ Conferences attended by Xiao-Nan LU in the academic year of 2025
 */
 
 var confName25=[
+    "大阪組合せ論セミナー",
     "組合せ論サマースクール2025",
     "日本数学会2025年度秋季総合分科会", 
     "九大IMI共同利用研究「エクスパンダーグラフにまつわる数理科学と応用」", 
@@ -15,6 +16,7 @@ var confName25=[
 ];
 
 var confPlace25=[
+    "大阪公立大学文化交流センター", 
     "大分県別府市 ふれあい広場 サザンクロス",
     "名古屋大学",
     "九州大学 伊都キャンパス・Zoom (オンライン参加)",
@@ -27,6 +29,7 @@ var confPlace25=[
 ];
 			
 var confData25=[
+    "10月31日",
     "9月27日～30日",
     "9月16日～19日",
     "8月25日～27日",
@@ -39,6 +42,7 @@ var confData25=[
 ];
 			
 var confURL25=[
+    "http://sv2-mat.ist.osaka-u.ac.jp/~higashitani/seminar.html",
     "https://sites.google.com/view/cos2025/",
     "https://www.mathsoc.jp/activity/meeting/nagoya25sept/",
     "https://joint.imi.kyushu-u.ac.jp/post-17970/",
@@ -51,6 +55,7 @@ var confURL25=[
 ];
 			
 var confRmks25=[
+    "招待講演 “代数的手法による組合せデザインの構成法について”",
     "入門講義（招待講演）“組合せテスト入門 〜極値組合せ論・組合せデザイン・符号の交差点〜” 9/29",
     "一般講演 “Completely uniform nested pairings in Boolean Steiner quadruple systems” 9/16",
     "",
