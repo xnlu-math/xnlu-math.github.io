@@ -10,6 +10,7 @@ var confPref=[
 	"",
 	"",
 	"",
+	"",
 	"<del>Organizing Committee Member of</del>",
 	"",
 	"Organizing Committee Member of",
@@ -19,6 +20,7 @@ var confPref=[
 	""]
 	
 var confSuf=[
+	"世話人",
 	"",
 	"",
 	"",
@@ -32,6 +34,7 @@ var confSuf=[
 	"世話人"]
 
 var confName=[
+	"研究集会「デザインと符号および関連する組合せ構造2025」",
 	"電子情報通信学会 2023年度ソサイエティ大会",
 	"Japanese Conference on Combinatorics and its Applications (JCCA-2023)・離散数学とその応用研究集会2023",
 	"Japanese Conference on Combinatorics and its Applications (JCCA-2022)・離散数学とその応用研究集会2022",
@@ -45,6 +48,7 @@ var confName=[
 	"研究集会「実験計画法およびその周辺の組合せ構造2014」"]
 	
 var confPlace=[
+	"熊本市国際交流会館",
 	"名古屋大学 (東山キャンパス)",
 	"愛知教育大学とオンラインのハイブリッド開催",
 	"成蹊大学とオンラインのハイブリッド開催",
@@ -58,6 +62,7 @@ var confPlace=[
 	"城崎国際アートセンター（兵庫県）"]
 	
 var confData=[
+	"2025年12月13日〜14日",
 	"2023年9月12日〜15日",
 	"2023年8月28～30日", 
 	"2022年8月17～19日", 
@@ -71,6 +76,7 @@ var confData=[
 	"2014年12月13日～15日"]
 	
 var confURL=[
+	"https://sites.google.com/view/design-code-comb-2025/",
 	"https://www.ieice.org/jpn_r/activities/taikai/society/2023/index.html",
 	"https://sites.google.com/view/jcca-dmia-2023/",
 	"https://sites.google.com/view/jcca-dmia-2022/",
@@ -84,6 +90,7 @@ var confURL=[
 	"http://www.ist.aichi-pu.ac.jp/~hirao/kinosaki2014/kinosaki2014.html"]
 	
 var confRmks=[
+	"世話人：佐竹翔平, 籾原幸二, <u>盧暁南</u>",
 	"企画セッション「組合せ論と情報理論 ー最新動向と展望ー」オーガナイザー (情報理論研専)",
 	"ミニシンポジウム「符号・暗号・人工知能」世話人：顧玉杰, <u>盧暁南</u>, 角田有",
 	"ミニシンポジウム「符号・暗号・人工知能」世話人：顧玉杰, <u>盧暁南</u>",
