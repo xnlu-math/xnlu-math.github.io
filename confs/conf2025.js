@@ -3,6 +3,10 @@ Conferences attended by Xiao-Nan LU in the academic year of 2025
 */
 
 var confName25=[
+    "2025年度応用数学合同研究集会",
+    "量子誤り訂正理論 若手ワークショップ",
+    "研究集会「デザインと符号および関連する組合せ構造2025」",
+    "第134回人工知能基本問題研究会 (SIG-FPAI)",
     "大阪組合せ論セミナー",
     "RIMS共同研究「数論・幾何・ランダムネスとその展開」",
     "組合せ論サマースクール2025",
@@ -17,6 +21,10 @@ var confName25=[
 ];
 
 var confPlace25=[
+    "龍谷大学 瀬田キャンパス",
+    "名古屋大学",
+    "熊本市国際交流会館",
+    "慶應義塾大学 日吉キャンパス・Zoom (オンライン参加)",
     "大阪公立大学文化交流センター", 
     "京都大学数理解析研究所・Zoom (オンライン参加)",
     "大分県別府市 ふれあい広場 サザンクロス",
@@ -31,6 +39,10 @@ var confPlace25=[
 ];
 			
 var confData25=[
+    "12月18日～20日",
+    "12月17日～19日",
+    "12月13日～14日",
+    "12月1日",
     "10月31日",
     "10月27日～31日",
     "9月27日～30日",
@@ -45,6 +57,10 @@ var confData25=[
 ];
 			
 var confURL25=[
+    "https://www.mathsoc.jp/section/appliedmath/CAM/2025/",
+    "https://sites.google.com/view/qecminiworkshopjp2025/home",
+    "https://sites.google.com/view/design-code-comb-2025/",
+    "https://sig-fpai.org/past/fpai134.html",
     "http://sv2-mat.ist.osaka-u.ac.jp/~higashitani/seminar.html",
     "https://sites.google.com/view/ngr2025/jp",
     "https://sites.google.com/view/cos2025/",
@@ -59,6 +75,10 @@ var confURL25=[
 ];
 			
 var confRmks25=[
+    "",
+    "",
+    "世話人",
+    "",
     "招待講演 “代数的手法による組合せデザインの構成法について”",
     "",
     "入門講義（招待講演）“組合せテスト入門 〜極値組合せ論・組合せデザイン・符号の交差点〜” 9/29",
