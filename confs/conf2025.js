@@ -3,6 +3,10 @@ Conferences attended by Xiao-Nan LU in the academic year of 2025
 */
 
 var confName25=[
+    "日本数学会2026年度年会",
+    "2026 早稲田離散数理研究集会",
+    "Algebraic Combinatorics Mini-Workshop: Honoring the Mathematical Journey of Professor Akihiro Munemasa",
+    "第136回人工知能基本問題研究会",
     "第22回組合せ論若手研究集会",
     "第9回数理新人セミナー",
     "2025年度応用数学合同研究集会",
@@ -23,6 +27,10 @@ var confName25=[
 ];
 
 var confPlace25=[
+    "東京理科大学 神楽坂キャンパス",
+    "早稲田大学 西早稲田キャンパス",
+    "Tohoku University",
+    "京都大学 楽友会館・Zoom (オンライン参加)",
     "慶應義塾大学 矢上キャンパス",
     "名古屋大学",
     "龍谷大学 瀬田キャンパス",
@@ -43,6 +51,10 @@ var confPlace25=[
 ];
 
 var confData25=[
+    "3月23日～26日",
+    "3月22日",
+    "March 20 - 21, 2026",
+    "3月18日～19日",
     "2月19日～20日",
     "2月17日～20日",
     "12月18日～20日",
@@ -63,6 +75,10 @@ var confData25=[
 ];
 			
 var confURL25=[
+    "https://www.mathsoc.jp/activity/meeting/tus26mar/index.html",
+    "https://sites.google.com/view/waseda-dm",
+    "https://sites.google.com/view/alg-comb-miniworkshop2026/home",
+    "https://sig-fpai.org/past/fpai136.html",
     "https://www.comb.math.keio.ac.jp/wakate26/",
     "https://sites.google.com/view/math-graduate/MATHSCI-FRESHMAN-SEMINAR/2026?authuser=0",
     "https://www.mathsoc.jp/section/appliedmath/CAM/2025/",
@@ -83,6 +99,10 @@ var confURL25=[
 ];
 			
 var confRmks25=[
+    "講演予定",
+    "",
+    "",
+    "",
     "",
     "",
     "",
