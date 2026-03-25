@@ -99,7 +99,7 @@ var confURL25=[
 ];
 			
 var confRmks25=[
-    "講演予定",
+    "一般講演 “Completely uniform nested pairings of Carmichael’s Steiner quadruple systems on projective lines” 3/24",
     "",
     "",
     "",
