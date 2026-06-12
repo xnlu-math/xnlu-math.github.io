@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +7,18 @@
   <title>Attended Events (2011~2019) - Xiao-Nan LU</title>
   <link rel="stylesheet" href="subpage.css">
 
-  <script type="text/javascript" src="confs/conf2011.js"></script>
-  <script type="text/javascript" src="confs/conf2014.js"></script>
-  <script type="text/javascript" src="confs/conf2015.js"></script>
-  <script type="text/javascript" src="confs/conf2016.js"></script>	
-  <script type="text/javascript" src="confs/conf2017.js"></script>
-  <script type="text/javascript" src="confs/conf2018.js"></script>
-  <script type="text/javascript" src="confs/conf2019.js"></script>
-  <script type="text/javascript" src="confs/conf_fun.js"></script>
+  <script type="text/javascript" src="confs/conferences.js"></script>
 </head>
 
 <body>
   <header class="profile-header">
-    <h2>Attended Events & Talks</h2>  
+    <h2>Attended Events & Talks</h2>
   </header>
 
   <main class="content-container">
-    <menu> 
-      <script> generateYearConfList(2011, 2019) </script>
-    </menu> 
+    <menu id="conference-list">
+      <script> renderYearConfList('conference-list', 2011, 2019) </script>
+    </menu>
   </main>
 
   <footer class="page-footer">

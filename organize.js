@@ -18,7 +18,7 @@ var confPref=[
 	"Organizing Committee Member of",
 	"",
 	""]
-	
+
 var confSuf=[
 	"世話人",
 	"",
@@ -46,7 +46,7 @@ var confName=[
 	"the 5th Taiwan-Japan Conference on Combinatorics and its Applications (5th TJCCA)",
 	"研究集会「実験計画法と符号および関連する組合せ構造2017」",
 	"研究集会「実験計画法およびその周辺の組合せ構造2014」"]
-	
+
 var confPlace=[
 	"熊本市国際交流会館",
 	"名古屋大学 (東山キャンパス)",
@@ -60,21 +60,21 @@ var confPlace=[
 	"National Taiwan Normal University（國立臺灣師範大學）, Taiwan",
 	"湯河原町（神奈川県）",
 	"城崎国際アートセンター（兵庫県）"]
-	
+
 var confData=[
 	"2025年12月13日〜14日",
 	"2023年9月12日〜15日",
-	"2023年8月28～30日", 
-	"2022年8月17～19日", 
-	"2020年8月18～20日", 
+	"2023年8月28～30日",
+	"2022年8月17～19日",
+	"2020年8月18～20日",
 	"<del>March 25-27, 2020</del>. Cancelled",
 	"2019年8月27日～29日",
 	"Nov 2-4, 2018",
-	"2018年10月31日～11月3日", 
+	"2018年10月31日～11月3日",
 	"Mar 28-30, 2018",
-	"2017年11月23日～25日", 
+	"2017年11月23日～25日",
 	"2014年12月13日～15日"]
-	
+
 var confURL=[
 	"https://sites.google.com/view/design-code-comb-2025/",
 	"https://www.ieice.org/jpn_r/activities/taikai/society/2023/index.html",
@@ -88,7 +88,7 @@ var confURL=[
 	"https://sites.google.com/view/tjcc2018/",
 	"https://sites.google.com/view/yugawara2017",
 	"http://www.ist.aichi-pu.ac.jp/~hirao/kinosaki2014/kinosaki2014.html"]
-	
+
 var confRmks=[
 	"世話人：佐竹翔平, 籾原幸二, <u>盧暁南</u>",
 	"企画セッション「組合せ論と情報理論 ー最新動向と展望ー」オーガナイザー (情報理論研専)",
@@ -102,14 +102,14 @@ var confRmks=[
 	"日本側学術委員：神保雅一, 太田克弘, 三嶋美和子; 日本側組織委員：<u>盧暁南</u>, 平尾将剛; <br>　台湾側学術委員：游森棚, 傅恆霖, 黃國卿, 李國偉, 董立大, 葉永南; 台湾側組織委員：游森棚, 徐泰煒, 張飛黃, 郭君逸, 林延輯, 張惠蘭, 陳宏賓, 賴欣豪, 李渭天, 潘志實",
 	"世話人：地嵜頌子, 宮本暢子, 松原和樹, <u>盧暁南</u>",
 	"世話人：繆瑩, 澤正憲, 平尾将剛, 山田紘頌, <u>盧暁南</u>"]
-	
+
 	function generateOrgList(){
 		document.write("<ol reversed>")
 		for (var i=0; i<confName.length; i++){
 			document.write("<li>")
 			document.write(confPref[i]+" ")
 			if (confURL[i].length > 0)
-		document.write('<a target="_blank" href="' + confURL[i] + '">' + confName[i] + "</a>")
+		document.write('<a target="_blank" href="' + confURL[i] + '" rel="noopener">' + confName[i] + "</a>")
 			else
 		document.write(confName[i])
 			document.write(confSuf[i]+", ")
@@ -121,5 +121,3 @@ var confRmks=[
 		}
 		document.write("</ol>")
 	}
-	
-		
