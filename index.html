@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="indxpage.css">
 		<script type="text/javascript">
 			function load_an_html(fname) {
-			document.getElementById("content").innerHTML='<object type="text/html" data="'+fname+'" width="100%" height="100%"></object>';
+				document.getElementById("content").innerHTML='<object type="text/html" data="'+fname+'" width="100%" height="100%"></object>';
 				trackGoatCounterPage(fname);
 			}
 
@@ -50,21 +50,21 @@
 			<div class="innertube">
 				<h1> </h1>
 				<ul>
-					<li><a id="aboutme" href="#" onclick="load_an_html('aboutme.html')"> About me </a></li>
-					<li><a id="cv-en" href="#" onclick="load_an_html('cv.html')">Profile</a></li>
-					<li><a id="cv-ja" href="#" onclick="load_an_html('cv_j.html')">略歴</a></li>
-					<li><a id="research" href="#" onclick="load_an_html('research.html')">Research Interests</a></li>
-					<li><a id="publication" href="#" onclick="load_an_html('publication.html')">Publications</a></li>
-					<li><a id="organize" href="#" onclick="load_an_html('organize.html')">Organized Events</a></li>
-					<li><a id="conference" href="#" onclick="load_an_html('confs.html')">Attended Events</a>
+					<li><a id="aboutme" href="#" onclick="load_an_html('aboutme.html'); return false;"> About me </a></li>
+					<li><a id="cv-en" href="#" onclick="load_an_html('cv.html'); return false;">Profile</a></li>
+					<li><a id="cv-ja" href="#" onclick="load_an_html('cv_j.html'); return false;">略歴</a></li>
+					<li><a id="research" href="#" onclick="load_an_html('research.html'); return false;">Research Interests</a></li>
+					<li><a id="publication" href="#" onclick="load_an_html('publication.html'); return false;">Publications</a></li>
+					<li><a id="organize" href="#" onclick="load_an_html('organize.html'); return false;">Organized Events</a></li>
+					<li><a id="conference" href="#" onclick="load_an_html('confs.html'); return false;">Attended Events</a>
 						<ul>
-					<li><small><a href="#" onclick="load_an_html('conf_past.html')">Before April 2020</a></small></li>
+					<li><small><a href="#" onclick="load_an_html('conf_past.html'); return false;">Before April 2020</a></small></li>
 					</ul>
 					</li>
-					<li><a id="grants" href="#" onclick="load_an_html('grants.html')">研究助成金</a></li>
-					<li><a id="teaching" href="#" onclick="load_an_html('teaching.html')">担当授業</a></li>
-					<li><a id="clinks" href="#" onclick="load_an_html('links_c.html')">日中翻訳書籍</a></li>
-					<li><a id="jlinks" href="#" onclick="load_an_html('links_j.html')">Links</a></li>
+					<li><a id="grants" href="#" onclick="load_an_html('grants.html'); return false;">研究助成金</a></li>
+					<li><a id="teaching" href="#" onclick="load_an_html('teaching.html'); return false;">担当授業</a></li>
+					<li><a id="clinks" href="#" onclick="load_an_html('links_c.html'); return false;">日中翻訳書籍</a></li>
+					<li><a id="jlinks" href="#" onclick="load_an_html('links_j.html'); return false;">Links</a></li>
 				</ul>
 		</div>
 	</nav>

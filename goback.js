@@ -18,6 +18,46 @@ function getHomePageUrl() {
     return scriptUrl ? new URL(homePage, scriptUrl).href : homePage;
 }
 
+function getGoBackSeparator(container) {
+    var next = container.nextElementSibling;
+    if (next && next.tagName === 'HR') {
+        return next;
+    }
+
+    var previous = container.previousElementSibling;
+    if (previous && previous.tagName === 'HR') {
+        return previous;
+    }
+
+    return null;
+}
+
+function setGoBackVisibility(container, isVisible) {
+    var separator = getGoBackSeparator(container);
+    var footer = container.closest('footer');
+
+    container.hidden = !isVisible;
+    if (separator) {
+        separator.hidden = !isVisible;
+    }
+
+    if (!footer) return;
+
+    if (isVisible) {
+        footer.hidden = false;
+        return;
+    }
+
+    var hasOtherVisibleContent = Array.prototype.some.call(footer.children, function(child) {
+        return child !== container &&
+            child !== separator &&
+            !child.hidden &&
+            child.textContent.trim();
+    });
+
+    footer.hidden = !hasOtherVisibleContent;
+}
+
 /**
  * Creates a "Go back" link in the specified container
  * @param {string} containerId - ID of the container element (defaults to 'goBackContainer')
@@ -36,11 +76,11 @@ function generateGoBack(containerId = 'goBackContainer', linkText = "Go back to 
     container.innerHTML = '';
 
     if (isEmbeddedPage()) {
-        container.hidden = true;
+        setGoBackVisibility(container, false);
         return;
     }
 
-    container.hidden = false;
+    setGoBackVisibility(container, true);
 
     // Create the paragraph element
     const paragraph = document.createElement('p');
@@ -82,7 +122,6 @@ function toggleVisibility(elementId) {
 
 // Backwards compatibility for the old function name
 function isHidden(elementId) {
-    console.warn('isHidden is deprecated. Please use toggleVisibility instead.');
     toggleVisibility(elementId);
 }
 
