@@ -3,7 +3,20 @@
  * Improved version with error handling and flexibility
  */
 
-const myURL = "https://xnlu-math.github.io/";
+const homePage = "index.html";
+const scriptUrl = document.currentScript ? document.currentScript.src : "";
+
+function isEmbeddedPage() {
+    try {
+        return window.self !== window.top;
+    } catch (error) {
+        return true;
+    }
+}
+
+function getHomePageUrl() {
+    return scriptUrl ? new URL(homePage, scriptUrl).href : homePage;
+}
 
 /**
  * Creates a "Go back" link in the specified container
@@ -13,28 +26,37 @@ const myURL = "https://xnlu-math.github.io/";
 function generateGoBack(containerId = 'goBackContainer', linkText = "Go back to Xiao-Nan Lu's homepage") {
     // Find the container element
     const container = document.getElementById(containerId);
-    
+
     // Exit if container not found
     if (!container) {
         console.warn(`Container element with ID '${containerId}' not found.`);
         return;
     }
-    
+
+    container.innerHTML = '';
+
+    if (isEmbeddedPage()) {
+        container.hidden = true;
+        return;
+    }
+
+    container.hidden = false;
+
     // Create the paragraph element
     const paragraph = document.createElement('p');
     paragraph.className = 'go-back-link'; // Add a class for styling
-    
+
     // Create the link
     const link = document.createElement('a');
-    link.href = myURL;
+    link.href = getHomePageUrl();
     link.target = '_top';
     link.textContent = linkText;
-    
+
     // Add content to paragraph
     paragraph.appendChild(document.createTextNode('[ '));
     paragraph.appendChild(link);
     paragraph.appendChild(document.createTextNode(' ]'));
-    
+
     // Add to container
     container.appendChild(paragraph);
 }
@@ -45,15 +67,15 @@ function generateGoBack(containerId = 'goBackContainer', linkText = "Go back to 
  */
 function toggleVisibility(elementId) {
     const element = document.getElementById(elementId);
-    
+
     if (!element) {
         console.warn(`Element with ID '${elementId}' not found.`);
         return;
     }
-    
+
     // Get the current display state
     const currentDisplay = window.getComputedStyle(element).display;
-    
+
     // Toggle between 'none' and the element's natural display type
     element.style.display = (currentDisplay === 'none') ? '' : 'none';
 }
