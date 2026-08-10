@@ -183,7 +183,7 @@ const CONFERENCES_BY_YEAR = {
 		},
 		{
 			"name": "2025年度人工知能学会全国大会",
-			"place": "大阪国際会議場（グランキューブ大阪）＋ オンライン",
+			"place": "大阪国際会議場（グランキューブ大阪）・Zoom",
 			"date": "5月27日～30日",
 			"url": "https://www.ai-gakkai.or.jp/jsai2025/"
 		},
@@ -200,7 +200,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "早稲田大学",
 			"date": "3月18日～21日",
 			"url": "https://www.mathsoc.jp/activity/meeting/waseda25mar/index.html",
-			"remarks": "“Existentially closed critical Cayley graphs” 3/18"
+			"remarks": "“Existentially closed critical Cayley graphs” (応用数学分科会) 3/18"
 		},
 		{
 			"name": "2025早稲田離散数理研究集会",
@@ -228,7 +228,7 @@ const CONFERENCES_BY_YEAR = {
 		},
 		{
 			"name": "NII共同研究「解集合プログラミングの実用化に向けた並列解法に関する研究開発」第3回全体会合",
-			"place": "高松センタービル",
+			"place": "高松センタービル (香川県高松市)",
 			"date": "12月23日～24日",
 			"url": "https://nabesima.github.io/nii2024/#3RD"
 		},
@@ -279,7 +279,7 @@ const CONFERENCES_BY_YEAR = {
 		},
 		{
 			"name": "日本数学会 2024年度秋季総合分科会",
-			"place": "大阪大学 (豊中キャンパス)",
+			"place": "大阪大学 豊中キャンパス",
 			"date": "9月3日～6日",
 			"url": "https://www.mathsoc.jp/activity/meeting/osaka24sept/index.html"
 		},
@@ -303,7 +303,7 @@ const CONFERENCES_BY_YEAR = {
 		},
 		{
 			"name": "NII共同研究「解集合プログラミングの実用化に向けた並列解法に関する研究開発」第1回全体会合",
-			"place": "松本商工会議所(長野県松本市)",
+			"place": "松本商工会議所 (長野県松本市)",
 			"date": "6月26日～27日",
 			"url": "https://nabesima.github.io/nii2024/"
 		},
