@@ -25,7 +25,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "神戸大学",
 			"date": "9月1日～4日",
 			"url": "https://www.mathsoc.jp/activity/meeting/kobe26sept/",
-			"remarks": "“有理的区間デザインの明示的構成法について II” 9/1"
+			"remarks": "“有理的区間デザインの明示的構成法について II” (応用数学分科会) 9/1"
 		},
 		{
 			"name": "The 9th International Conference on Econometrics and Statistics (EcoSta 2026)",
@@ -66,7 +66,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "東京理科大学 神楽坂キャンパス",
 			"date": "3月23日～26日",
 			"url": "https://www.mathsoc.jp/activity/meeting/tus26mar/index.html",
-			"remarks": "一般講演 “Completely uniform nested pairings of Carmichael’s Steiner quadruple systems on projective lines” 3/24"
+			"remarks": "“Completely uniform nested pairings of Carmichael’s Steiner quadruple systems on projective lines” (応用数学分科会) 3/24"
 		},
 		{
 			"name": "2026 早稲田離散数理研究集会",
@@ -148,7 +148,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "名古屋大学",
 			"date": "9月16日～19日",
 			"url": "https://www.mathsoc.jp/activity/meeting/nagoya25sept/",
-			"remarks": "一般講演 “Completely uniform nested pairings in Boolean Steiner quadruple systems” 9/16"
+			"remarks": "“Completely uniform nested pairings in Boolean Steiner quadruple systems” (応用数学分科会) 9/16"
 		},
 		{
 			"name": "九州大学IMI共同利用「エクスパンダーグラフにまつわる数理科学と応用」",
@@ -391,7 +391,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "東北大学 (川内北キャンパス)",
 			"date": "9月20日〜23日",
 			"url": "https://www.mathsoc.jp/activity/meeting/tohoku23sept/index.html",
-			"remarks": "“An algebraic sufficient condition for a circulant almost orthogonal array to be D-optimal” (統計数学分科会，一般講演) 9/23"
+			"remarks": "“An algebraic sufficient condition for a circulant almost orthogonal array to be D-optimal” (統計数学分科会) 9/23"
 		},
 		{
 			"name": "電子情報通信学会 2023年度ソサイエティ大会",
@@ -641,7 +641,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "<del>埼玉大学</del> オンライン",
 			"date": "2022年3月28日～31日",
 			"url": "https://www.mathsoc.jp/activity/meeting/saitama22mar/index.html",
-			"remarks": "“講演題目：Almost external difference families via cyclotomy” (応用数学分科会，一般講演) 3/28"
+			"remarks": "“講演題目：Almost external difference families via cyclotomy” (応用数学分科会) 3/28"
 		},
 		{
 			"name": "Colloquium on Combinatorial Designs (组合设计青年论坛)",
@@ -800,7 +800,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "Zoom (千葉大学主催)",
 			"date": "2021年9月14日～17日",
 			"url": "http://www.mathsoc.jp/activity/meeting/chiba21sept/",
-			"remarks": "講演題目：Searching for edges in a multi-partite graph (応用数学分科会，一般講演) 9/14"
+			"remarks": "講演題目：Searching for edges in a multi-partite graph (応用数学分科会) 9/14"
 		},
 		{
 			"name": "Japanese Conference on Combinatorics and its Applications 2021・離散数学とその応用研究集会2021",
@@ -901,7 +901,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "<del>慶應義塾大学</del> Zoom",
 			"date": "2021年3月15日～18日",
 			"url": "https://www.mathsoc.jp/activity/meeting/keio21mar/",
-			"remarks": "“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会，一般講演) 3/17"
+			"remarks": "“Enumeration and classification of two-level circulant almost orthogonal arrays with strength 2 and bandwidth 1” (統計数学分科会) 3/17"
 		},
 		{
 			"name": "研究会「直観幾何学2021」",
@@ -999,7 +999,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "<del>熊本大学</del> オンライン",
 			"date": "2020年9月22日～25日",
 			"url": "https://www.mathsoc.jp/activity/meeting/kumamoto20sept/",
-			"remarks": "“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会，一般講演) 9/23"
+			"remarks": "“Circulant almost orthogonal arrays and perfect binary sequences” (統計数学分科会) 9/23"
 		},
 		{
 			"name": "CMSA (Combinatorial Mathematics Society of Australasia) seminar",
@@ -1267,7 +1267,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "岡山大学",
 			"date": "2018年9月24日～27日",
 			"url": "http://mathsoc.jp/meeting/okayama18sept/",
-			"remarks": "“On separably existentially closed graphs” (応用数学分科会，一般講演) 9/24"
+			"remarks": "“On separably existentially closed graphs” (応用数学分科会) 9/24"
 		},
 		{
 			"name": "The 8th National Conference on Combinatorics and Graph Theory (第八届全国组合数学与图论大会)",
@@ -1281,7 +1281,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "静岡県伊豆の国市",
 			"date": "2018年8月8日～11日",
 			"url": "https://sites.google.com/view/cos2018",
-			"remarks": "“Existentially closed graphs arising from combinatorial designs” (一般講演) 8/9"
+			"remarks": "“Existentially closed graphs arising from combinatorial designs” 8/9"
 		},
 		{
 			"name": "Conference on Combinatorics and its Applications: In Celebration of Charlie Colbourn's 65th Birthday",
@@ -1361,7 +1361,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "山形大学",
 			"date": "2017年9月11日～14日",
 			"url": "http://mathsoc.jp/meeting/yamagata17sept/",
-			"remarks": "“Locating arrays with error-correcting ability”（統計数学分科会，一般講演） 9/12"
+			"remarks": "“Locating arrays with error-correcting ability”（統計数学分科会） 9/12"
 		},
 		{
 			"name": "JCDCG^3 2017 (20th Japan Conference on Discrete and Computational Geometry, Graphs, and Games)",
@@ -1375,7 +1375,7 @@ const CONFERENCES_BY_YEAR = {
 			"place": "熊本大学",
 			"date": "2017年8月17日〜19日",
 			"url": "http://infoshako.sk.tsukuba.ac.jp/jcca/JCCA-2017/index.html",
-			"remarks": "“On separably existentially closed graphs” (一般講演) 8/17"
+			"remarks": "“On separably existentially closed graphs” 8/17"
 		},
 		{
 			"name": "電子情報通信学会・情報理論研究会（IT）",
