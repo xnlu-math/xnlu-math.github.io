@@ -8,6 +8,40 @@
 const CONFERENCES_BY_YEAR = {
 	"2026": [
 		{
+			"name": "The International Symposium on Information Theory and Its Applications (ISITA) 2026",
+			"place": "Okinawa Convention Center, Okinawa",
+			"date": "November 1-4, 2026",
+			"url": "https://isita.ieice.org/2026/",
+			"remarks": "Contributed talk ?/?"
+		},
+		{
+			"name": "九州大学IMI共同利用「エクスパンダーグラフにまつわる数理科学と応用2」",
+			"place": "九州大学 伊都キャンパス・Zoom (オンライン参加)",
+			"date": "9月7日～11日",
+			"url": "https://joint.imi.kyushu-u.ac.jp/post-21453/"
+		},
+		{
+			"name": "日本数学会2026年度秋季総合分科会",
+			"place": "神戸大学",
+			"date": "9月1日～4日",
+			"url": "https://www.mathsoc.jp/activity/meeting/kobe26sept/",
+			"remarks": "“有理的区間デザインの明示的構成法について II” 9/1"
+		},
+		{
+			"name": "The 9th International Conference on Econometrics and Statistics (EcoSta 2026)",
+			"place": "Ryukoku University, Kyoto",
+			"date": "August 8-10, 2026",
+			"url": "https://www.cmstatistics.org/EcoSta2026/",
+			"remarks": "“D-optimality of multi-level circulant almost orthogonal arrays” 8/8"
+		},
+		{
+			"name": "九州大学IMI共同利用「マトロイド理論と暗号理論の交差点（離散構造・符号・情報理論・計算)」",
+			"place": "九州大学 伊都キャンパス・Zoom",
+			"date": "8月3日〜4日",
+			"url": "https://joint.imi.kyushu-u.ac.jp/post-20894/",
+			"remarks": "招待講演 “組合せデザイン・グループテスト行列とマトロイドとの接点” 8/3"
+		},
+		{
 			"name": "東北大学組合せ論セミナー",
 			"place": "東北大学・Google Meet (オンライン参加)",
 			"date": "6月3日",
@@ -117,7 +151,7 @@ const CONFERENCES_BY_YEAR = {
 			"remarks": "一般講演 “Completely uniform nested pairings in Boolean Steiner quadruple systems” 9/16"
 		},
 		{
-			"name": "九大IMI共同利用研究「エクスパンダーグラフにまつわる数理科学と応用」",
+			"name": "九州大学IMI共同利用「エクスパンダーグラフにまつわる数理科学と応用」",
 			"place": "九州大学 伊都キャンパス・Zoom (オンライン参加)",
 			"date": "8月25日～27日",
 			"url": "https://joint.imi.kyushu-u.ac.jp/post-17970/"
