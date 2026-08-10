@@ -21,23 +21,16 @@
         });
     }
 
-    function getCurrentPagePath() {
-        var path = window.location.pathname.replace(/^\/+/, '');
-        return path || 'index.html';
-    }
-
     function shouldUseGitHubCommitDate() {
         return window.location.hostname === 'xnlu-math.github.io';
     }
 
-    function fetchGitHubCommitDate() {
+    function fetchGitHubSiteCommitDate() {
         if (!shouldUseGitHubCommitDate() || !window.fetch) {
             return Promise.resolve(null);
         }
 
-        var url = githubCommitsApi +
-            '?path=' + encodeURIComponent(getCurrentPagePath()) +
-            '&per_page=1';
+        var url = githubCommitsApi + '?per_page=1';
 
         return fetch(url, {
             headers: { Accept: 'application/vnd.github+json' }
@@ -65,7 +58,7 @@
         var lastModified = new Date(document.lastModified);
         setLastUpdated(elements, lastModified);
 
-        fetchGitHubCommitDate().then(function(commitDate) {
+        fetchGitHubSiteCommitDate().then(function(commitDate) {
             setLastUpdated(elements, commitDate);
         });
     }
